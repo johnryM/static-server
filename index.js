@@ -6,8 +6,8 @@ require('http').createServer(function(request, response) {
         var requestUrl = request.url;
         var whitelist = "handrail_list";
         if (requestUrl.includes(whitelist)) {
-            var newUrl = requestUrl.slice(0, requestUrl.indexOf(whitelist));
-            file.serveFile(newUrl + 'handrail_list.json', 200, {}, request, response);
+            var newUrl = requestUrl.slice(0, requestUrl.indexOf(whitelist)) + "handrail_list.json";
+            file.serveFile(newUrl, 200, {}, request, response);
         }
     });
   }).resume();
