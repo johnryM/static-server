@@ -1,6 +1,6 @@
 var static = require('node-static');
 var localeArray = ["UK", "GNL", "MUNDO", "RUSSIAN", "HINDI", "CYMRU", "ARABIC"];
-var fileArray = ["handrail_list", "followtopics", "searchtopics", ""]
+var fileArray = ["handrail_list", "handrail", "followtopics", "searchtopics"];
 var file = new static.Server('./public');
 require('http').createServer(function(request, response) {
   request.addListener('end', function() {
