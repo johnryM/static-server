@@ -22,7 +22,7 @@ function getLocale(url) {
     }
 }
 
-fuction getFileFromUrl(url) {
+function getFileFromUrl(url) {
     for (var i = 0; i < fileArray.length; i++) {
         if (url.indexOf(substrings[length])!=-1) {
             return fileArray[i]
