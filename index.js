@@ -24,7 +24,7 @@ function getLocale(url) {
 
 function getFileFromUrl(url) {
     for (var i = 0; i < fileArray.length; i++) {
-        if (url.indexOf(fileArray[length])!=-1) {
+        if (url.indexOf(fileArray[i])!=-1) {
             return fileArray[i]
         }
     }
