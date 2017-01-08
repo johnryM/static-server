@@ -6,7 +6,7 @@ require('http').createServer(function(request, response) {
   request.addListener('end', function() {
     file.serve(request, response, function(err, res) {
         var requestUrl = request.url;
-        if (requestUrl.includes(whitelist)) {
+        if (getFileFromUrl(requestUrl != -1)) {
             var newUrl = "/static/" + getLocale(requestUrl) + "/default/" + getFileFromUrl(requestUrl) + ".json";
             file.serveFile(newUrl, 200, {}, request, response);
         }
@@ -28,4 +28,5 @@ function getFileFromUrl(url) {
             return fileArray[i]
         }
     }
+    return -1;
 }
