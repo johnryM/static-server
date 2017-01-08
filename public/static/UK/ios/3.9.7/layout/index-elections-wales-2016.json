@@ -1,0 +1,31 @@
+{
+    "$":"index",
+    "content": ["/cps/news/election/2016/wales"],
+    "format": ["bbc.mobile.news.cps.idx"],
+    "modules": [
+                {"$":"primaryItem", "$secondary":"$st_top_stories"},
+
+                {"$":"advert", "type":"banner", "mode!=compact":{"paddingBottom":8}},
+
+                {"$":"secondaryItems", "$secondary":"$st_top_stories"},
+
+                {"$":"infoBoxLinkRed", "paddingTop":16, "title":"Results", "contentLink":"http://www.bbc.co.uk/news/election/2016/wales/results"},
+                {"$":"infoBoxLinkRed", "paddingTop":0, "title":"Constituencies & Regions A-Z", "contentLink":"http://www.bbc.co.uk/news/politics/wales-constituencies"},
+
+                {"$":"otherItems", "$secondary":"$st_top_stories", "modes":["compact"]},
+
+                {"$":"avCarousel"},
+
+                {"$":"otherItems", "$secondary":"$st_top_stories", "modes":["!compact"]},
+
+                {"$":"advert", "type":"mpu"},
+
+                {"$":"title", "title":"Features & Analysis"},
+                {"$":"featureGroup",      "modes":["!tablet"], "$secondary":"$st_features", "limit":2},
+                {"$":"featureGroup_2col", "modes":["!tablet"], "$secondary":"$st_features", "limit":10, "offset":2},
+                {"$":"featuresSection",   "modes":["tablet"],  "$secondary":"$st_features"},
+
+                {"$":"copyright"}
+
+    ]
+}

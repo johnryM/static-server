@@ -1,0 +1,161 @@
+[
+  {
+    "siteName":"/mundo",
+    "mappings":[
+      {
+        "section":"/america_latina",
+        "name":"America Latina",
+        "summary":"Noticias de la BBC en Español",
+        "url":"/america_latina"
+      },
+      {
+        "section":"/video",
+        "name":"Video",
+        "summary":"Noticias de la BBC en Español",
+        "url":"?include_only_asset_type=MAP&include_only_asset_type=LIV&include_only_asset_type=LEP&media_type=Video&exclude_meta_body=true",
+        "resourceType":"VIDEO"
+      },
+      {
+        "section":"/internacional",
+        "name":"Internacional",
+        "summary":"Noticias de la BBC en Español",
+        "url":"/internacional"
+      },
+      {
+        "section":"/fotos",
+        "name":"Fotos",
+        "summary":"Noticias de la BBC en Español",
+        "url":"?include_only_asset_type=PGL&exclude_meta_body=true",
+        "resourceType":"PHOTOS"
+      },
+      {
+        "section":"/deportes",
+        "name":"Deportes",
+        "summary":"Noticias de la BBC en Español",
+        "url":"/deportes"
+      },
+      {
+        "section":"/video_fotos",
+        "name":"Video Fotos",
+        "summary":"Noticias de la BBC en Español",
+        "url":"/video_fotos"
+      }
+    ]
+  },
+  {
+    "siteName":"/russian",
+    "mappings":[
+      {
+        "section":"/photogalleries",
+        "name":"фото",
+        "summary":"Новости и не только. Русская служба Би-би-си",
+        "url":"?include_only_asset_type=PGL&exclude_meta_body=true",
+        "resourceType":"PHOTOS"
+      },
+      {
+        "section":"/other_news",
+        "name":"А также",
+        "summary":"Новости и не только. Русская служба Би-би-си",
+        "url":"/other_news"
+      },
+      {
+        "section":"/video",
+        "name":"видео",
+        "summary":"Новости и не только. Русская служба Би-би-си",
+        "url":"?include_only_asset_type=MAP&include_only_asset_type=LIV&include_only_asset_type=LEP&media_type=Video&exclude_meta_body=true",
+        "resourceType":"VIDEO"
+      },
+      {
+        "section":"/features",
+        "name":"Подробности",
+        "summary":"Новости и не только. Русская служба Би-би-си",
+        "url":"/features"
+      },
+      {
+        "section":"/news",
+        "name":"Новости",
+        "summary":"Новости и не только. Русская служба Би-би-си",
+        "url":"/news"
+      },
+      {
+        "section":"/learning_english",
+        "name":"Learning English",
+        "summary":"Новости и не только. Русская служба Би-би-си",
+        "url":"/learning_english"
+      },
+      {
+        "section":"/multimedia",
+        "name":"Multimedia",
+        "summary":"Новости и не только. Русская служба Би-би-си",
+        "url":"/multimedia"
+      }
+    ]
+  },
+  {
+    "siteName":"/hindi",
+    "mappings":[
+      {
+        "section":"/india",
+        "name":"भारत",
+        "summary":"हिंदी में ताज़ा समाचार, ब्रेकिंग न्यूज़, वीडियो, ऑडियो और फ़ीचर. बीबीसी हिंदी डॉटकॉम पर भारत, पाकिस्तान और चीन सहित दुनिया भर की ताज़ा ख़बरें. BBC HINDI for up-to-the-minute news, breaking news, video, audio and feature stories.",
+        "url":"/india"
+      },
+      {
+        "section":"/international",
+        "name":"अंतरराष्ट्रीय",
+        "summary":"हिंदी में ताज़ा समाचार, ब्रेकिंग न्यूज़, वीडियो, ऑडियो और फ़ीचर. बीबीसी हिंदी डॉटकॉम पर भारत, पाकिस्तान और चीन सहित दुनिया भर की ताज़ा ख़बरें. BBC HINDI for up-to-the-minute news, breaking news, video, audio and feature stories.",
+        "url":"/international"
+      },
+      {
+        "section":"/entertainment",
+        "name":"मनोरंजन",
+        "summary":"हिंदी में ताज़ा समाचार, ब्रेकिंग न्यूज़, वीडियो, ऑडियो और फ़ीचर. बीबीसी हिंदी डॉटकॉम पर भारत, पाकिस्तान और चीन सहित दुनिया भर की ताज़ा ख़बरें. साथ ही व्यापार, विज्ञान, खेल और मनोरंजन जगत की गतिविधियों पर पैनी नज़र.",
+        "url":"/entertainment"
+      },
+      {
+        "section":"/sport",
+        "name":"खेल",
+        "summary":"हिंदी में ताज़ा समाचार, ब्रेकिंग न्यूज़, वीडियो, ऑडियो और फ़ीचर. बीबीसी हिंदी डॉटकॉम पर भारत, पाकिस्तान और चीन सहित दुनिया भर की ताज़ा ख़बरें. BBC HINDI for up-to-the-minute news, breaking news, video, audio and feature stories.",
+        "url":"/sport"
+      },
+      {
+        "section":"/science",
+        "name":"विज्ञान-टेक्नॉलॉजी",
+        "summary":"हिंदी में ताज़ा समाचार, ब्रेकिंग न्यूज़, वीडियो, ऑडियो और फ़ीचर. बीबीसी हिंदी डॉटकॉम पर भारत, पाकिस्तान और चीन सहित दुनिया भर की ताज़ा ख़बरें. BBC HINDI for up-to-the-minute news, breaking news, video, audio and feature stories.",
+        "url":"/science"
+      },
+      {
+        "section":"/indepth",
+        "name":"बीबीसी स्पेशल",
+        "summary":"हिंदी में ताज़ा समाचार, ब्रेकिंग न्यूज़, वीडियो, ऑडियो और फ़ीचर. बीबीसी हिंदी डॉटकॉम पर भारत, पाकिस्तान और चीन सहित दुनिया भर की ताज़ा ख़बरें. साथ ही व्यापार, विज्ञान, खेल और मनोरंजन जगत की गतिविधियों पर पैनी नज़र.",
+        "url":"/indepth"
+      },
+      {
+        "section":"/social",
+        "name":"सोशल",
+        "summary":"हिंदी में ताज़ा समाचार, ब्रेकिंग न्यूज़, वीडियो, ऑडियो और फ़ीचर. बीबीसी हिंदी डॉटकॉम पर भारत, पाकिस्तान और चीन सहित दुनिया भर की ताज़ा ख़बरें. साथ ही व्यापार, विज्ञान, खेल और मनोरंजन जगत की गतिविधियों पर पैनी नज़र.",
+        "url":"/social"
+      },
+      {
+        "section":"/magazine",
+        "name":"मैगज़ीन",
+        "summary":"verticals",
+        "url":"/magazine?recursive=true"
+      },
+      {
+        "section":"/photogalleries",
+        "name":"तस्वीरें",
+        "summary":"हिंदी में ताज़ा समाचार, ब्रेकिंग न्यूज़, वीडियो, ऑडियो और फ़ीचर. बीबीसी हिंदी डॉटकॉम पर भारत, पाकिस्तान और चीन सहित दुनिया भर की ताज़ा ख़बरें. साथ ही व्यापार, विज्ञान, खेल और मनोरंजन जगत की गतिविधियों पर पैनी नज़र.",
+        "url":"?include_only_asset_type=PGL&exclude_meta_body=true",
+        "resourceType":"PHOTOS"
+      },
+      {
+        "section":"/video",
+        "name":"वीडियो",
+        "summary":"हिंदी में ताज़ा समाचार, ब्रेकिंग न्यूज़, वीडियो, ऑडियो और फ़ीचर. बीबीसी हिंदी डॉटकॉम पर भारत, पाकिस्तान और चीन सहित दुनिया भर की ताज़ा ख़बरें. साथ ही व्यापार, विज्ञान, खेल और मनोरंजन जगत की गतिविधियों पर पैनी नज़र.",
+        "url":"?include_only_asset_type=MAP&include_only_asset_type=LIV&include_only_asset_type=LEP&media_type=Video&exclude_meta_body=true",
+        "resourceType":"VIDEO"
+      }
+    ]
+  }
+]

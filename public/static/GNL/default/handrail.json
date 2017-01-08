@@ -1,0 +1,218 @@
+{
+	"id" : "/handrail",
+	"type" : "bbc.mobile.news.collection",
+	"lastUpdated" : 1412938628000,
+	"name" : "More Topics",
+	"relations" : [
+				   {
+				   "primaryType" : "bbc.mobile.news.collection",
+				   "secondaryType" : "bbc.mobile.news.handrail",
+				   "content" : {
+					   "id" : "/cps/news/world",
+					   "type" : "bbc.mobile.news.collection",
+					   "lastUpdated" : 1412938628000,
+					   "name" : "World"
+					   }
+				   },
+				   {
+				   "primaryType" : "bbc.mobile.news.collection",
+				   "secondaryType" : "bbc.mobile.news.handrail",
+				   "content" : {
+					   "id" : "/cps/news/world/africa",
+					   "type" : "bbc.mobile.news.collection",
+					   "lastUpdated" : 1412938628000,
+					   "name" : "Africa"
+					   }
+				   },
+				   {
+				   "primaryType" : "bbc.mobile.news.collection",
+				   "secondaryType" : "bbc.mobile.news.handrail",
+				   "content" : {
+					   "id" : "/cps/news/world/asia",
+					   "type" : "bbc.mobile.news.collection",
+					   "lastUpdated" : 1412938628000,
+					   "name" : "Asia"
+					   }
+				   },
+				   {
+				   "primaryType" : "bbc.mobile.news.collection",
+				   "secondaryType" : "bbc.mobile.news.handrail",
+				   "content" : {
+					   "id" : "/cps/news/world/australia",
+					   "type" : "bbc.mobile.news.collection",
+					   "lastUpdated" : 1412938628000,
+					   "name" : "Australia"
+					   }
+				   },
+				   {
+				   "primaryType" : "bbc.mobile.news.collection",
+				   "secondaryType" : "bbc.mobile.news.handrail",
+				   "content" : {
+					   "id" : "/cps/news/world/europe",
+					   "type" : "bbc.mobile.news.collection",
+					   "lastUpdated" : 1412938628000,
+					   "name" : "Europe"
+					   }
+				   },
+				   {
+				   "primaryType" : "bbc.mobile.news.collection",
+				   "secondaryType" : "bbc.mobile.news.handrail",
+				   "content" : {
+					   "id" : "/cps/news/world/middle_east",
+					   "type" : "bbc.mobile.news.collection",
+					   "lastUpdated" : 1412938628000,
+					   "name" : "Middle East"
+					   }
+				   },
+				   {
+				   "primaryType" : "bbc.mobile.news.collection",
+				   "secondaryType" : "bbc.mobile.news.handrail",
+				   "content" : {
+					   "id" : "/cps/news/world/latin_america",
+					   "type" : "bbc.mobile.news.collection",
+					   "lastUpdated" : 1412938628000,
+					   "name" : "Latin America"
+					   }
+				   },
+				   {
+				   "primaryType" : "bbc.mobile.news.collection",
+				   "secondaryType" : "bbc.mobile.news.handrail",
+				   "content" : {
+					   "id" : "/cps/news/uk",
+					   "type" : "bbc.mobile.news.collection",
+					   "lastUpdated" : 1412938628000,
+					   "name" : "UK"
+					   }
+				   },
+				   {
+				   "primaryType" : "bbc.mobile.news.collection",
+				   "secondaryType" : "bbc.mobile.news.handrail",
+				   "content" : {
+					   "id" : "/cps/news/world/us_and_canada",
+					   "type" : "bbc.mobile.news.collection",
+					   "lastUpdated" : 1412938628000,
+					   "name" : "US & Canada"
+					   }
+				   },
+				   {
+				   "primaryType" : "bbc.mobile.news.collection",
+				   "secondaryType" : "bbc.mobile.news.handrail",
+				   "content" : {
+					   "id" : "/cps/news/business",
+					   "type" : "bbc.mobile.news.collection",
+					   "lastUpdated" : 1412938628000,
+					   "name" : "Business"
+					   }
+				   },
+				   {
+				   "primaryType" : "bbc.mobile.news.collection",
+				   "secondaryType" : "bbc.mobile.news.handrail",
+				   "content" : {
+					   "id" : "/cps/news/technology",
+					   "type" : "bbc.mobile.news.collection",
+					   "lastUpdated" : 1412938628000,
+					   "name" : "Tech"
+					   }
+				   },
+				   {
+				   "primaryType" : "bbc.mobile.news.collection",
+				   "secondaryType" : "bbc.mobile.news.handrail",
+				   "content" : {
+					   "id" : "/cps/news/science_and_environment",
+					   "type" : "bbc.mobile.news.collection",
+					   "lastUpdated" : 1412938628000,
+					   "name" : "Science"
+					   }
+				   },
+				   {
+				   "primaryType" : "bbc.mobile.news.collection",
+				   "secondaryType" : "bbc.mobile.news.handrail",
+				   "content" : {
+					   "id" : "/cps/news/health",
+					   "type" : "bbc.mobile.news.collection",
+					   "lastUpdated" : 1412938628000,
+					   "name" : "Health"
+					   }
+				   },
+				   {
+				   "primaryType" : "bbc.mobile.news.collection",
+				   "secondaryType" : "bbc.mobile.news.handrail",
+				   "content" : {
+					   "id" : "/cps/news/entertainment_and_arts",
+					   "type" : "bbc.mobile.news.collection",
+					   "lastUpdated" : 1412938628000,
+					   "name" : "Entertainment"
+					   }
+				   },
+				   {
+				   "primaryType" : "bbc.mobile.news.collection",
+				   "secondaryType" : "bbc.mobile.news.handrail",
+				   "content" : {
+					   "id" : "/cps/news/magazine",
+					   "type" : "bbc.mobile.news.collection",
+					   "lastUpdated" : 1412938628000,
+					   "name" : "Magazine"
+					   }
+				   },
+				   {
+				   "primaryType" : "bbc.mobile.news.collection",
+				   "secondaryType" : "bbc.mobile.news.handrail",
+				   "content" : {
+					   "id" : "/cps/news/also_in_the_news",
+					   "type" : "bbc.mobile.news.collection",
+					   "lastUpdated" : 1412938628000,
+					   "name" : "Also in the News"
+					   }
+				   },
+				   {
+				   "primaryType" : "bbc.mobile.news.collection",
+				   "secondaryType" : "bbc.mobile.news.handrail",
+				   "content" : {
+					   "id" : "/cps/sport/front-page",
+					   "type" : "bbc.mobile.news.collection",
+					   "lastUpdated" : 1412938628000,
+					   "name" : "Sport"
+					   }
+				   },
+				   {
+				   "primaryType" : "bbc.mobile.news.collection",
+				   "secondaryType" : "bbc.mobile.news.handrail",
+				   "content" : {
+					   "id" : "/cps/sport/football",
+					   "type" : "bbc.mobile.news.collection",
+					   "lastUpdated" : 1412938628000,
+					   "name" : "Football"
+					   }
+				   },
+				   {
+				   "primaryType" : "bbc.mobile.news.collection",
+				   "secondaryType" : "bbc.mobile.news.handrail",
+				   "content" : {
+					   "id" : "/cps/sport/formula1",
+					   "type" : "bbc.mobile.news.collection",
+					   "lastUpdated" : 1412938628000,
+					   "name" : "Formula 1"
+					   }
+				   },
+				   {
+				   "primaryType" : "bbc.mobile.news.collection",
+				   "secondaryType" : "bbc.mobile.news.handrail",
+				   "content" : {
+					   "id" : "/cps/sport/cricket",
+					   "type" : "bbc.mobile.news.collection",
+					   "lastUpdated" : 1412938628000,
+					   "name" : "Cricket"
+					   }
+				   },
+				   {
+				   "primaryType" : "bbc.mobile.news.collection",
+				   "secondaryType" : "bbc.mobile.news.handrail",
+				   "content" : {
+					   "id" : "/cps/sport/tennis",
+					   "type" : "bbc.mobile.news.collection",
+					   "lastUpdated" : 1412938628000,
+					   "name" : "Tennis"
+					   }
+				   }
+				   ]
+}

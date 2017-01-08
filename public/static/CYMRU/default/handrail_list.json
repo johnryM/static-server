@@ -1,0 +1,41 @@
+{
+  "sections": [
+    {
+      "name": "Pynciau",
+      "items": [
+        {
+          "contentId" : "/cps/newyddion/hafan",
+          "name" : "Prif Straeon"
+        },
+        {
+          "contentId" : "/cps/newyddion/cylchgrawn",
+          "name" : "Cylchgrawn"
+        },
+        {
+          "contentId" : "/cps/newyddion/gwleidyddiaeth",
+          "name" : "Gwleidyddiaeth"
+        },
+        {
+          "contentId" : "/cps/newyddion/gogledd-orllewin",
+          "name" : "Gogledd-Orllewin"
+        },
+        {
+          "contentId" : "/cps/newyddion/gogledd-ddwyrain",
+          "name" : "Gogledd-Ddwyrain"
+        },
+        {
+          "contentId" : "/cps/newyddion/canolbarth",
+          "name" : "Canolbarth"
+        },
+        {
+          "contentId" : "/cps/newyddion/de-orllewin",
+          "name" : "De-Orllewin"
+        },
+        {
+          "contentId" : "/cps/newyddion/de-ddwyrain",
+          "name" : "De-Ddwyrain"
+        }
+      ]
+    }
+  ]
+}

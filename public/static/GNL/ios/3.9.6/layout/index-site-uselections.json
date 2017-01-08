@@ -1,0 +1,53 @@
+{
+    "$":"index",
+    "site":["/news"],
+    "content": ["/cps/news/election/us2016"],
+    "format": ["bbc.mobile.news.cps.idx", "bbc.mobile.news.legacy.idx"],
+    "$secondary":"$st_top_stories",
+    "modules": [
+
+                {"$":"primaryItem"},
+                {"$":"advert",               "type":"banner", "mode!=compact":{"paddingBottom":8}},
+                {
+                    "$secondary": ["bbc.mobile.news.group.cluster-1+"],
+                    "limit": 4,
+                    "summaries": "no",
+                    "hideTopics": "yes",
+                    "mode!=compact": {
+                        "cellsPerRow": 2,
+                        "H": 2
+                    },
+                    "mode!=tablet": {
+                        "$": "featureGroup",
+                        "summaries": "no"
+                    },
+                    "mode==tablet": {
+                        "$": "digestGroup",
+                        "limit": 4,
+                        "H": 2,
+                        "cellsPerRow": 4,
+                        "cellMargins": "{8,8,0,8}",
+                        "padding": "{8,8,0,8}",
+                        "mode==portrait": {
+                            "orientation": "portrait"
+                        },
+                        "mode==landscape": {
+                            "orientation": "landscapeWithFullWidthHeadline",
+                            "imageWidth": 192
+                        }
+                    }
+                },
+                {"$":"secondaryItems"},
+                {"$":"otherItems",           "modes":["compact"]},
+                {"$":"avCarousel"},
+                {"$":"otherItems",			 "modes":["!compact"]},
+                {"$":"advert",               "type":"mpu"},
+
+                {"$":"title",                "title":"layoutfiletitle.featuresandanalysis"},
+                {"modes":["!tablet"],        "$":"featureGroup",         "$secondary":"$st_features", "limit":2},
+                {"modes":["!tablet"],        "$":"featureGroup_2col",    "$secondary":"$st_features", "limit":10, "offset":2},
+                {"modes":["tablet"],         "$":"featuresSection",      "$secondary":"$st_features"},
+                
+                {"$":"copyright"}
+                ]
+}

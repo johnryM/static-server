@@ -1,0 +1,130 @@
+{
+    "$":"index",
+    "content": ["/cps/russian/front_page"],
+    "modules": [
+                
+        {"$":"primaryItem", "limit" : 1 , "$secondary":[
+                                                        
+            "bbc.mobile.news.group.top-story+"                ,
+            "bbc.mobile.news.group.more-top-stories+"         ,
+            "bbc.mobile.news.group.top-stories-overflow+"
+                                                        
+            ]
+        }
+        ,
+        {"$":"secondaryItems", "limit" : 4 , "$secondary":[
+                                                                           
+           "bbc.mobile.news.group.top-story+"                ,
+           "bbc.mobile.news.group.more-top-stories+"         ,
+           "bbc.mobile.news.group.top-stories-overflow+"
+           
+           ]
+        }
+        ,
+        {"$":"normalGroup", "limit" : 3 , "$secondary":[
+                                                               
+            "bbc.mobile.news.group.latest-news+"
+                                                           
+            ]
+            ,
+            "mode==tablet":{ "summaries":"no" , "orientation":"portrait" , "cellsPerRow":3 }
+        }
+        ,
+        {"$":"tightGroup", "modes":["!tablet"] , "limit" : -1 , "offset" : 5 , "$secondary":[
+                                                       
+           "bbc.mobile.news.group.top-story+"                ,
+           "bbc.mobile.news.group.more-top-stories+"         ,
+           "bbc.mobile.news.group.top-stories-overflow+"
+                                                       
+            ]
+        }
+        ,
+        {"$":"featureGroup_2col",   "modes":["tablet"] , "limit" : -1 , "offset" : 5 , "$secondary":[
+                                                                                                
+            "bbc.mobile.news.group.top-story+"                ,
+            "bbc.mobile.news.group.more-top-stories+"         ,
+            "bbc.mobile.news.group.top-stories-overflow+"
+            
+            ]
+        }
+        ,
+        {"$":"avCarousel", "limit" : 4 , "$secondary":[
+                                                       
+            "bbc.mobile.news.group.watch-listen+"              ,
+            "bbc.mobile.news.group.av-stories-live+"
+
+            ]
+        }
+        ,
+        {"$":"title", "title":"layoutfiletitle.pressreview"}    ,
+        {"$":"tightGroup", "$secondary":[
+                                                                                  
+            "bbc.mobile.news.group.the-papers+"
+                                                                                  
+            ]
+        }
+        ,
+        {"$":"title", "limit" : 2 , "title":"layoutfiletitle.alsointhenews"}    ,
+        {"$":"tightGroup", "$secondary":[
+                                         
+                 "bbc.mobile.news.group.also-in-the-news+"
+                 
+            ]
+        }
+        ,
+        {"$":"title", "title":"layoutfiletitle.journal"},
+        {"$":"featureGroup", "modes":["!tablet"], "$secondary":[
+                
+                "bbc.mobile.news.group.verticals+"
+                
+            ]
+        }
+        ,
+        {"$":"featuresSection", "modes":["tablet"],  "$secondary":[
+                
+                "bbc.mobile.news.group.verticals+"
+                
+            ]
+        }
+        ,
+        {"$":"digestTitle", "title" : "layoutfiletitle.blogs"},
+        {"$":"digestGroup", "limit":3 , "$secondary":[
+                
+                "bbc.mobile.news.group.blogs+"
+        
+            ]
+        }
+        ,
+        {"$":"title", "title":"layoutfiletitle.featuresandanalysis"},
+        {"$":"featureGroup", "modes":["!tablet"], "limit" : 1 , "$secondary":[
+                                                                
+                "bbc.mobile.news.group.special-reports-2"
+                                                                
+            ]
+        }
+        ,
+        {"$":"featuresSection", "modes":["tablet"], "limit" : 1 , "$secondary":[
+                                                                   
+                 "bbc.mobile.news.group.special-reports-2"
+                                                                   
+            ]
+        }
+        ,
+        {"$":"title",  "title":"layoutfiletitle.editorschoice"}    ,
+        {"$":"tightGroup", "limit" : 10, "$secondary":[
+                                         
+                "bbc.mobile.news.group.features+"
+                                         
+            ]
+        }
+        ,
+        {"$":"title", "title": "layoutfiletitle.inpictures"}    ,
+        {"$":"photosGroup" , "limit" : 4 , "$secondary":[
+                                         
+                "bbc.mobile.news.group.picture-galleries+"
+            ]
+        }
+        ,
+        {"$":"copyright"}
+    ]
+}

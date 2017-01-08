@@ -1,0 +1,45 @@
+{
+  "sections": [
+    {
+      "name": "टॉपिक्स",
+      "items": [
+        {
+          "contentId": "/cps/hindi/front_page",
+          "name": "होम पेज"
+        },
+        {
+          "contentId": "/cps/hindi/india",
+          "name": "भारत"
+        },
+        {
+          "contentId": "/cps/hindi/international",
+          "name": "अंतरराष्ट्रीय"
+        },
+        {
+          "contentId": "/cps/hindi/entertainment",
+          "name": "मनोरंजन"
+        },
+        {
+          "contentId": "/cps/hindi/sport",
+          "name": "खेल"
+        },
+        {
+          "contentId": "/cps/hindi/science",
+          "name": "विज्ञान-टेक्नॉलॉजी"
+        },
+        {
+          "contentId": "/cps/hindi/video",
+          "name": "देखिए"
+        },
+        {
+          "contentId": "/cps/hindi/photogalleries",
+          "name": "तस्वीरें"
+        },
+        {
+          "contentId": "/cps/hindi/social",
+          "name": "सोशल"
+        }
+      ]
+    }
+  ]
+}

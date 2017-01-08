@@ -1,0 +1,41 @@
+{
+    "$":"index",
+    "site":["/verticals"],
+    "format": ["bbc.mobile.news.cps.idx", "bbc.mobile.news.legacy.idx"],
+    "$secondary": [
+        "bbc.mobile.news.group.top-story",
+        "bbc.mobile.news.group.second-story",
+        "bbc.mobile.news.group.third-story",
+        "bbc.mobile.news.group.other-top-stories"
+    ],
+    "modules": [
+                
+                {"$":"primaryItem", "limit":1},
+                
+                {"$":"advert", "type":"banner", "mode!=compact":{"paddingBottom":8}},
+                
+                {"$":"otherItems", "secondary":"$secondary", "offset": 1, "limit": 9, "allowIncompleteRows":true},
+                
+                {"$":"advert", "type":"mpu"},
+                
+                {"$":"title", "title":"Around the BBC"},
+                
+                {
+                    "$":"normalGroup",
+                    "summaries":"no",
+                    "$secondary" : ["bbc.mobile.news.group.verticals"],
+                    "allowIncompleteRows":true,
+                    "limit":-1,
+                    "mode==tablet":{
+                        "cellsPerRow":2,
+                        "orientation":"landscape",
+                        "mode==portrait": {
+                            "textPadding":"{8,8,8,8}",
+                            "H":4
+                        }
+                    }
+                },
+                
+                {"$":"copyright"}
+        ]
+}

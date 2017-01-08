@@ -1,0 +1,138 @@
+{
+	"id" : "/handrail",
+	"type" : "bbc.mobile.news.collection",
+	"lastUpdated" : 1412938628000,
+	"name" : "More Topics",
+	"relations" : [
+				   {
+				   "primaryType" : "bbc.mobile.news.collection",
+				   "secondaryType" : "bbc.mobile.news.handrail",
+				   "content" : {
+					   "id" : "/cps/arabic/topics/video",
+					   "type" : "bbc.mobile.news.collection",
+					   "lastUpdated" : 1412938628000,
+					   "name" : "فيديو"
+					   }
+				   },
+				   {
+				   "primaryType" : "bbc.mobile.news.collection",
+				   "secondaryType" : "bbc.mobile.news.handrail",
+				   "content" : {
+					   "id" : "/cps/arabic/topics/pic_gal",
+					   "type" : "bbc.mobile.news.collection",
+					   "lastUpdated" : 1412938628000,
+					   "name" : "معرض الصور"
+					   }
+				   },
+				   {
+				   "primaryType" : "bbc.mobile.news.collection",
+				   "secondaryType" : "bbc.mobile.news.handrail",
+				   "content" : {
+					   "id" : "/cps/arabic/middleeast",
+					   "type" : "bbc.mobile.news.collection",
+					   "lastUpdated" : 1412938628000,
+					   "name" : "أخبار الشرق الأوسط"
+					   }
+				   },
+				   {
+				   "primaryType" : "bbc.mobile.news.collection",
+				   "secondaryType" : "bbc.mobile.news.handrail",
+				   "content" : {
+					   "id" : "/cps/arabic/worldnews",
+					   "type" : "bbc.mobile.news.collection",
+					   "lastUpdated" : 1412938628000,
+					   "name" : "أخبار العالم"
+					   }
+				   },
+				   {
+				   "primaryType" : "bbc.mobile.news.collection",
+				   "secondaryType" : "bbc.mobile.news.handrail",
+				   "content" : {
+					   "id" : "/cps/arabic/business",
+					   "type" : "bbc.mobile.news.collection",
+					   "lastUpdated" : 1412938628000,
+					   "name" : "اقتصاد وأعمال"
+					   }
+				   },
+				   {
+				   "primaryType" : "bbc.mobile.news.collection",
+				   "secondaryType" : "bbc.mobile.news.handrail",
+				   "content" : {
+					   "id" : "/cps/arabic/artandculture",
+					   "type" : "bbc.mobile.news.collection",
+					   "lastUpdated" : 1412938628000,
+					   "name" : "ثقافة وفنون"
+					   }
+				   },
+				   {
+				   "primaryType" : "bbc.mobile.news.collection",
+				   "secondaryType" : "bbc.mobile.news.handrail",
+				   "content" : {
+					   "id" : "/cps/arabic/sports",
+					   "type" : "bbc.mobile.news.collection",
+					   "lastUpdated" : 1412938628000,
+					   "name" : "رياضة"
+					   }
+				   },
+				   {
+				   "primaryType" : "bbc.mobile.news.collection",
+				   "secondaryType" : "bbc.mobile.news.handrail",
+				   "content" : {
+					   "id" : "/cps/arabic/topics/magazine",
+					   "type" : "bbc.mobile.news.collection",
+					   "lastUpdated" : 1412938628000,
+					   "name" : "المجلة"
+					   }
+				   },
+				   {
+				   "primaryType" : "bbc.mobile.news.collection",
+				   "secondaryType" : "bbc.mobile.news.handrail",
+				   "content" : {
+					   "id" : "/cps/arabic/interactivity",
+					   "type" : "bbc.mobile.news.collection",
+					   "lastUpdated" : 1412938628000,
+					   "name" : "شارك برأيك"
+					   }
+				   },
+				   {
+				   "primaryType" : "bbc.mobile.news.collection",
+				   "secondaryType" : "bbc.mobile.news.handrail",
+				   "content" : {
+					   "id" : "/cps/arabic/inthepress",
+					   "type" : "bbc.mobile.news.collection",
+					   "lastUpdated" : 1412938628000,
+					   "name" : "عرض الصحف"
+					   }
+				   },
+				   {
+				   "primaryType" : "bbc.mobile.news.collection",
+				   "secondaryType" : "bbc.mobile.news.handrail",
+				   "content" : {
+					   "id" : "/cps/arabic/topics/trending",
+					   "type" : "bbc.mobile.news.collection",
+					   "lastUpdated" : 1412938628000,
+					   "name" : "بي بي سي ترند"
+					   }
+				   },
+				   {
+				   "primaryType" : "bbc.mobile.news.collection",
+				   "secondaryType" : "bbc.mobile.news.handrail",
+				   "content" : {
+					   "id" : "/cps/arabic/indepth",
+					   "type" : "bbc.mobile.news.collection",
+					   "lastUpdated" : 1412938628000,
+					   "name" : "تقارير خاصة"
+					   }
+				   },
+				   {
+				   "primaryType" : "bbc.mobile.news.collection",
+				   "secondaryType" : "bbc.mobile.news.handrail",
+				   "content" : {
+					   "id" : "/cps/arabic/tvandradio",
+					   "type" : "bbc.mobile.news.collection",
+					   "lastUpdated" : 1412938628000,
+					   "name" : "راديو وتلفزيون"
+					   }
+				   }
+	]
+}

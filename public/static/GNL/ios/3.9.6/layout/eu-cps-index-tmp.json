@@ -1,0 +1,33 @@
+{
+	"$":"index",
+	"content":["/cps/news/politics/eu_referendum"],
+
+	"format": ["bbc.mobile.news.cps.idx", "bbc.mobile.news.legacy.idx"],
+	"$secondary":"$st_top_stories",
+    "modules": [
+
+		{"$":"primaryItem"},
+                
+        {"$":"infoBoxTitle", "title":"Results in Full" , "textAttrs": "electionsTitle"},
+        {
+            "$":"infoBoxLinkRed",
+            "paddingTop":0,
+            "title":"Breakdown of the Vote",
+            "contentLink":"http://www.bbc.co.uk/news/politics/eu_referendum/results"
+        },
+                
+        {"$":"advert",               "type":"banner", "mode!=compact":{"paddingBottom":8}},
+		{"$":"secondaryItems"},
+		{"$":"otherItems",           "modes":["compact"]},
+		{"$":"avCarousel"},
+		{"$":"otherItems",			 "modes":["!compact"]},
+        {"$":"advert",               "type":"mpu"},
+                
+		{"$":"title",                "title":"layoutfiletitle.featuresandanalysis"},
+		{"modes":["!tablet"],        "$":"featureGroup",         "$secondary":"$st_features", "limit":2},
+		{"modes":["!tablet"],        "$":"featureGroup_2col",    "$secondary":"$st_features", "limit":10, "offset":2},
+		{"modes":["tablet"],         "$":"featuresSection",      "$secondary":"$st_features"},
+
+		{"$":"copyright"}
+	]
+}

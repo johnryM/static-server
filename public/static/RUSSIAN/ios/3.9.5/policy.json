@@ -1,0 +1,222 @@
+{
+	"version"       : 1.2,
+	"flavour"       : "russian",
+	"killSwitch"    : false,
+	"minAppVersion"	: "3.4.1.0",
+	"endpoints" : {
+		"policy"   : {
+			"href" : "http://philippa-producer-cdn.api.bbci.co.uk/static/{app_flavour}/ios/{public_version_no}/policy.json",
+			"flag" : "green",
+			"ttl"  : 3600
+		},
+		"layout"   : {
+			"href" : "http://philippa-producer-cdn.api.bbci.co.uk/static/{app_flavour}/ios/{public_version_no}/layouts.zip",
+			"flag" : "green",
+			"ttl"  : 3600
+		},
+		"handrail"   : {
+			"href" : "http://philippa-producer-cdn.api.bbci.co.uk/static/{app_flavour}/ios/{public_version_no}/handrail.json",
+			"flag" : "green",
+			"ttl"  : 600
+		},
+		"search_topics"   : {
+			"href" : "http://philippa-producer-cdn.api.bbci.co.uk/static/{app_flavour}/ios/{public_version_no}/searchtopics.json",
+			"flag" : "green",
+			"ttl"  : 600
+		},
+		"follow_topics"   : {
+			"href" : "http://philippa-producer-cdn.api.bbci.co.uk/static/{app_flavour}/ios/{public_version_no}/followtopics.json",
+			"flag" : "green",
+			"ttl"  : 600
+		},
+		"content"  : {
+			"href" : "http://philippa-producer-cdn.api.bbci.co.uk/content/{id_without_slash_prefix}?createdBy=russian&language=ru",
+			"flag" : "green",
+			"ttl"  : 600
+		},
+		"resolver" : {
+			"href" : "http://philippa-resolver-cdn.api.bbci.co.uk/resolve?uri=%@",
+			"flag" : "green",
+			"ttl"  : 0
+		},
+		"ichef" : {
+			"href" : "http://ichef.bbci.co.uk/moira/img/ios/v3/{width}{model_id}",
+			"flag" : "green",
+			"ttl"  : 0
+		},
+		"mediaselector"  : {
+			"href" : "http://open.live.bbc.co.uk/mediaselector/5/select/",
+			"flag" : "green",
+			"ttl"  : 0
+		},
+		"visual_journalism" : {
+			"href" : "http://www.bbc.co.uk/",
+			"flag" : "green",
+			"ttl"  : 0
+		}
+	},
+	"defaultContent" : {
+		"ipad" : [
+			{
+				"id"   : "/cps/russian/front_page",
+				"name" : "Главная",
+				"type" : "bbc.mobile.news.collection"
+			},
+			{
+				"id"   : "/cps/russian/news",
+				"name" : "Новости",
+				"type" : "bbc.mobile.news.collection"
+			},
+			{
+				"id"   : "/ldp/39267b85-1784-4f4b-80ed-f8cb4a35f337",
+				"name" : "Россия",
+				"type" : "bbc.mobile.news.collection"
+			},
+			{
+				"id"   : "/cps/russian/video",
+				"name" : "видео",
+				"type" : "bbc.mobile.news.collection"
+			},
+			{
+				"id"   : "/ldp/2e91364c-5c77-4660-b76e-d76202785e64",
+				"name" : "Британия",
+				"type" : "bbc.mobile.news.collection"
+			},
+			{
+				"id"   : "/ldp/2f2db234-3c2d-40a4-b4ac-eea661faadd0",
+				"name" : "Экономика",
+				"type" : "bbc.mobile.news.collection"
+			},
+			{
+				"id"   : "/ldp/37dcc888-51a7-4470-82d8-8ef2b811d482",
+				"name" : "Искусство",
+				"type" : "bbc.mobile.news.collection"
+			},
+			{
+				"id"   : "/ldp/4063f80f-cccc-44c8-9449-5ca44e4c8592",
+				"name" : "Спорт",
+				"type" : "bbc.mobile.news.collection"
+			},
+			{
+				"id"   : "/ldp/0f469e6a-d4a6-46f2-b727-2bd039cb6b53",
+				"name" : "Наука",
+				"type" : "bbc.mobile.news.collection"
+			},
+			{
+				"id"   : "/cps/russian/features",
+				"name" : "Подробности",
+				"type" : "bbc.mobile.news.collection"
+			},
+			{
+				"id"   : "/cps/russian/photogalleries",
+				"name" : "фото",
+				"type" : "bbc.mobile.news.collection"
+			},
+			{
+				"id"   : "/cps/russian/other_news",
+				"name" : "А также",
+				"type" : "bbc.mobile.news.collection"
+			},
+			{
+				"id"   : "/cps/russian/learning_english",
+				"name" : "Learning English",
+				"type" : "bbc.mobile.news.collection"
+			}
+		],
+		"iphone" : [
+			{
+				"id"   : "/cps/russian/front_page",
+				"name" : "Главная",
+				"type" : "bbc.mobile.news.collection"
+			},
+			{
+				"id"   : "/cps/russian/news",
+				"name" : "Новости",
+				"type" : "bbc.mobile.news.collection"
+			},
+			{
+				"id"   : "/ldp/39267b85-1784-4f4b-80ed-f8cb4a35f337",
+				"name" : "Россия",
+				"type" : "bbc.mobile.news.collection"
+			},
+			{
+				"id"   : "/cps/russian/video",
+				"name" : "видео",
+				"type" : "bbc.mobile.news.collection"
+			},
+			{
+				"id"   : "/ldp/2e91364c-5c77-4660-b76e-d76202785e64",
+				"name" : "Британия",
+				"type" : "bbc.mobile.news.collection"
+			},
+			{
+				"id"   : "/ldp/2f2db234-3c2d-40a4-b4ac-eea661faadd0",
+				"name" : "Экономика",
+				"type" : "bbc.mobile.news.collection"
+			},
+			{
+				"id"   : "/ldp/37dcc888-51a7-4470-82d8-8ef2b811d482",
+				"name" : "Искусство",
+				"type" : "bbc.mobile.news.collection"
+			},
+			{
+				"id"   : "/ldp/4063f80f-cccc-44c8-9449-5ca44e4c8592",
+				"name" : "Спорт",
+				"type" : "bbc.mobile.news.collection"
+			},
+			{
+				"id"   : "/ldp/0f469e6a-d4a6-46f2-b727-2bd039cb6b53",
+				"name" : "Наука",
+				"type" : "bbc.mobile.news.collection"
+			},
+			{
+				"id"   : "/cps/russian/features",
+				"name" : "Подробности",
+				"type" : "bbc.mobile.news.collection"
+			},
+			{
+				"id"   : "/cps/russian/photogalleries",
+				"name" : "фото",
+				"type" : "bbc.mobile.news.collection"
+			},
+			{
+				"id"   : "/cps/russian/other_news",
+				"name" : "А также",
+				"type" : "bbc.mobile.news.collection"
+			},
+			{
+				"id"   : "/cps/russian/learning_english",
+				"name" : "Learning English",
+				"type" : "bbc.mobile.news.collection"
+			}
+		],
+		"watch" : [
+			{
+				"id"   : "/cps/russian/front_page",
+				"name" : "Главная",
+				"type" : "bbc.mobile.news.collection"
+			}
+		]
+	},
+	"imageChefRecipes": [80, 100, 128, 160, 200, 240, 288, 320, 360, 400, 432, 480, 512, 576, 640, 720, 768, 800, 854, 960, 1024, 1080,
+						 1136, 1152, 1200, 1280, 1440, 1536, 1600, 1920, 2048, 2560],
+	"trendingTopicsId": "/trending/events",
+	"mostPopularId"   : "/most_popular/news",
+	"startingContent" : "/cps/russian/front_page",
+	"helpUrl"         : "/cps/russian/institutional-36517230",
+	"contactEmail"    : "russian@bbc.co.uk",
+	"termsAndConditionsUrl" : "http://www.bbc.com/russian/institutional-36515745",
+	"privacyPolicyUrl" : "http://www.bbc.com/russian/institutional-36517234",
+	"appStoreUrl": "https://itunes.apple.com/ru/app/bbc-russian/id504278066",
+	"storeUrl"        : "https://itunes.apple.com/gb/artist/media-applications-technologies/id377382258",
+	"sportAppITunesUrl":"https://itunes.apple.com/gb/app/bbc-sport/id377388936",
+	"maxOfflineMBPerDayWifi": 30,
+	"maxOfflineMBPerDay3G": 2,
+	"betaModeAutoEnabledPercent": 1,
+	"betaModeFeedbackUrl": "https://www.surveymonkey.com/s/HQ3N8VZ",
+	"layoutModes":[],
+	"locationServiceEnabled" : false,
+	"visualJournalism": {
+		"loadingTimeout": 15
+	}
+}

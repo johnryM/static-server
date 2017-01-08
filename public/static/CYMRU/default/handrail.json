@@ -1,0 +1,78 @@
+{
+	"id" : "/handrail",
+	"type" : "bbc.mobile.news.collection",
+	"lastUpdated" : 1412938628000,
+	"name" : "Mwy o bynciau",
+	"relations" : [
+				   {
+				   "primaryType" : "bbc.mobile.news.collection",
+				   "secondaryType" : "bbc.mobile.news.handrail",
+				   "content" : {
+					   "id" : "/cps/newyddion/cylchgrawn",
+					   "type" : "bbc.mobile.news.collection",
+					   "lastUpdated" : 1412938628000,
+					   "name" : "Cylchgrawn"
+					   }
+				   },
+				   {
+				   "primaryType" : "bbc.mobile.news.collection",
+				   "secondaryType" : "bbc.mobile.news.handrail",
+				   "content" : {
+					   "id" : "/cps/newyddion/gwleidyddiaeth",
+					   "type" : "bbc.mobile.news.collection",
+					   "lastUpdated" : 1412938628000,
+					   "name" : "Gwleidyddiaeth"
+					   }
+				   },
+				   {
+				   "primaryType" : "bbc.mobile.news.collection",
+				   "secondaryType" : "bbc.mobile.news.handrail",
+				   "content" : {
+					   "id" : "/cps/newyddion/gogledd-orllewin",
+					   "type" : "bbc.mobile.news.collection",
+					   "lastUpdated" : 1412938628000,
+					   "name" : "Gogledd-Orllewin"
+					   }
+				   },
+				   {
+				   "primaryType" : "bbc.mobile.news.collection",
+				   "secondaryType" : "bbc.mobile.news.handrail",
+				   "content" : {
+					   "id" : "/cps/newyddion/gogledd-ddwyrain",
+					   "type" : "bbc.mobile.news.collection",
+					   "lastUpdated" : 1412938628000,
+					   "name" : "Gogledd-Ddwyrain"
+					   }
+				   },
+				   {
+				   "primaryType" : "bbc.mobile.news.collection",
+				   "secondaryType" : "bbc.mobile.news.handrail",
+				   "content" : {
+					   "id" : "/cps/newyddion/canolbarth",
+					   "type" : "bbc.mobile.news.collection",
+					   "lastUpdated" : 1412938628000,
+					   "name" : "Canolbarth"
+					   }
+				   },
+				   {
+				   "primaryType" : "bbc.mobile.news.collection",
+				   "secondaryType" : "bbc.mobile.news.handrail",
+				   "content" : {
+					   "id" : "/cps/newyddion/de-orllewin",
+					   "type" : "bbc.mobile.news.collection",
+					   "lastUpdated" : 1412938628000,
+					   "name" : "De-Orllewin"
+					   }
+				   },
+				   {
+				   "primaryType" : "bbc.mobile.news.collection",
+				   "secondaryType" : "bbc.mobile.news.handrail",
+				   "content" : {
+					   "id" : "/cps/newyddion/de-ddwyrain",
+					   "type" : "bbc.mobile.news.collection",
+					   "lastUpdated" : 1412938628000,
+					   "name" : "De-Ddwyrain"
+					   }
+				   }
+				   ]
+}

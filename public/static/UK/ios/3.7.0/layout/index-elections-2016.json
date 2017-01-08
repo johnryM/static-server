@@ -1,0 +1,35 @@
+{
+    "$":"index",
+    "content": ["/cps/news/election/2016"],
+    "format": ["bbc.mobile.news.cps.idx"],
+    "modules": [
+                {"$":"primaryItem", "$secondary":"$st_top_stories"},
+                
+                {"$":"advert", "type":"banner", "mode!=compact":{"paddingBottom":8}},
+    
+                {"$":"secondaryItems", "$secondary":"$st_top_stories"},
+                
+                {"$":"infoBoxTitle","paddingTop":16, "title":"Elections"},
+                {"$":"infoBoxLinkRed", "paddingTop":0, "title":"Northern Ireland", "contentLink":"/cps/news/election/2016/northern_ireland?title=Northern%20Ireland%20Election%202016"},
+                {"$":"infoBoxLinkRed", "paddingTop":0, "title":"Scotland", "contentLink":"/cps/news/election/2016/scotland?title=Scotland%20Election%202016"},
+                {"$":"infoBoxLinkRed", "paddingTop":0, "title":"Wales", "contentLink":"/cps/news/election/2016/wales?title=Wales%20Election%202016"},
+                {"$":"infoBoxLinkRed", "paddingTop":0, "title":"London", "contentLink":"/cps/news/election/2016/london?title=London%20Elections%202016"},
+                {"$":"infoBoxLinkRed", "paddingTop":0, "title":"English Councils", "contentLink":"http://news.bbc.co.uk/news/election/2016/councils"},
+                {"$":"infoBoxLinkRed", "paddingTop":0, "title":"Police & Crime Commissioners", "contentLink":"http://news.bbc.co.uk/news/election/2016/police"},                            
+                
+                {"$":"avCarousel"},
+                
+                {"$":"otherItems", "$secondary":"$st_top_stories"},
+                
+                {"$":"advert", "type":"mpu"},
+                
+                {"$":"title", "title":"Features & Analysis"},
+                {"$":"featureGroup",      "modes":["!tablet"], "$secondary":"$st_features", "limit":2},
+                {"$":"featureGroup_2col", "modes":["!tablet"], "$secondary":"$st_features", "limit":10, "offset":2},
+                {"$":"featuresSection",   "modes":["tablet"],  "$secondary":"$st_features"},
+                
+                {"$":"copyright"}
+                
+                ]
+}
+

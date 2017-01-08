@@ -1,0 +1,229 @@
+{
+	"version"       : 1.2,
+	"flavour"       : "mundo",
+	"killSwitch"    : false,
+	"minAppVersion"	: "3.4.1.0",
+	"endpoints" : {
+		"policy"   : {
+			"href" : "http://philippa-producer-cdn.api.bbci.co.uk/static/{app_flavour}/ios/{public_version_no}/policy.json",
+			"flag" : "green",
+			"ttl"  : 3600
+		},
+		"layout"   : {
+			"href" : "http://philippa-producer-cdn.api.bbci.co.uk/static/{app_flavour}/ios/{public_version_no}/layouts.zip",
+			"flag" : "green",
+			"ttl"  : 3600
+		},
+		"handrail"   : {
+			"href" : "http://philippa-producer-cdn.api.bbci.co.uk/static/{app_flavour}/ios/{public_version_no}/handrail_list.json",
+			"flag" : "green",
+			"ttl"  : 600
+		},
+		"search_topics"   : {
+			"href" : "http://philippa-producer-cdn.api.bbci.co.uk/static/{app_flavour}/ios/{public_version_no}/searchtopics.json",
+			"flag" : "green",
+			"ttl"  : 600
+		},
+		"follow_topics"   : {
+			"href" : "http://philippa-producer-cdn.api.bbci.co.uk/static/{app_flavour}/ios/{public_version_no}/followtopics.json",
+			"flag" : "green",
+			"ttl"  : 600
+		},
+		"content"  : {
+			"href" : "http://philippa-producer-cdn.api.bbci.co.uk/content/{id_without_slash_prefix}?createdBy=mundo&language=es",
+			"flag" : "green",
+			"ttl"  : 600
+		},
+		"resolver" : {
+			"href" : "http://philippa-resolver-cdn.api.bbci.co.uk/resolve?uri=%@",
+			"flag" : "green",
+			"ttl"  : 0
+		},
+		"ichef" : {
+			"href" : "http://ichef.bbci.co.uk/moira/img/ios/v3/{width}{model_id}",
+			"flag" : "green",
+			"ttl"  : 0
+		},
+		"mediaselector"  : {
+			"href" : "http://open.live.bbc.co.uk/mediaselector/5/select/",
+			"flag" : "green",
+			"ttl"  : 0
+		},
+		"visual_journalism" : {
+			"href" : "http://www.bbc.co.uk/",
+			"flag" : "green",
+			"ttl"  : 0
+		}
+	},
+	"defaultContent" : {
+		"ipad" : [
+					{
+						"id"   : "/cps/mundo/front_page",
+						"name" : "Noticias",
+						"type" : "bbc.mobile.news.collection",
+						"interfaceStyle" : ["classic"]
+					},
+					{
+						"id"   : "/cps/mundo/america_latina",
+						"name" : "América Latina",
+						"type" : "bbc.mobile.news.collection",
+						"interfaceStyle" : ["classic"]
+					},
+					{
+						"id"   : "/cps/mundo/internacional",
+						"name" : "Internacional",
+						"type" : "bbc.mobile.news.collection",
+						"interfaceStyle" : ["classic"]
+					},
+					{
+						"id"   : "/ldp/ca170ae3-99c1-48db-9b67-2866f85e7342",
+						"name" : "Economía",
+						"type" : "bbc.mobile.news.collection",
+						"interfaceStyle" : ["classic"]
+					},
+					{
+						"id"   : "/ldp/31684f19-84d6-41f6-b033-7ae08098572a",
+						"name" : "Tecnología",
+						"type" : "bbc.mobile.news.collection",
+						"interfaceStyle" : ["classic"]
+					},
+					{
+						"id"   : "/ldp/0f469e6a-d4a6-46f2-b727-2bd039cb6b53",
+						"name" : "Ciencia",
+						"type" : "bbc.mobile.news.collection",
+						"interfaceStyle" : ["classic"]
+					},
+					{
+						"id"   : "/ldp/c4794229-7f87-43ce-ac0a-6cfcd6d3cef2",
+						"name" : "Salud",
+						"type" : "bbc.mobile.news.collection",
+						"interfaceStyle" : ["classic"]
+					},
+					{
+						"id"   : "/ldp/6a73afa3-ea6b-45c1-80bb-49060b99f864",
+						"name" : "Cultura",
+						"type" : "bbc.mobile.news.collection",
+						"interfaceStyle" : ["classic"]
+					},
+					{
+						"id"   : "/cps/mundo/deportes",
+						"name" : "Deportes",
+						"type" : "bbc.mobile.news.collection",
+						"interfaceStyle" : ["classic"]
+					},
+					{
+						"id"   : "/cps/mundo/video",
+						"name" : "Video",
+						"type" : "bbc.mobile.news.collection",
+						"interfaceStyle" : ["classic"]
+					},
+					{
+						"id"   : "/cps/mundo/fotos",
+						"name" : "Fotos",
+						"type" : "bbc.mobile.news.collection",
+						"interfaceStyle" : ["classic"]
+					}
+				  ],
+		"iphone" : [
+					{
+						"id"   : "/cps/mundo/front_page",
+						"name" : "Noticias",
+						"type" : "bbc.mobile.news.collection",
+						"interfaceStyle" : ["classic"]
+					},
+					{
+						"id"   : "/cps/mundo/america_latina",
+						"name" : "América Latina",
+						"type" : "bbc.mobile.news.collection",
+						"interfaceStyle" : ["classic"]
+					},
+					{
+						"id"   : "/cps/mundo/internacional",
+						"name" : "Internacional",
+						"type" : "bbc.mobile.news.collection",
+						"interfaceStyle" : ["classic"]
+					},
+					{
+						"id"   : "/ldp/ca170ae3-99c1-48db-9b67-2866f85e7342",
+						"name" : "Economía",
+						"type" : "bbc.mobile.news.collection",
+						"interfaceStyle" : ["classic"]
+					},
+					{
+						"id"   : "/ldp/31684f19-84d6-41f6-b033-7ae08098572a",
+						"name" : "Tecnología",
+						"type" : "bbc.mobile.news.collection",
+						"interfaceStyle" : ["classic"]
+					},
+					{
+						"id"   : "/ldp/0f469e6a-d4a6-46f2-b727-2bd039cb6b53",
+						"name" : "Ciencia",
+						"type" : "bbc.mobile.news.collection",
+						"interfaceStyle" : ["classic"]
+					},
+					{
+						"id"   : "/ldp/c4794229-7f87-43ce-ac0a-6cfcd6d3cef2",
+						"name" : "Salud",
+						"type" : "bbc.mobile.news.collection",
+						"interfaceStyle" : ["classic"]
+					},
+					{
+						"id"   : "/ldp/6a73afa3-ea6b-45c1-80bb-49060b99f864",
+						"name" : "Cultura",
+						"type" : "bbc.mobile.news.collection",
+						"interfaceStyle" : ["classic"]
+					},
+					{
+						"id"   : "/cps/mundo/deportes",
+						"name" : "Deportes",
+						"type" : "bbc.mobile.news.collection",
+						"interfaceStyle" : ["classic"]
+					},
+					{
+						"id"   : "/cps/mundo/video",
+						"name" : "Video",
+						"type" : "bbc.mobile.news.collection",
+						"interfaceStyle" : ["classic"]
+					},
+					{
+						"id"   : "/cps/mundo/fotos",
+						"name" : "Fotos",
+						"type" : "bbc.mobile.news.collection",
+						"interfaceStyle" : ["classic"]
+					}
+				],
+		"watch" : [
+				   {
+				        "id"	: "/cps/mundo/front_page",
+				        "name"	: "Noticias",
+				        "type"	: "bbc.mobile.news.collection"
+				   }
+				]
+	},
+	"imageChefRecipes": [80, 100, 128, 160, 200, 240, 288, 320, 360, 400, 432, 480, 512, 576, 640, 720, 768, 800, 854, 960, 1024, 1080,
+						 1136, 1152, 1200, 1280, 1440, 1536, 1600, 1920, 2048, 2560],
+	"trendingTopicsId": "/trending/events",
+	"mostPopularId"   : "/most_popular/news",
+	"startingContent" : "/cps/mundo/front_page",
+	"helpUrl"         : "/cps/mundo/institucional-36390186",
+	"contactEmail"    : "BBCMundoEscribanos2@bbc.co.uk",
+	"termsAndConditionsUrl" : "http://www.bbc.com/mundo/institucional-36400005",
+	"privacyPolicyUrl" : "http://www.bbc.com/mundo/institucional-36400009",
+	"appStoreUrl": "https://itunes.apple.com/gb/app/bbc-news-in-spanish/id515255747",
+	"storeUrl"        : "https://itunes.apple.com/gb/artist/media-applications-technologies/id515255747",
+	"sportAppITunesUrl":"https://itunes.apple.com/gb/app/bbc-sport/id377388936",
+	"maxOfflineMBPerDayWifi": 30,
+	"maxOfflineMBPerDay3G": 2,
+	"betaModeAutoEnabledPercent": 1,
+	"betaModeFeedbackUrl": "https://www.surveymonkey.com/s/HQ3N8VZ",
+	"layoutModes":[],
+	"locationServiceEnabled" : false,
+	"visualJournalism": {
+		"loadingTimeout": 15
+	},
+	"contentViewForegroundRefresh" : {
+		"enabled"								: true,
+		"modelIDsForRefreshOnForeground"		: ["/cps/mundo/front_page"],
+		"refreshOnForegroundIntervalInSeconds"	: 600
+	}
+}

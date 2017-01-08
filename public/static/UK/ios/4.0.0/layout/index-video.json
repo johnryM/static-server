@@ -1,0 +1,40 @@
+{
+    "$":"index",
+    "content": ["/cps/news/video_and_audio/top_stories"],
+    "modules": [
+            
+                {
+                    "$":"primaryItem",
+                    "$primary":["bbc.mobile.news.item"],
+                    "$secondary":["bbc.mobile.news.group.compact-section-digest-1"],
+                    "$format":"bbc.mobile.news.format.video"
+                },
+                
+                {
+                    "$":"title",
+                    "title":"Top Stories"
+                },
+                
+                {
+                    "$":"normalGroup",
+                    "$secondary":["bbc.mobile.news.group.compact-section-digest-2"],
+                    "mode==tablet":{
+                        "summaries":"no",
+                        "orientation":"portrait",
+                        "mode==portrait":{
+                            "cellsPerRow":2
+                        },
+                        "mode==landscape":{
+                            "cellsPerRow":3
+                        }
+                    },
+                    "mode==!tablet  ":{
+                        "cellsPerRow":2
+                    }
+                },
+                
+                {
+                    "$":"copyright"
+                }
+    ]
+}

@@ -1,0 +1,200 @@
+{
+    "version"       : 2.1,
+    "flavour"       : "news-android-ww",
+    "killSwitch"    : false,
+    "endpoints" : {
+        "policy"   : {
+            "href" : "http://walter-producer-cdn.api.bbci.co.uk/static/{app_flavour}/android/{public_version_no}/policy.json",
+            "flag" : "green",
+            "ttl"  : 3600
+        },
+        "content"  : {
+            "href" : "http://walter-producer-cdn.api.bbci.co.uk/content",
+            "flag" : "green",
+            "ttl"  : 600
+        },
+        "layout"   : {
+            "href" : "http://walter-producer-cdn.api.bbci.co.uk/static/{app_flavour}/android/{public_version_no}/",
+            "flag" : "green",
+            "ttl"  : 3600
+        },
+        "media"    : {
+            "href" : "http://open.live.bbc.co.uk/mediaselector/5/select/version/2.0/mediaset/%2s/vpid/%1s/transferformat/%3s/format/json",
+            "flag" : "green",
+            "ttl"  : 0
+        },
+        "commentary" : {
+            "href" : "http://walter-producer-cdn.api.bbci.co.uk/content",
+            "flag" : "green",
+            "ttl"  : 0
+        },
+        "locator"  : {
+            "href" : "http://open.live.bbc.co.uk/locator/locations?la=%1s&lo=%2s&format=json",
+            "flag" : "green",
+            "ttl"  : 0
+        },
+        "locator_newsregion"  : {
+            "href" : "http://open.live.bbc.co.uk/locator/locations/%s/details/news-organisation?op=intersect&format=json",
+            "flag" : "green",
+            "ttl"  : 0
+        },
+        "resolver" : {
+            "href" : "http://walter-resolver-cdn.api.bbci.co.uk/resolve?uri=",
+            "flag" : "green",
+            "ttl"  : 0
+        },
+        "ichef" : {
+            "href" : "http://ichef.bbci.co.uk/moira/img/android/v3/%s%s",
+            "flag" : "green",
+            "ttl"  : 0
+        },
+        "flagpole" : {
+            "href": "http://walter-producer-cdn.api.bbci.co.uk/flagpoles/ads",
+            "flag": "green",
+            "ttl": 600
+        },
+        "adunits" : {
+            "href": "http://walter-producer-cdn.api.bbci.co.uk/static/{app_flavour}/android/{public_version_no}/adunit.json",
+            "flag": "green",
+            "ttl": 600
+        },
+        "visual_journalism": {
+            "href": "http://bbc.co.uk/",
+            "flag": "green",
+            "ttl": 0
+        },
+        "handrail" : {
+            "href" : "http://walter-producer-cdn.api.bbci.co.uk/static/{app_flavour}/android/{public_version_no}/handrail.json",
+            "flag" : "green",
+            "ttl"  : 600
+        },
+        "follow_topics" : {
+            "href" : "http://walter-producer-cdn.api.bbci.co.uk/static/{app_flavour}/android/{public_version_no}/followtopics.json",
+            "flag" : "green",
+            "ttl"  : 600
+        },
+        "search_topics" : {
+            "href" : "http://walter-producer-cdn.api.bbci.co.uk/static/{app_flavour}/android/{public_version_no}/searchtopics.json",
+            "flag" : "green",
+            "ttl"  : 600
+        }
+    },
+    "defaultContent" : {
+        "default": [
+            {
+                "id"   : "file:///android_asset/content/bbc_world_service.json",
+                "name" : "LIVE",
+                "type" : "bbc.mobile.news.item",
+                "isStartUpTopic" : true
+            },
+            {
+                "id"   : "/cps/news/front_page",
+                "name" : "Top Stories",
+                "type" : "bbc.mobile.news.collection",
+                "isStartUpTopic" : true
+            },
+            {
+                "id"   : "/newsapps/news/my_news",
+                "name" : "My News",
+                "type" : "bbc.mobile.news.collection",
+                "isStartUpTopic" : true
+            },
+            {
+                "id"   : "/newsapps/news/most_read",
+                "name" : "Most Read",
+                "type" : "bbc.mobile.news.collection",
+                "isStartUpTopic" : true
+            },
+            {
+                "id"   : "/newsapps/news/most_watched",
+                "name" : "Most Watched",
+                "type" : "bbc.mobile.news.collection",
+                "isStartUpTopic" : true
+            }
+        ],
+        "tablet": [
+            {
+                "id"   : "file:///android_asset/content/bbc_world_service.json",
+                "name" : "LIVE",
+                "type" : "bbc.mobile.news.item",
+                "isStartUpTopic" : true
+            },
+            {
+                "id"   : "/cps/news/front_page",
+                "name" : "Top Stories",
+                "type" : "bbc.mobile.news.collection",
+                "isStartUpTopic" : true
+            },
+            {
+                "id"   : "/newsapps/news/my_news",
+                "name" : "My News",
+                "type" : "bbc.mobile.news.collection",
+                "isStartUpTopic" : true
+            },
+            {
+                "id"   : "/newsapps/news/most_popular",
+                "name" : "Most Popular",
+                "type" : "bbc.mobile.news.collection",
+                "isStartUpTopic" : true
+            }
+        ]
+    },
+    "imageChefRecipes": [80, 100, 128, 160, 200, 240, 288, 320, 360, 400, 432, 480, 512, 576, 640, 720, 768, 800, 854, 960, 1024, 1080,
+        1136, 1152, 1200, 1280, 1440, 1536, 1600, 1920, 2048, 2560],
+    "trendingTopicsId": "/trending/events",
+    "mostPopularId"   : "/most_popular/news",
+    "topStoriesId"    : "/cps/news/front_page",
+    "analyticsEnv"    : "live",
+    "startingContent" : "/cps/news/front_page",
+    "helpUrl"         : "/cps/news/help-33367785",
+    "contactEmail"    : "mobileapps@bbc.co.uk",
+    "termsAndConditionsUrl" : "http://bbc.co.uk/terms",
+    "privacyPolicyUrl" : "http://bbc.com/privacy",
+    "copyright"       : "2015",
+    "storeUrl"        : "market://search?q=pub:BBC+Worldwide+(Ltd)",
+    "maxIndexesToSync": 25,
+    "maxIndexesToSync3G": 25,
+    "maxStoriesToSync": -1,
+    "maxStoriesToSync3G": 10,
+    "maxTopicsFollowed": 26,
+    "localNewsCachingRadius": 1,
+    "feedbackId"      : "/cps/news/30010460",
+    "betaSurvey"      : "false",
+    "surveyUrl"       : "https://ecustomeropinions.com/survey/survey.php?sid=265999144",
+    "ad_settings": {
+        "ad_enabled": true,
+        "ad_interstitialEnabled": true,
+        "ad_prerollEnabled": true,
+        "ad_inlineDisplayAds": true,
+        "ad_bannerDisplayAds": true,
+        "ad_freqOfInterstitialSeconds": 1800,
+        "ad_maxInterstitialAdsPerSession": 1,
+        "ad_adUnitID": "/4817/BBCNewsAppAndroidPhone",
+        "ad_adUnitIDTablet": "/4817/BBCNewsAppAndroidTablet",
+        "ad_commercialExposure": 100,
+        "ad_prerollAdURLFormat": "http://pubads.g.doubleclick.net/gampad/ads?ad_rule=1&sz=512x288&iu=[ad_unit]&ciu_szs&cust_params=version%3D3%26asset_type%3D[asset_type]%26story_id%3D[story_id]&impl=s&gdfp_req=1&env=vp&output=xml_vast2&unviewed_position_start=1&m_ast=vast&url=[referrer_url]&description_url=[description_url]&correlator=[timestamp]",
+        "ad_prerollCustomParams": "&cust_params=sdk%%3Dadmob%%26storyid%%3D%@%%26retina%%3D%@%%26carousel%%3D%@",
+        "ad_articleBannerPosition" : 1,
+        "ad_articleMpuPosition" : 6,
+        "ad_myNewsByTimeStandardBannerPosition":1,
+        "ad_myNewsByTimeStandardMpuPosition":3,
+        "ad_myNewsByTimeCompactBannerPosition":2,
+        "ad_myNewsByTimeCompactMpuPosition":7,
+        "ad_myNewsByTopicStandardBannerPosition":1,
+        "ad_myNewsByTopicStandardMpuPosition":3,
+        "ad_myNewsByTopicCompactBannerPosition":1,
+        "ad_myNewsByTopicCompactMpuPosition":3,
+        "ad_myNewsByTopicCarouselBannerPosition":1,
+        "ad_myNewsByTopicCarouselMpuPosition":3
+    },
+    "visualJournalism": {
+        "loadingTimeout": 15
+    },
+    "appRatingPrompt": {
+        "enabled": true,
+        "daysUntilPrompt" : 42,
+        "usesUntilPrompt" : 10,
+        "remindPeriod" : 14,
+        "remindLaunches" : 0
+    }
+}

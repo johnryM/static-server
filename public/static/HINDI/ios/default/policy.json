@@ -1,0 +1,233 @@
+{
+	"version"       : 1.2,
+	"flavour"       : "hindi",
+	"killSwitch"    : false,
+	"minAppVersion"	: "3.4.1.0",
+	"endpoints" : {
+		"policy"   : {
+			"href" : "http://trevor-producer-cdn.api.bbci.co.uk/static/{app_flavour}/ios/{public_version_no}/policy.json",
+			"flag" : "green",
+			"ttl"  : 3600
+		},
+		"layout"   : {
+			"href" : "http://trevor-producer-cdn.api.bbci.co.uk/static/{app_flavour}/ios/{public_version_no}/layouts.zip",
+			"flag" : "green",
+			"ttl"  : 3600
+		},
+		"handrail"   : {
+			"href" : "http://trevor-producer-cdn.api.bbci.co.uk/static/{app_flavour}/ios/{public_version_no}/handrail_list.json",
+			"flag" : "green",
+			"ttl"  : 600
+		},
+		"search_topics"   : {
+			"href" : "http://trevor-producer-cdn.api.bbci.co.uk/static/{app_flavour}/ios/{public_version_no}/searchtopics.json",
+			"flag" : "green",
+			"ttl"  : 600
+		},
+		"follow_topics"   : {
+			"href" : "http://trevor-producer-cdn.api.bbci.co.uk/static/{app_flavour}/ios/{public_version_no}/followtopics.json",
+			"flag" : "green",
+			"ttl"  : 600
+		},
+		"ad_unit"   : {
+			"href" : "http://trevor-producer-cdn.api.bbci.co.uk/static/{app_flavour}/ios/{public_version_no}/adunit.json",
+			"flag" : "green",
+			"ttl"  : 600
+		},
+		"content"  : {
+			"href" : "http://trevor-producer-cdn.api.bbci.co.uk/content/{id_without_slash_prefix}",
+			"flag" : "green",
+			"ttl"  : 600
+		},
+		"resolver" : {
+			"href" : "http://trevor-resolver-cdn.api.bbci.co.uk/resolve?uri=%@",
+			"flag" : "green",
+			"ttl"  : 0
+		},
+		"ichef" : {
+			"href" : "http://ichef.bbci.co.uk/moira/img/ios/v3/{width}{model_id}",
+			"flag" : "green",
+			"ttl"  : 0
+        },
+		"mediaselector"  : {
+			"href" : "http://open.live.bbc.co.uk/mediaselector/5/select/",
+			"flag" : "green",
+			"ttl"  : 0
+		},
+		"visual_journalism" : {
+			"href" : "http://www.bbc.co.uk/",
+			"flag" : "green",
+			"ttl"  : 0
+		}
+	},
+	"defaultContent" : {
+		"ipad" : [
+				  {
+					  "id"   : "/cps/hindi/front_page",
+					  "name" : "Top Stories",
+					  "type" : "bbc.mobile.news.collection",
+					  "interfaceStyle" : ["classic"]
+				  },
+				  {
+					  "id"   : "/most_popular/news",
+					  "name" : "Most Popular",
+					  "type" : "bbc.mobile.news.collection",
+					  "interfaceStyle" : ["classic"]
+				  },
+				  {
+					  "id"   : "/cps/hindi/india",
+					  "name" : "भारत",
+					  "type" : "bbc.mobile.news.collection",
+					  "interfaceStyle" : ["classic"]
+				  },
+				  {
+					  "id"   : "/cps/hindi/international",
+					  "name" : "अंतरराष्ट्रीय",
+					  "type" : "bbc.mobile.news.collection",
+					  "interfaceStyle" : ["classic"]
+				  },
+				  {
+					  "id"   : "/cps/hindi/entertainment",
+					  "name" : "मनोरंजन",
+					  "type" : "bbc.mobile.news.collection",
+					  "interfaceStyle" : ["classic"]
+				  },
+				  {
+					  "id"   : "/cps/hindi/sport",
+					  "name" : "खेल",
+					  "type" : "bbc.mobile.news.collection",
+					  "interfaceStyle" : ["classic"]
+				  },
+				  {
+					  "id"   : "/cps/hindi/science",
+					  "name" : "विज्ञान-टेक्नॉलॉजी",
+					  "type" : "bbc.mobile.news.collection",
+					  "interfaceStyle" : ["classic"]
+				  },
+				  {
+					  "id"   : "/cps/hindi/topics/Video",
+					  "name" : "देखिए",
+					  "type" : "bbc.mobile.news.collection",
+					  "interfaceStyle" : ["classic"]
+				  },
+				  {
+					  "id"   : "/cps/hindi/topics/Audio",
+					  "name" : "बीबीसी लाइव",
+					  "type" : "bbc.mobile.news.collection",
+					  "interfaceStyle" : ["classic"]
+				  },
+				  {
+					  "id"   : "/cps/hindi/topics/Picture_Gallery",
+					  "name" : "तस्वीरों में",
+					  "type" : "bbc.mobile.news.collection",
+					  "interfaceStyle" : ["classic"]
+				  },
+				  {
+					  "id"   : "/cps/hindi/topics/indepth",
+					  "name" : "बीबीसी स्पेशल",
+					  "type" : "bbc.mobile.news.collection",
+					  "interfaceStyle" : ["classic"]
+				  }
+				  ],
+		"iphone" : [
+					{
+						"id"   : "/cps/hindi/front_page",
+						"name" : "Top Stories",
+						"type" : "bbc.mobile.news.collection",
+						"interfaceStyle" : ["classic"]
+					},
+					{
+						"id"   : "/most_popular/news/read",
+						"name" : "Most Read",
+						"type" : "bbc.mobile.news.collection",
+						"interfaceStyle" : ["classic"]
+					},
+					{
+						"id"   : "/most_popular/news/watched",
+						"name" : "Most Watched",
+						"type" : "bbc.mobile.news.collection",
+						"interfaceStyle" : ["classic"]
+					},
+					{
+						"id"   : "/cps/hindi/india",
+						"name" : "भारत",
+						"type" : "bbc.mobile.news.collection",
+						"interfaceStyle" : ["classic"]
+					},
+					{
+						"id"   : "/cps/hindi/international",
+						"name" : "अंतरराष्ट्रीय",
+						"type" : "bbc.mobile.news.collection",
+						"interfaceStyle" : ["classic"]
+					},
+					{
+						"id"   : "/cps/hindi/entertainment",
+						"name" : "मनोरंजन",
+						"type" : "bbc.mobile.news.collection",
+						"interfaceStyle" : ["classic"]
+					},
+					{
+						"id"   : "/cps/hindi/sport",
+						"name" : "खेल",
+						"type" : "bbc.mobile.news.collection",
+						"interfaceStyle" : ["classic"]
+					},
+					{
+						"id"   : "/cps/hindi/science",
+						"name" : "विज्ञान-टेक्नॉलॉजी",
+						"type" : "bbc.mobile.news.collection",
+						"interfaceStyle" : ["classic"]
+					},
+					{
+						"id"   : "/cps/hindi/topics/Video",
+						"name" : "देखिए",
+						"type" : "bbc.mobile.news.collection",
+						"interfaceStyle" : ["classic"]
+					},
+					{
+						"id"   : "/cps/hindi/topics/Audio",
+						"name" : "बीबीसी लाइव",
+						"type" : "bbc.mobile.news.collection",
+						"interfaceStyle" : ["classic"]
+					},
+					{
+						"id"   : "/cps/hindi/topics/Picture_Gallery",
+						"name" : "तस्वीरों में",
+						"type" : "bbc.mobile.news.collection",
+						"interfaceStyle" : ["classic"]
+					},
+					{
+						"id"   : "/cps/hindi/topics/indepth",
+						"name" : "बीबीसी स्पेशल",
+						"type" : "bbc.mobile.news.collection",
+						"interfaceStyle" : ["classic"]
+					}
+					]
+	},
+	"imageChefRecipes": [80, 100, 128, 160, 200, 240, 288, 320, 360, 400, 432, 480, 512, 576, 640, 720, 768, 800, 854, 960, 1024, 1080,
+						 1136, 1152, 1200, 1280, 1440, 1536, 1600, 1920, 2048, 2560],
+	"trendingTopicsId": "/trending/events",
+	"mostPopularId"   : "/most_popular/news",
+	"startingContent" : "/cps/hindi/front_page",
+	"helpUrl"         : "/cps/news/help-30119604",
+	"contactEmail"    : "mobileapps@bbc.co.uk",
+	"termsAndConditionsUrl" : "http://www.bbc.co.uk/terms/",
+	"privacyPolicyUrl" : "http://www.bbc.co.uk/privacy/",
+	"appStoreUrl": "https://itunes.apple.com/gb/app/bbc-news/id377382255",
+	"storeUrl"        : "https://itunes.apple.com/gb/artist/media-applications-technologies/id377382258",
+	"sportAppITunesUrl":"https://itunes.apple.com/gb/app/bbc-sport/id377388936",
+	"surveyActive": true,
+	"surveyURL": "https://ecustomeropinions.com/survey/survey.php?sid=265999144",
+
+	"maxOfflineMBPerDayWifi": 30,
+	"maxOfflineMBPerDay3G": 2,
+
+	"betaModeAutoEnabledPercent": 1,
+	"betaModeFeedbackUrl": "https://www.surveymonkey.com/s/HQ3N8VZ",
+
+	"layoutModes":[],
+	"locationServiceEnabled" : false,
+	"visualJournalism": {
+		"loadingTimeout": 15
+	}
+}

@@ -1,0 +1,28 @@
+{
+	"$":"index",
+	"site":["/mundo"],
+	"format": ["bbc.mobile.news.cps.idx", "bbc.mobile.news.legacy.idx"],
+	"modules": [
+				
+        {"$":"primaryItem",  "limit": 1  ,  "$secondary":[
+                
+                 "bbc.mobile.news.group.top-story"  ,
+                 "bbc.linkeddata.about.news"        ,
+                 "bbc.mobile.news.group.news-feed"  ,
+                 "bbc.mobile.news.group.index"
+            ]
+        },
+ 
+        {"$":"secondaryItems", "offset" : 1 , "limit" : -1 , "$secondary":[
+
+                "bbc.mobile.news.group.top-story"  ,
+                "bbc.linkeddata.about.news"        ,
+                "bbc.mobile.news.group.news-feed"  ,
+                "bbc.mobile.news.group.index"
+            ]
+        },
+                
+        {"$":"copyright"}
+				
+	]
+}

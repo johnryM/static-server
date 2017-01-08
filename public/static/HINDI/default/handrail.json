@@ -1,0 +1,98 @@
+{
+	"id" : "/handrail",
+	"type" : "bbc.mobile.news.collection",
+	"lastUpdated" : 1412938628000,
+	"name" : "More Topics",
+	"relations" : [
+				   {
+				   "primaryType" : "bbc.mobile.news.collection",
+				   "secondaryType" : "bbc.mobile.news.handrail",
+				   "content" : {
+					   "id" : "/cps/hindi/india",
+					   "type" : "bbc.mobile.news.collection",
+					   "lastUpdated" : 1412938628000,
+					   "name" : "भारत"
+					   }
+				   },
+				   {
+				   "primaryType" : "bbc.mobile.news.collection",
+				   "secondaryType" : "bbc.mobile.news.handrail",
+				   "content" : {
+					   "id" : "/cps/hindi/international",
+					   "type" : "bbc.mobile.news.collection",
+					   "lastUpdated" : 1412938628000,
+					   "name" : "अंतरराष्ट्रीय"
+					   }
+				   },
+				   {
+				   "primaryType" : "bbc.mobile.news.collection",
+				   "secondaryType" : "bbc.mobile.news.handrail",
+				   "content" : {
+					   "id" : "/cps/hindi/entertainment",
+					   "type" : "bbc.mobile.news.collection",
+					   "lastUpdated" : 1412938628000,
+					   "name" : "मनोरंजन"
+					   }
+				   },
+				   {
+				   "primaryType" : "bbc.mobile.news.collection",
+				   "secondaryType" : "bbc.mobile.news.handrail",
+				   "content" : {
+					   "id" : "/cps/hindi/sport",
+					   "type" : "bbc.mobile.news.collection",
+					   "lastUpdated" : 1412938628000,
+					   "name" : "खेल"
+					   }
+				   },
+				   {
+				   "primaryType" : "bbc.mobile.news.collection",
+				   "secondaryType" : "bbc.mobile.news.handrail",
+				   "content" : {
+					   "id" : "/cps/hindi/science",
+					   "type" : "bbc.mobile.news.collection",
+					   "lastUpdated" : 1412938628000,
+					   "name" : "विज्ञान-टेक्नॉलॉजी"
+					   }
+				   },
+				   {
+				   "primaryType" : "bbc.mobile.news.collection",
+				   "secondaryType" : "bbc.mobile.news.handrail",
+				   "content" : {
+					   "id" : "/cps/hindi/topics/Video",
+					   "type" : "bbc.mobile.news.collection",
+					   "lastUpdated" : 1412938628000,
+					   "name" : "देखिए"
+					   }
+				   },
+				   {
+				   "primaryType" : "bbc.mobile.news.collection",
+				   "secondaryType" : "bbc.mobile.news.handrail",
+				   "content" : {
+					   "id" : "/cps/hindi/topics/Audio",
+					   "type" : "bbc.mobile.news.collection",
+					   "lastUpdated" : 1412938628000,
+					   "name" : "बीबीसी लाइव"
+					   }
+				   },
+				   {
+				   "primaryType" : "bbc.mobile.news.collection",
+				   "secondaryType" : "bbc.mobile.news.handrail",
+				   "content" : {
+					   "id" : "/cps/hindi/topics/Picture_Gallery",
+					   "type" : "bbc.mobile.news.collection",
+					   "lastUpdated" : 1412938628000,
+					   "name" : "तस्वीरों में"
+					   }
+				   },
+				   {
+				   "primaryType" : "bbc.mobile.news.collection",
+				   "secondaryType" : "bbc.mobile.news.handrail",
+				   "content" : {
+					   "id" : "/cps/hindi/topics/indepth",
+					   "type" : "bbc.mobile.news.collection",
+					   "lastUpdated" : 1412938628000,
+					   "name" : "बीबीसी स्पेशल"
+					   }
+				   }
+				   ]
+}

@@ -1,0 +1,126 @@
+{
+    "version"       : 2.3,
+    "flavour"       : "news-android-cymrufyw",
+    "killSwitch"    : false,
+    "endpoints" : {
+        "policy"   : {
+            "href" : "http://trevor-producer-cdn.api.bbci.co.uk/static/{app_flavour}/android/{public_version_no}/policy.json",
+            "flag" : "green",
+            "ttl"  : 3600
+        },
+        "content"  : {
+            "href" : "http://trevor-producer-cdn.api.bbci.co.uk/content",
+            "flag" : "green",
+            "ttl"  : 600
+        },
+        "layout"   : {
+            "href" : "http://trevor-producer-cdn.api.bbci.co.uk/static/{app_flavour}/android/{public_version_no}/",
+            "flag" : "green",
+            "ttl"  : 3600
+        },
+        "media"    : {
+            "href" : "http://open.live.bbc.co.uk/mediaselector/5/select/version/2.0/mediaset/%2s/vpid/%1s/transferformat/%3s/format/json",
+            "flag" : "green",
+            "ttl"  : 0
+        },
+        "commentary" : {
+            "href" : "http://trevor-producer-cdn.api.bbci.co.uk/content",
+            "flag" : "green",
+            "ttl"  : 0
+        },
+        "resolver" : {
+            "href" : "http://trevor-resolver-cdn.api.bbci.co.uk/resolve?uri=",
+            "flag" : "green",
+            "ttl"  : 0
+        },
+        "ichef" : {
+            "href" : "http://ichef.bbci.co.uk/moira/img/android/v3/%s%s",
+            "flag" : "green",
+            "ttl"  : 0
+        },
+        "visual_journalism" : {
+            "href" : "http://www.bbc.co.uk/",
+            "flag" : "green",
+            "ttl"  : 0
+        },
+        "handrail_list" : {
+            "href" : "http://trevor-producer-cdn.api.bbci.co.uk/static/{app_flavour}/android/{public_version_no}/handrail_list.json",
+            "flag" : "green",
+            "ttl"  : 600
+        }
+    },
+    "defaultContent" : {
+        "default": [
+            {
+                "id": "/cps/newyddion/hafan",
+                "name": "Prif Straeon",
+                "type": "bbc.mobile.news.collection",
+                "isStartUpTopic": true
+            },
+            {
+                "id": "/cps/newyddion/cylchgrawn",
+                "name": "Cylchgrawn",
+                "type": "bbc.mobile.news.collection"
+            },
+            {
+                "id": "/cps/newyddion/gwleidyddiaeth",
+                "name": "Gwleidyddiaeth",
+                "type": "bbc.mobile.news.collection"
+            },
+            {
+                "id": "/cps/newyddion/gogledd-orllewin",
+                "name": "Gogledd-Orllewin",
+                "type": "bbc.mobile.news.collection"
+            },
+            {
+                "id": "/cps/newyddion/gogledd-ddwyrain",
+                "name": "Gogledd-Ddwyrain",
+                "type": "bbc.mobile.news.collection"
+            },
+            {
+                "id": "/cps/newyddion/canolbarth",
+                "name": "Canolbarth",
+                "type": "bbc.mobile.news.collection"
+            },
+            {
+                "id": "/cps/newyddion/de-orllewin",
+                "name": "De-Orllewin",
+                "type": "bbc.mobile.news.collection"
+            },
+            {
+                "id": "/cps/newyddion/de-ddwyrain",
+                "name": "De-Ddwyrain",
+                "type": "bbc.mobile.news.collection"
+            },
+            {
+                "id"   : "file:///android_asset/content/bbc_world_service.json",
+                "name" : "Radio",
+                "type" : "bbc.mobile.news.item"
+            }
+        ]
+    },
+    "imageChefRecipes": [80, 100, 128, 160, 200, 240, 288, 320, 360, 400, 432, 480, 512, 576, 640, 720, 768, 800, 854, 960, 1024, 1080,
+        1136, 1152, 1200, 1280, 1440, 1536, 1600, 1920, 2048, 2560],
+    "topStoriesId"    : "/cps/newyddion/hafan",
+    "startingContent" : "/cps/newyddion/hafan",
+    "helpUrl"         : "/cps/newyddion/35607008",
+    "contactEmail"    : "cymrufyw@bbc.co.uk",
+    "termsAndConditionsUrl" : "http://www.bbc.co.uk/terms/cymru.shtml",
+    "privacyPolicyUrl" : "http://www.bbc.co.uk/privacy/?lang=cy",
+    "storeUrl"        : "market://search?q=pub:Media+Applications+Technologies+for+the+BBC",
+    "maxIndexesToSync": 25,
+    "maxIndexesToSync3G": 25,
+    "maxStoriesToSync": -1,
+    "maxStoriesToSync3G": 10,
+    "localNewsCachingRadius": 1,
+	"visualJournalism": {
+	   "loadingTimeout": 15
+	},
+    "appRatingPrompt": {
+        "enabled": true,
+        "daysUntilPrompt" : 42,
+        "usesUntilPrompt" : 10,
+        "remindPeriod" : 14,
+        "remindLaunches" : 0
+    }
+}

@@ -1,0 +1,278 @@
+{
+    "$":"index",
+    "content": ["/cps/mundo/front_page"],
+    "modules": [
+                
+        {"$":"primaryItem", "limit" : 1 , "$secondary":[
+                                             
+                "bbc.mobile.news.group.top-story+"                 ,
+                "bbc.mobile.news.group.live-event-1+"              ,
+                "bbc.mobile.news.group.other-top-stories+"         ,
+                "bbc.mobile.news.group.more-top-stories+"          ,
+                "bbc.mobile.news.group.also-in-the-news+"
+            ]
+        }
+        ,
+        {"$":"secondaryItems", "offset" : 1 , "limit" : -1 , "$secondary":[
+                
+                "bbc.mobile.news.group.top-story+"                 ,
+                "bbc.mobile.news.group.live-event-1+"              ,
+                "bbc.mobile.news.group.other-top-stories+"         ,
+                "bbc.mobile.news.group.more-top-stories+"          ,
+                "bbc.mobile.news.group.top-stories-overflow+"      ,
+                "bbc.mobile.news.group.also-in-the-news+"
+            ]
+        }
+        ,
+        {"$":"avCarousel", "limit" : -1, "$secondary":[
+                                         
+                "bbc.mobile.news.group.watch-listen+"              ,
+                "bbc.mobile.news.group.av-stories-live+"
+
+            ]
+        }
+        ,
+        {"$":"title", "title":"layoutfiletitle.featuresandanalysis"},
+        {"$":"tightGroup",        "limit": 1 , "modes":["!landscape"], "$secondary":[
+                                                                                  
+                "bbc.mobile.news.group.special-reports-1"
+                                                                                  
+            ]
+        }
+        ,
+        {"$":"featureGroup_2col" , "modes":["landscape"],  "$secondary":[
+                                                                                  
+                "bbc.mobile.news.group.special-reports-1"          ,
+                "bbc.mobile.news.group.special-reports-2"
+            ]
+        }
+        ,
+
+        {"$":"twoDigestGroups",
+        
+                "$1" : [{
+                    
+                    "$":"digestTitle"                     ,
+                    "title":"layoutfiletitle.latinamerica"     ,
+                    "contentLink":"/cps/mundo/america_latina?title=Am%E9rica%20Latina&createdBy=mundo&language=es"
+                    
+                        
+                    } , {
+                    
+                    "$":"digestGroup"                     ,
+                    "limit": 1                            ,
+                    "$secondary": [
+                    
+                        "bbc.mobile.news.group.showcase-1+"
+                    
+                    ]
+                }]
+                ,
+                "$2" : [{
+                
+                    "$":"digestTitle"                     ,
+                    "title":"layoutfiletitle.international"    ,
+                    "contentLink":"/cps/mundo/internacional?title=Internacional&createdBy=mundo&language=es"
+                
+                } , {
+                
+                    "$":"digestGroup"                     ,
+                    "limit": 1                            ,
+                    "$secondary":[
+                              
+                        "bbc.mobile.news.group.showcase-2+"
+                              
+                    ]
+                }]
+        }
+        ,
+        {"$":"twoDigestGroups",
+        
+                "$1" : [{
+
+                            "$":"digestTitle"                     ,
+                            "title":"layoutfiletitle.technology"  ,
+                            "contentLink":"/ldp/31684f19-84d6-41f6-b033-7ae08098572a?title=Tecnolog%EDa&createdBy=mundo&language=es"
+                        
+                        
+                        } , {
+                        
+                            "$":"digestGroup"                     ,
+                            "limit": 1                            ,
+                            "$secondary": [
+                                           
+                                "bbc.mobile.news.group.showcase-3+"
+                                           
+                            ]
+                        }]
+                ,
+                "$2" : [{
+                        
+                            "$":"digestTitle"                    ,
+                            "title":"layoutfiletitle.health"     ,
+                            "contentLink":"/ldp/c4794229-7f87-43ce-ac0a-6cfcd6d3cef2?title=Salud&createdBy=mundo&language=es"
+                        
+                        } , {
+                        
+                            "$":"digestGroup"                     ,
+                            "limit": 1                            ,
+                            "$secondary":[
+                                          
+                                "bbc.mobile.news.group.showcase-4+"
+                              
+                            ]
+                        }]
+        }
+        ,
+        {"$":"twoDigestGroups",
+        
+                "$1" : [{
+                        
+                            "$":"digestTitle"                     ,
+                            "title":"layoutfiletitle.science"     ,
+                            "contentLink":"/ldp/0f469e6a-d4a6-46f2-b727-2bd039cb6b53?title=Ciencia&createdBy=mundo&language=es"
+                        
+                        
+                        } , {
+                        
+                            "$":"digestGroup"                     ,
+                            "limit": 1                            ,
+                            "$secondary": [
+                                           
+                                "bbc.mobile.news.group.showcase-5+"
+                                           
+                            ]
+                        }]
+                ,
+                "$2" : [{
+                        
+                            "$":"digestTitle"                     ,
+                            "title":"layoutfiletitle.culture"     ,
+                            "contentLink":"/ldp/6a73afa3-ea6b-45c1-80bb-49060b99f864?title=Sociedad%20y%20Cultura&createdBy=mundo&language=es"
+                        
+                        } , {
+                        
+                            "$":"digestGroup"                     ,
+                            "limit": 1                            ,
+                            "$secondary":[
+                                          
+                                "bbc.mobile.news.group.showcase-6+"
+                                          
+                            ]
+                        }]
+                }
+                ,
+        {"$":"twoDigestGroups",
+                
+                "$1" : [{
+                        
+                            "$":"digestTitle"                     ,
+                            "title":"layoutfiletitle.economy"     ,
+                            "contentLink":"/ldp/ca170ae3-99c1-48db-9b67-2866f85e7342?title=Econom%EDa&createdBy=mundo&language=es"
+                        
+                        
+                        } , {
+                        
+                            "$":"digestGroup"                     ,
+                            "limit": 1                            ,
+                            "$secondary": [
+                                           
+                                "bbc.mobile.news.group.showcase-7+"
+                                           
+                            ]
+                        }]
+                ,
+                "$2" : [{
+                        
+                        "$":"digestTitle"                     ,
+                        "title":"layoutfiletitle.sport"       ,
+                        "contentLink":"/cps/mundo/deportes?title=Deportes&createdBy=mundo&language=es"
+                        
+                        } , {
+                        
+                        "$":"digestGroup"                     ,
+                        "limit": 1                            ,
+                        "$secondary":[
+                                      
+                                "bbc.mobile.news.group.showcase-8+"
+                                      
+                        ]
+                }]
+        }
+        ,
+        {"$":"title", "title":"layoutfiletitle.featuresandanalysis" , "modes":["!landscape"]},
+        {"$":"tightGroup", "modes":["!landscape"], "$secondary":[
+                                                              
+                  "bbc.mobile.news.group.special-reports-2"
+                  
+                  ]
+        }
+        ,
+        {
+        
+        "$":"title"                                     ,
+        "title":"layoutfiletitle.learningenglish"
+        
+        
+        } , {
+        
+        "$":"tightGroup"                                ,
+        "limit": 1                                      ,
+        "$secondary": [
+                       
+                       "bbc.mobile.news.group.learning-english+"
+                       
+                       ]
+        }
+        ,
+        {
+        
+                "$":"title"                                     ,
+                "title":"layoutfiletitle.morestories"
+        
+                
+        }
+        ,
+        {
+            "$":"normalGroup"                       ,
+            "secondary":[
+                         
+                "bbc.mobile.news.group.features"
+                         
+            ]                                       ,
+            "mode==tablet":{
+                
+                "H":2               ,
+                "cellsPerRow":2     ,
+                "mode==portrait":{
+                
+                    "orientation":"portrait"
+                
+                }
+                ,
+                "mode==landscape":{
+                
+                    "orientation":"landscapeWithFullWidthHeadline"  ,
+                    "imageWidth":192
+                
+                }
+                
+            }
+        }
+        ,
+        {
+        
+                "$":"title"                                     ,
+                "title":"layoutfiletitle.inpictures"
+        
+        
+        }
+        ,
+        {"$":"photosGroup" , "limit" : 4 , "$secondary":[
+        
+                "bbc.mobile.news.group.picture-galleries+"
+        ]}
+        ,
+        {"$":"copyright"}
+    ]
+}

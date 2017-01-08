@@ -1,0 +1,474 @@
+{
+    "topic_overrides":
+    [
+        {
+            "id": "/cps/news/election/us2016",
+            "name": "US Election 2016",
+            "id_old": "/ldp/530d1350-d83c-405b-b6c3-809473e23c58"
+        },
+        {
+            "id": "/cps/news/politics/uk_leaves_the_eu/",
+            "name": "Brexit",
+            "id_old": "/ldp/f94293fd-ff83-400e-8bc0-89ec01930fce"
+        },
+        {
+            "id": "/cps/news/politics/uk_leaves_the_eu",
+            "name": "Brexit",
+            "id_old": "/cps/news/politics/eu_referendum"
+        }
+    ],
+    "sections": [
+        {
+            "name": "UK Topics", 
+            "topics": [
+                {
+                    "contentId": "/cps/news/uk", 
+                    "name": "UK"
+                }, 
+                {
+                    "contentId": "/cps/news/wales", 
+                    "name": "Wales"
+                }, 
+                {
+                    "contentId": "/cps/news/northern_ireland", 
+                    "name": "Northern Ireland"
+                }, 
+                {
+                    "contentId": "/cps/news/scotland", 
+                    "name": "Scotland"
+                }, 
+                {
+                    "contentId": "/cps/news/england", 
+                    "name": "England"
+                }, 
+                {
+                    "contentId": "/cps/newyddion/hafan", 
+                    "name": "Cymru"
+                }, 
+                {
+                    "contentId": "/ldp/40fea4d2-8274-45d6-9a4e-b78a621a2eb2", 
+                    "name": "Newspaper Review"
+                }, 
+                {
+                    "contentId": "/ldp/cd2b638b-71a7-4330-b549-21d3687134ee", 
+                    "name": "Counter-terrorism"
+                }, 
+                {
+                    "contentId": "/ldp/5784428d-a30a-4091-82f2-3f4d9b336f75", 
+                    "name": "UK Immigration"
+                }, 
+                {
+                    "contentId": "/ldp/1a7d4ccf-4d2a-49fc-9eaf-2c65d4c575a9", 
+                    "name": "Royal Family"
+                }, 
+                {
+                    "contentId": "/ldp/aceb56f7-aa8f-456f-b157-4b8dc9be6da2", 
+                    "name": "Calais migrant crisis"
+                }
+            ]
+        }, 
+        {
+            "name": "World Topics", 
+            "topics": [
+                {
+                    "contentId": "/cps/news/world", 
+                    "name": "World"
+                }, 
+                {
+                    "contentId": "/ldp/41b5bb04-b97c-4705-bb42-fb7438aba2cb", 
+                    "name": "China economy"
+                }, 
+                {
+                    "contentId": "/ldp/5c0cd048-408c-444a-b783-8e12adedbe16", 
+                    "name": "Africa economy"
+                }, 
+                {
+                    "contentId": "/ldp/39267b85-1784-4f4b-80ed-f8cb4a35f337", 
+                    "name": "Russia"
+                }, 
+                {
+                    "contentId": "/ldp/13bba436-5d61-409b-82ec-2d2f4ecbe1e6", 
+                    "name": "Islamic State group"
+                }, 
+                {
+                    "contentId": "/ldp/45d1e6e1-6001-4449-801d-ba85eed04025", 
+                    "name": "Syrian civil war"
+                }, 
+                {
+                    "contentId": "/ldp/cb5de4d9-29cf-4e96-866b-7abce838023e", 
+                    "name": "Brazil political crisis"
+                }, 
+                {
+                    "contentId": "/ldp/23672ac3-fcad-42c7-a557-23a954eb0e7b", 
+                    "name": "Europe migrant crisis"
+                }, 
+                {
+                    "contentId": "/ldp/9b16a6c2-7c16-42b7-bff7-6549579622e8", 
+                    "name": "Severe weather"
+                }, 
+                {
+                    "contentId": "/ldp/c4d6bb21-354a-4aab-89bc-badb4fcfb968", 
+                    "name": "Human trafficking"
+                }, 
+                {
+                    "contentId": "/ldp/96bd03aa-ba38-4a13-82c9-f4bfa23989ec", 
+                    "name": "US gun laws"
+                },
+                {
+                    "contentId": "/ldp/742c0008-33a6-49ae-8e23-ad982ec6b740",
+                    "name": "World Hacks"
+                }
+            ]
+        }, 
+        {
+            "name": "Politics Topics", 
+            "topics": [
+                {
+                    "contentId": "/cps/news/politics", 
+                    "name": "Politics"
+                },
+                {
+                    "contentId": "/cps/news/politics/uk_leaves_the_eu", 
+                    "name": "Brexit"
+                },
+                {
+                    "contentId": "/ldp/267ada11-b730-4344-b404-63067c032c65", 
+                    "name": "Reality Check (EU Ref)"
+                }, 
+                {
+                    "contentId": "/cps/news/election/us2016", 
+                    "name": "US election 2016"
+                }, 
+                {
+                    "contentId": "/ldp/9a18805c-fb88-40ba-9763-bcc121d5d55c", 
+                    "name": "European Union"
+                }, 
+                {
+                    "contentId": "/cps/news/politics/parliaments", 
+                    "name": "Parliaments"
+                }, 
+                {
+                    "contentId": "/ldp/abfcf227-7072-49fd-bd74-fd601f347198", 
+                    "name": "Newsnight"
+                }
+            ]
+        }, 
+        {
+            "name": "Business Topics", 
+            "topics": [
+                {
+                    "contentId": "/cps/news/business", 
+                    "name": "Business"
+                }, 
+                {
+                    "contentId": "/ldp/91173495-d90c-4451-be72-23a1a823c8d2", 
+                    "name": "Eurozone"
+                }, 
+                {
+                    "contentId": "/ldp/1947f3fd-ff95-4d71-b762-59b6c2f60fd1", 
+                    "name": "UK economy"
+                }, 
+                {
+                    "contentId": "/ldp/38a2903a-b068-486e-bda2-58c035e1490a", 
+                    "name": "Housing market"
+                }, 
+                {
+                    "contentId": "/ldp/20111747-026a-4687-a5a7-0a0499746ac6", 
+                    "name": "Personal finance"
+                }, 
+                {
+                    "contentId": "/ldp/9f52c5bc-73a7-47c8-a6b5-e70eafbf6716", 
+                    "name": "Companies"
+                }, 
+                {
+                    "contentId": "/ldp/90e896ec-eca6-454d-a90d-6e2be9d6bd21", 
+                    "name": "Aerospace"
+                }, 
+                {
+                    "contentId": "/ldp/65ba56b4-3f50-4217-ab8e-b3c1fe890364", 
+                    "name": "Car industry"
+                }, 
+                {
+                    "contentId": "/ldp/41d87885-664f-4d92-931e-470b8fd7b16b", 
+                    "name": "Entrepreneurship"
+                }
+            ]
+        }, 
+        {
+            "name": "Technology Topics", 
+            "topics": [
+                {
+                    "contentId": "/cps/news/technology", 
+                    "name": "Technology"
+                }, 
+                {
+                    "contentId": "/ldp/8e9cb106-68f6-4793-9347-e7ac9ca99d6c", 
+                    "name": "New tech demos"
+                }, 
+                {
+                    "contentId": "/ldp/986d714c-6f18-43ff-9f37-e4b0267aeaf9", 
+                    "name": "Mobile phones"
+                }, 
+                {
+                    "contentId": "/ldp/8bce6aad-0f9a-4c0c-bb5e-e2583a27785b", 
+                    "name": "Tablets"
+                }, 
+                {
+                    "contentId": "/ldp/cfa009b2-6e8a-4da4-9ac0-9237b41a309b", 
+                    "name": "Apps"
+                }, 
+                {
+                    "contentId": "/ldp/91a4bb7f-d73d-4609-b900-c6a2a415b358", 
+                    "name": "Gaming"
+                }, 
+                {
+                    "contentId": "/ldp/62d838bb-2471-432c-b4db-f134f98157c2", 
+                    "name": "Cybersecurity"
+                }
+            ]
+        }, 
+        {
+            "name": "Entertainment & Arts Topics", 
+            "topics": [
+                {
+                    "contentId": "/cps/news/entertainment_and_arts", 
+                    "name": "Entertainment"
+                }, 
+                {
+                    "contentId": "/ldp/c85b2a53-395d-4055-829a-f042f4d3ec0d", 
+                    "name": "TV"
+                }, 
+                {
+                    "contentId": "/ldp/de648736-7268-454c-a7b1-dbff416f2865", 
+                    "name": "Music"
+                }, 
+                {
+                    "contentId": "/ldp/10164f51-11a5-42a0-8946-ffbead9a5413", 
+                    "name": "Media"
+                }, 
+                {
+                    "contentId": "/ldp/2611f753-ece7-47ea-9782-f912bc1e4088", 
+                    "name": "Film"
+                }, 
+                {
+                    "contentId": "/ldp/523deec9-02f8-4d6b-a577-37af3c5194ef", 
+                    "name": "Theatre"
+                }, 
+                {
+                    "contentId": "/ldp/37dcc888-51a7-4470-82d8-8ef2b811d482", 
+                    "name": "Art"
+                }
+            ]
+        }, 
+        {
+            "name": "Education & Family Topics", 
+            "topics": [
+                {
+                    "contentId": "/cps/news/education", 
+                    "name": "Education"
+                }, 
+                {
+                    "contentId": "/ldp/992e096e-28e6-412d-b6a1-652f78be63c7", 
+                    "name": "Children"
+                }, 
+                {
+                    "contentId": "/ldp/cf3a8a8a-8ba5-4a87-8fdf-80e4f5af6956", 
+                    "name": "Parenting"
+                }, 
+                {
+                    "contentId": "/ldp/595ee04a-d1cd-4a68-a0ad-be54c05b6f3e", 
+                    "name": "Schools"
+                }, 
+                {
+                    "contentId": "/ldp/617f2eb1-6c16-41f9-bb8d-2d64d639958a", 
+                    "name": "University"
+                }, 
+                {
+                    "contentId": "/ldp/61da8e70-0be5-4cc0-96be-099bc396c960", 
+                    "name": "Careers"
+                }
+            ]
+        }, 
+        {
+            "name": "Science & Environment Topics", 
+            "topics": [
+                {
+                    "contentId": "/cps/news/science_and_environment/", 
+                    "name": "Science"
+                }, 
+                {
+                    "contentId": "/ldp/84915d8d-467d-4c5e-88f7-bbb1bb5cf0dc", 
+                    "name": "Space exploration"
+                }, 
+                {
+                    "contentId": "/ldp/b6313976-a311-480f-a813-08caddad7a2f", 
+                    "name": "Agriculture"
+                }, 
+                {
+                    "contentId": "/ldp/14745d1f-885d-4b9f-b28a-24540e7beb15", 
+                    "name": "Animals"
+                }, 
+                {
+                    "contentId": "/ldp/e6369e45-f838-49cc-b5ac-857ed182e549", 
+                    "name": "Climate change"
+                }, 
+                {
+                    "contentId": "/ldp/d3be5d26-cb2b-4dcb-9402-149e7b48db76", 
+                    "name": "Engineering"
+                }, 
+                {
+                    "contentId": "/ldp/33cf3be9-6e9b-403a-989c-3c8d25e05724", 
+                    "name": "Physics"
+                }, 
+                {
+                    "contentId": "/ldp/4188f2c6-4d5a-43f1-b127-a235049bcbbc", 
+                    "name": "Genetics"
+                }
+            ]
+        }, 
+        {
+            "name": "Health Topics", 
+            "topics": [
+                {
+                    "contentId": "/cps/news/health", 
+                    "name": "Health"
+                }, 
+                {
+                    "contentId": "/ldp/90a7bae1-8eda-4f6d-b2fe-41a301a93ebb", 
+                    "name": "NHS"
+                }, 
+                {
+                    "contentId": "/ldp/814465c5-404b-4c88-889f-45907ba1f402", 
+                    "name": "Mental health"
+                }, 
+                {
+                    "contentId": "/ldp/caef8cfa-0291-4cc2-a887-9a3863cc1263", 
+                    "name": "Dementia"
+                }, 
+                {
+                    "contentId": "/ldp/583f320b-e25a-433c-ad39-b637a4f27866", 
+                    "name": "Cancer"
+                }, 
+                {
+                    "contentId": "/ldp/afb55a6e-921b-45ac-9108-7f11b4a0ea2d", 
+                    "name": "Fitness"
+                }, 
+                {
+                    "contentId": "/ldp/b5a68823-bb0c-4229-b142-d6d5e09e113f", 
+                    "name": "Diet & Nutrition"
+                }, 
+                {
+                    "contentId": "/ldp/99fb9bbd-9150-4e13-a3ac-3fa0610683f8", 
+                    "name": "Food"
+                }
+            ]
+        }, 
+        {
+            "name": "Other Topics", 
+            "topics": [
+                {
+                    "contentId": "/ldp/a1c14222-e7ab-45a2-a074-3cdc1045607c", 
+                    "name": "Disability"
+                }, 
+                {
+                    "contentId": "/ldp/8b04c2e8-5409-4e7d-9877-3ccaf04727af", 
+                    "name": "Human rights"
+                }, 
+                {
+                    "contentId": "/ldp/911f368c-e756-4ac3-9667-ec8900ceb4ce", 
+                    "name": "LGBT"
+                }, 
+                {
+                    "contentId": "/ldp/8abd564a-2b8e-401c-9916-34982cb67b55", 
+                    "name": "Women's rights"
+                }, 
+                {
+                    "contentId": "/ldp/f8694a4e-7ffd-4fc1-ab94-6d1d5597528a", 
+                    "name": "Race and ethnicity"
+                }
+            ]
+        }, 
+        {
+            "name": "Sport Topics", 
+            "topics": [
+                {
+                    "contentId": "/cps/sport/front-page", 
+                    "name": "Sport"
+                }, 
+                {
+                    "contentId": "/cps/sport/football", 
+                    "name": "Football"
+                }, 
+                {
+                    "contentId": "/cps/sport/cricket", 
+                    "name": "Cricket"
+                }, 
+                {
+                    "contentId": "/cps/sport/formula1", 
+                    "name": "Formula 1"
+                }, 
+                {
+                    "contentId": "/cps/sport/rugby-league", 
+                    "name": "Rugby League"
+                }, 
+                {
+                    "contentId": "/cps/sport/tennis", 
+                    "name": "Tennis"
+                }, 
+                {
+                    "contentId": "/cps/sport/athletics", 
+                    "name": "Athletics"
+                }
+            ]
+        }, 
+        {
+            "name": "And finally", 
+            "topics": [
+                {
+                    "contentId": "/cps/news/magazine", 
+                    "name": "Magazine"
+                }, 
+                {
+                    "contentId": "/ldp/b4601435-b3e3-489f-874d-2b71b03db35d", 
+                    "name": "Inspiring stories"
+                }, 
+                {
+                    "contentId": "/ldp/08150f2f-5df6-4101-ad64-e4bf3236b739", 
+                    "name": "Rewind"
+                }, 
+                {
+                    "contentId": "/cps/newsbeat/front_page", 
+                    "name": "Newsbeat"
+                }, 
+                {
+                    "contentId": "/cps/news/in_pictures", 
+                    "name": "In Pictures"
+                }, 
+                {
+                    "contentId": "/ldp/600f5f16-b048-42fd-af04-c1e03b2dd9ba", 
+                    "name": "BBC Trending"
+                }, 
+                {
+                    "contentId": "/ldp/f574c57f-ebe0-469d-8d69-f281641d0535", 
+                    "name": "News from Elsewhere"
+                }, 
+                {
+                    "contentId": "/cps/news/also_in_the_news", 
+                    "name": "Also in the News"
+                }, 
+                {
+                    "contentId": "/ldp/ea2c5d34-4279-4e06-b69a-e699321d7f9f", 
+                    "name": "Social media"
+                }, 
+                {
+                    "contentId": "/ldp/20b7b622-c5a1-42c3-a4ea-9154acf72eb7", 
+                    "name": "Twitter"
+                }, 
+                {
+                    "contentId": "/ldp/3c3f3366-06ea-44fc-afa8-aa3bfac49a87", 
+                    "name": "Facebook"
+                }
+            ]
+        }
+    ]
+}

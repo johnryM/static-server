@@ -1,0 +1,118 @@
+{
+	"id" : "/handrail",
+	"type" : "bbc.mobile.news.collection",
+	"lastUpdated" : 1412938628000,
+	"name" : "More Topics",
+	"relations" : [
+				   {
+				   "primaryType" : "bbc.mobile.news.collection",
+				   "secondaryType" : "bbc.mobile.news.handrail",
+				   "content" : {
+				       "id" : "/cps/mundo/front_page",
+				       "type" : "bbc.mobile.news.collection",
+				       "lastUpdated" : 1412938628000,
+				       "name" : "Noticias"
+				       }
+				   },
+				   {
+				   "primaryType" : "bbc.mobile.news.collection",
+				   "secondaryType" : "bbc.mobile.news.handrail",
+				   "content" : {
+					   "id" : "/cps/mundo/america_latina",
+					   "type" : "bbc.mobile.news.collection",
+					   "lastUpdated" : 1412938628000,
+					   "name" : "América Latina"
+					   }
+				   },
+				   {
+				   "primaryType" : "bbc.mobile.news.collection",
+				   "secondaryType" : "bbc.mobile.news.handrail",
+				   "content" : {
+					   "id" : "/cps/mundo/internacional",
+					   "type" : "bbc.mobile.news.collection",
+					   "lastUpdated" : 1412938628000,
+					   "name" : "Internacional"
+					   }
+				   },
+				   {
+				   "primaryType" : "bbc.mobile.news.collection",
+				   "secondaryType" : "bbc.mobile.news.handrail",
+				   "content" : {
+					   "id" : "/ldp/ca170ae3-99c1-48db-9b67-2866f85e7342",
+					   "type" : "bbc.mobile.news.collection",
+					   "lastUpdated" : 1412938628000,
+					   "name" : "Economía"
+					   }
+				   },
+				   {
+				   "primaryType" : "bbc.mobile.news.collection",
+				   "secondaryType" : "bbc.mobile.news.handrail",
+				   "content" : {
+					   "id" : "/ldp/31684f19-84d6-41f6-b033-7ae08098572a",
+					   "type" : "bbc.mobile.news.collection",
+					   "lastUpdated" : 1412938628000,
+					   "name" : "Tecnología"
+					   }
+				   },
+				   {
+				   "primaryType" : "bbc.mobile.news.collection",
+				   "secondaryType" : "bbc.mobile.news.handrail",
+				   "content" : {
+					   "id" : "/ldp/0f469e6a-d4a6-46f2-b727-2bd039cb6b53",
+					   "type" : "bbc.mobile.news.collection",
+					   "lastUpdated" : 1412938628000,
+					   "name" : "Ciencia"
+					   }
+				   },
+				   {
+				   "primaryType" : "bbc.mobile.news.collection",
+				   "secondaryType" : "bbc.mobile.news.handrail",
+				   "content" : {
+					   "id" : "/ldp/c4794229-7f87-43ce-ac0a-6cfcd6d3cef2",
+					   "type" : "bbc.mobile.news.collection",
+					   "lastUpdated" : 1412938628000,
+					   "name" : "Salud"
+					   }
+				   },
+				   {
+				   "primaryType" : "bbc.mobile.news.collection",
+				   "secondaryType" : "bbc.mobile.news.handrail",
+				   "content" : {
+					   "id" : "/ldp/6a73afa3-ea6b-45c1-80bb-49060b99f864",
+					   "type" : "bbc.mobile.news.collection",
+					   "lastUpdated" : 1412938628000,
+					   "name" : "Cultura"
+					   }
+				   },
+				   {
+				   "primaryType" : "bbc.mobile.news.collection",
+				   "secondaryType" : "bbc.mobile.news.handrail",
+				   "content" : {
+					   "id" : "/cps/mundo/deportes",
+					   "type" : "bbc.mobile.news.collection",
+					   "lastUpdated" : 1412938628000,
+					   "name" : "Deportes"
+					   }
+				   },
+				   {
+				   "primaryType" : "bbc.mobile.news.collection",
+				   "secondaryType" : "bbc.mobile.news.handrail",
+				   "content" : {
+					   "id" : "/cps/mundo/video",
+					   "type" : "bbc.mobile.news.collection",
+					   "lastUpdated" : 1412938628000,
+					   "name" : "Video"
+					   }
+				   },
+				   {
+				   "primaryType" : "bbc.mobile.news.collection",
+				   "secondaryType" : "bbc.mobile.news.handrail",
+				   "content" : {
+					   "id" : "/cps/mundo/fotos",
+					   "type" : "bbc.mobile.news.collection",
+					   "lastUpdated" : 1412938628000,
+					   "name" : "Fotos"
+					   }
+				   }
+				   ]
+}

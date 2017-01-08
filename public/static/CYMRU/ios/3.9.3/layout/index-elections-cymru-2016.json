@@ -1,0 +1,30 @@
+{
+	"$":"index",
+	"content":["/cps/newyddion/etholiad/2016"],
+	"format": ["bbc.mobile.news.cps.idx", "bbc.mobile.news.legacy.idx"],
+    "modules": [
+
+		{"$":"primaryItem",      "$secondary":"$st_top_stories_welsh"},
+        {"$":"advert",            "type":"banner", "mode!=compact":{"paddingBottom":8}},
+		{"$":"secondaryItems",   "$secondary":"$st_top_stories_welsh"},
+                
+        {"$":"infoBoxLinkRed", "paddingTop":16, "title":"Canlyniadau", "contentLink":"http://www.bbc.co.uk/cymrufyw/etholiad/2016/canlyniadau"},
+        {"$":"infoBoxLinkRed", "paddingTop":0, "title":"Etholaethau a Rhanbarthau A-Y", "contentLink":"http://www.bbc.co.uk/cymrufyw/gwleidyddiaeth/cymru-etholaethau"},
+        {"$":"infoBoxLinkRed", "paddingTop":0, "title":"Heddlu", "contentLink":"http://www.bbc.co.uk/cymrufyw/etholiad/2016/heddlu"},
+        
+		{"$":"avCarousel",       "$secondary":"$st_av_carousel_welsh"},
+		{"$":"otherItems",       "$secondary":"$st_top_stories_welsh"},
+        {"$":"advert",           "type":"mpu"},
+                
+		{"$":"title", "title":   "Pigion"},
+		{"$":"featureGroup",     "modes":["!tablet"], "$secondary":"$st_features", "limit": 2},
+		{"$":"featureGroup_2col","modes":["!tablet"], "$secondary":"$st_features", "limit": 10, "offset": 2},
+		{"$":"featuresSection",  "modes":["tablet"],  "$secondary":"$st_features"},
+		
+		{"$":"title", "title":   "Gwleidyddiaeth"},
+		{"$":"otherItems",       "$secondary":"$st_welsh_gwleidyddiaeth", "allowIncompleteRows":true},
+
+		{"$":"copyright"}
+                
+	]
+}

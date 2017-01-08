@@ -1,0 +1,39 @@
+{
+    "$":"index",
+    "content": ["/most_popular/news"],
+    "modules": [
+        {
+            "modes": ["tablet"],
+            "padding": "{0,56,0,56}",
+            "class": "BNHorizontalLinearLayout",
+            "modules": [
+                {
+                    "class": "BNVerticalLinearLayout",
+                    "modules": [
+                        {"$":"title", "title":"Most Read", "padding":"{32,8,0,0}"},
+                        {"$":"mostReadGroup"}
+                    ]
+                },
+                {
+                    "class": "BNVerticalLinearLayout",
+                    "modules": [
+                        {"$":"title", "title":"Most Watched", "padding":"{32,8,0,0}"},
+                        {"$":"mostWatchedGroup"}
+                    ]
+                }
+            ]
+        },
+        {
+            "modes": ["!tablet"],
+            "class": "BNVerticalLinearLayout",
+            "modules": [
+                {"$":"title", "title":"Most Read"},
+                {"$":"mostReadGroup", "limit": 10, "orientation":"landscape", "H":2},
+                {"$":"title", "title":"Most Watched"},
+                {"$":"mostWatchedGroup", "limit": 10, "orientation":"landscape", "H":2}
+                        
+            ]
+        },
+        {"$":"copyright"}
+    ]
+}

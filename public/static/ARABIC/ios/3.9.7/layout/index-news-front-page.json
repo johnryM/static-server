@@ -1,0 +1,165 @@
+{
+  "$": "index",
+  "content": ["/cps/arabic/front_page"],
+  "modules": [
+              
+    {"$": "primaryItem", "limit": 1, "$secondary": [
+                                                     
+        "bbc.mobile.news.group.top-story+",
+        "bbc.mobile.news.group.more-top-stories+"
+      ]
+    }
+    ,
+    {"$": "secondaryItems", "offset": 1, "limit": 12, "$secondary": [
+                                                                     
+        "bbc.mobile.news.group.top-story+",
+        "bbc.mobile.news.group.more-top-stories+",
+        "bbc.mobile.news.group.top-stories-overflow+"
+      ]
+    }
+    ,
+    {"$": "avCarousel", "limit": 6, "$secondary": [
+                                                    
+        "bbc.mobile.news.group.watch-listen+"
+      ]
+    }
+    ,
+    {"$": "title", "title": "تقارير خاصة" },
+    {"$": "tightGroup", "limit": 1, "$secondary": [
+                                                    
+        "bbc.mobile.news.group.special-reports-1"
+      ]
+    }
+    ,
+    {"$": "twoDigestGroups",
+      "$1": [
+             
+        {"$": "digestTitle", "title": " أخبار الشرق الأوسط"},
+        {"$": "digestGroup", "limit": 1,"$secondary": [
+                                                      
+            "bbc.mobile.news.group.showcase-1+"
+          ]
+        }
+      ]
+      ,
+      "$2": [
+        {"$": "digestTitle", "title": "أخبار العالم"},
+        {"$": "digestGroup", "limit": 1, "$secondary": [
+                                                        
+            "bbc.mobile.news.group.showcase-2+"
+          ]
+        }
+      ]
+    }
+    ,
+    {"$": "twoDigestGroups",
+      "$1": [
+             
+        {"$": "digestTitle", "title": "اقتصاد وأعمال"},
+        {"$": "digestGroup", "limit": 1, "$secondary": [
+                                                        
+            "bbc.mobile.news.group.showcase-3+"
+          ]
+        }
+      ]
+      ,
+      "$2": [
+        {"$": "digestTitle", "title": "علوم وتكنولوجيا"},
+        {"$": "digestGroup", "limit": 1, "$secondary": [
+                                                        
+            "bbc.mobile.news.group.showcase-4+"
+          ]
+        }
+      ]
+    }
+    ,
+    {"$": "twoDigestGroups",
+      "$1": [
+             
+        {"$": "digestTitle", "title": "ثقافة وفنون"},
+        {"$": "digestGroup", "limit": 1, "$secondary": [
+                                                        
+            "bbc.mobile.news.group.showcase-5+"
+          ]
+        }
+      ]
+      ,
+      "$2": [
+             
+        {"$": "digestTitle", "title": "رياضة"},
+        {"$": "digestGroup", "limit": 1, "$secondary": [
+                                                        
+            "bbc.mobile.news.group.showcase-6+"
+          ]
+        }
+      ]
+    }
+    ,
+    {"$": "title", "title": "برامجنا"},
+    {"$": "tightGroup", "limit": 2, "$secondary": [
+                                                   
+        "bbc.mobile.news.group.programmes+"
+      ]
+    }
+    ,
+    {"$":"title", "modes":["tablet"], "title": "عرض الصحف"},
+    {"$":"featureGroup", "limit":1, "modes":["tablet"], "mode==portrait":{"imageAspect":0.28125}, "$secondary": [
+                                                                                                                                        
+        "bbc.mobile.news.group.the-papers+"
+      ]
+    }
+    ,
+    {"$":"title", "modes":["!tablet"], "title": "عرض الصحف"},
+    {"$":"featureGroup", "limit":1, "modes":["!tablet"], "$secondary": [
+                                                                       
+        "bbc.mobile.news.group.the-papers+"
+      ]
+    }
+    ,
+    {"$": "title", "title": "مجلة"},
+    {"$": "featureGroup", "limit": 2, "$secondary": [
+                                                     
+        "bbc.mobile.news.group.verticals+"
+      ]
+    }
+    ,
+    {"$": "digestTitle", "title": "بي بي سي ترند"},
+    {"$": "digestGroup", "limit": 1, "$secondary": [
+                                                    
+        "bbc.mobile.news.group.blogs+"
+      ]
+    }
+    ,
+    {"$": "title", "title": "تقارير خاصة"},
+    {"$": "tightGroup", "limit": 1, "$secondary": [
+                                                   
+        "bbc.mobile.news.group.special-reports-2"
+      ]
+    }
+    ,
+    {"$": "title", "title": "اخترنا لكم"},
+    {"$":"normalGroup", "limit": 6, "secondary":[
+                           
+         "bbc.mobile.news.group.features+"
+        ], "mode==tablet":{"H":2, "cellsPerRow":2,
+              "mode==portrait":{
+                "orientation":"portrait"
+              }
+              ,
+              "mode==landscape":{
+                "orientation":"landscapeWithFullWidthHeadline",
+                "imageWidth":192
+              }
+        }
+    }
+    ,
+    {"$": "title", "title": "بالصور"},
+    {"$": "photosGroup","limit": 4,"$secondary": [
+                                                  
+        "bbc.mobile.news.group.picture-galleries+"
+      ]
+    }
+    ,
+    {"$": "copyright"}
+  ]
+}

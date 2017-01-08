@@ -1,0 +1,61 @@
+{
+  "sections": [
+    {
+      "name": "темы",
+      "items": [
+        {
+            "contentId" : "/cps/russian/front_page",
+            "name" : "Главная"
+        },
+        {
+            "contentId" : "/cps/russian/news",
+            "name" : "Новости"
+        },
+        {
+            "contentId" : "/ldp/39267b85-1784-4f4b-80ed-f8cb4a35f337",
+            "name" : "Россия"
+        },
+        {
+            "contentId" : "/cps/russian/video",
+            "name" : "видео"
+        },
+        {
+            "contentId" : "/ldp/2e91364c-5c77-4660-b76e-d76202785e64",
+            "name" : "Британия"
+        },
+        {
+            "contentId" : "/ldp/2f2db234-3c2d-40a4-b4ac-eea661faadd0",
+            "name" : "Экономика"
+        },
+        {
+            "contentId" : "/ldp/37dcc888-51a7-4470-82d8-8ef2b811d482",
+            "name" : "Искусство"
+        },
+        {
+            "contentId" : "/ldp/4063f80f-cccc-44c8-9449-5ca44e4c8592",
+            "name" : "Спорт"
+        },
+        {
+            "contentId" : "/ldp/0f469e6a-d4a6-46f2-b727-2bd039cb6b53",
+            "name" : "Наука"
+        },
+        {
+            "contentId" : "/cps/russian/features",
+            "name" : "Подробности"
+        },
+        {
+            "contentId" : "/cps/russian/photogalleries",
+            "name" : "фото"
+        },
+        {
+            "contentId" : "/cps/russian/other_news",
+            "name" : "А также"
+        },
+        {
+            "contentId" : "/cps/russian/learning_english",
+            "name" : "Leaning English"
+        }
+      ]
+    }
+  ]
+}

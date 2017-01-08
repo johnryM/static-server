@@ -1,0 +1,123 @@
+{
+    "version"       : 2.3,
+    "flavour"       : "news-android-hindi",
+    "killSwitch"    : false,
+    "endpoints" : {
+        "policy"   : {
+            "href" : "http://philippa-producer-cdn.api.bbci.co.uk/static/{app_flavour}/android/{public_version_no}/policy.json",
+            "flag" : "green",
+            "ttl"  : 3600
+        },
+        "content"  : {
+            "href" : "http://philippa-producer-cdn.api.bbci.co.uk/content{cps_id}?createdBy=hindi&language=hi",
+            "flag" : "green",
+            "ttl"  : 600
+        },
+        "layout"   : {
+            "href" : "http://philippa-producer-cdn.api.bbci.co.uk/static/{app_flavour}/android/{public_version_no}/",
+            "flag" : "green",
+            "ttl"  : 3600
+        },
+        "media"    : {
+            "href" : "http://open.live.bbc.co.uk/mediaselector/5/select/version/2.0/mediaset/%2s/vpid/%1s/transferformat/%3s/format/json",
+            "flag" : "green",
+            "ttl"  : 0
+        },
+        "commentary" : {
+            "href" : "http://philippa-producer-cdn.api.bbci.co.uk/content",
+            "flag" : "green",
+            "ttl"  : 0
+        },
+        "resolver" : {
+            "href" : "http://philippa-resolver-cdn.api.bbci.co.uk/resolve?uri={cps_id}&createdBy=hindi&language=hi",
+            "flag" : "green",
+            "ttl"  : 0
+        },
+        "ichef" : {
+            "href" : "http://ichef.bbci.co.uk/moira/img/android/v3/%s%s",
+            "flag" : "green",
+            "ttl"  : 0
+        },
+        "visual_journalism" : {
+            "href" : "http://www.bbc.co.uk/",
+            "flag" : "green",
+            "ttl"  : 0
+        },
+        "handrail" : {
+            "href" : "http://philippa-producer-cdn.api.bbci.co.uk/static/{app_flavour}/android/{public_version_no}/handrail.json",
+            "flag" : "green",
+            "ttl"  : 600
+        }
+    },
+    "defaultContent" : {
+        "default": [
+            {
+                "id": "/cps/hindi/front_page",
+                "name": "होम पेज",
+                "type": "bbc.mobile.news.collection",
+                "isStartUpTopic": true
+            },
+            {
+                "id": "/cps/hindi/india",
+                "name": "भारत",
+                "type": "bbc.mobile.news.collection"
+            },
+            {
+                "id": "/cps/hindi/international",
+                "name": "अंतरराष्ट्रीय",
+                "type": "bbc.mobile.news.collection"
+            },
+            {
+                "id": "/cps/hindi/entertainment",
+                "name": "मनोरंजन",
+                "type": "bbc.mobile.news.collection"
+            },
+            {
+                "id": "/cps/hindi/sport",
+                "name": "खेल",
+                "type": "bbc.mobile.news.collection"
+            },
+            {
+                "id": "/cps/hindi/institutional-37361445",
+                "name": "रेडियो",
+                "type": "bbc.mobile.news.item"
+            },
+            {
+                "id": "/cps/hindi/science",
+                "name": "विज्ञान-टेक्नॉलॉजी",
+                "type": "bbc.mobile.news.collection"
+            },
+            {
+                "id": "/cps/hindi/video",
+                "name": "देखिए",
+                "type": "bbc.mobile.news.collection"
+            },
+            {
+                "id": "/cps/hindi/photogalleries",
+                "name": "तस्वीरें",
+                "type": "bbc.mobile.news.collection"
+            },
+            {
+                "id": "/cps/hindi/social",
+                "name": "सोशल",
+                "type": "bbc.mobile.news.collection"
+            }
+        ]
+    },
+    "imageChefRecipes": [80, 100, 128, 160, 200, 240, 288, 320, 360, 400, 432, 480, 512, 576, 640, 720, 768, 800, 854, 960, 1024, 1080,
+        1136, 1152, 1200, 1280, 1440, 1536, 1600, 1920, 2048, 2560],
+    "topStoriesId"    : "/cps/hindi/front_page",
+    "startingContent" : "/cps/hindi/front_page",
+    "helpUrl"         : "/cps/hindi/institutional-37342292",
+    "contactEmail"    : "hindi.letters@bbc.co.uk",
+    "termsAndConditionsUrl" : "http://www.bbc.com/hindi/institutional-37342293",
+    "privacyPolicyUrl" : "http://www.bbc.com/hindi/institutional-37342614",
+    "storeUrl"        : "market://search?q=pub:Media+Applications+Technologies+for+the+BBC",
+    "maxIndexesToSync": 25,
+    "maxIndexesToSync3G": 25,
+    "maxStoriesToSync": -1,
+    "maxStoriesToSync3G": 10,
+    "visualJournalism": {
+       "loadingTimeout": 15
+    }
+}

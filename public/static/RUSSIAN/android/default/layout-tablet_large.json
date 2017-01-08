@@ -1,0 +1,640 @@
+{
+  "tablet-portrait-top-stories": {
+    "apply-first": "cps_index_base",
+    "filter": {
+      "site": [
+        "/russian"
+      ],
+      "content": [
+        "/cps/russian/front_page"
+      ],
+      "format": [
+        "bbc.mobile.news.cps.idx"
+      ],
+      "orientation": [
+        "portrait"
+      ]
+    },
+    "modules": [
+      {
+        "id": "top-story",
+        "presenter": "top-story",
+        "filter": {
+          "primary": [
+            "bbc.mobile.news.item"
+          ],
+          "offset": 0,
+          "limit": 1,
+          "secondary": [
+            "bbc.mobile.news.group.top-story",
+            "bbc.mobile.news.group.more-top-stories",
+            "bbc.mobile.news.group.top-stories-overflow"
+          ]
+        },
+        "config": {
+          "script-top": "true"
+        }
+      },
+      {
+        "id": "stories",
+        "presenter": "2-stories-per-row",
+        "filter": {
+          "primary": [
+            "bbc.mobile.news.item"
+          ],
+          "offset": 1,
+          "limit": 4,
+          "secondary": [
+            "bbc.mobile.news.group.top-story",
+            "bbc.mobile.news.group.more-top-stories",
+            "bbc.mobile.news.group.top-stories-overflow"
+          ]
+        },
+        "config": {
+          "script-below": "top-story"
+        }
+      },
+      {
+        "id": "latest-news",
+        "config": {
+          "script-below": "stories"
+        },
+        "filter": {
+          "secondary": [
+            "bbc.mobile.news.group.latest-news"
+          ],
+          "offset": 0,
+          "limit": 3
+        },
+        "presenter": "1-story-per-row"
+      },
+      {
+        "id": "stories-2",
+        "config": {
+          "script-below": "latest-news"
+        },
+        "filter": {
+          "secondary": [
+            "bbc.mobile.news.group.top-story",
+            "bbc.mobile.news.group.more-top-stories",
+            "bbc.mobile.news.group.top-stories-overflow"
+          ],
+          "offset": 5,
+          "limit": -1
+        },
+        "presenter": "2-stories-per-row"
+      },
+      {
+        "id": "av-story-carousel",
+        "presenter": "av-story-carousel",
+        "filter": {
+          "subFilters": [
+
+          ],
+          "primary": [
+            "bbc.mobile.news.item"
+          ],
+          "secondary": [
+            "bbc.mobile.news.group.watch-listen",
+            "bbc.mobile.news.group.av-stories-live"
+          ],
+          "offset": 0,
+          "limit": -1
+        },
+        "config": {
+          "script-below": "stories-2"
+        }
+      },
+      {
+        "id": "press-review",
+        "config": {
+          "script-below": "av-story-carousel",
+          "title": "Press Review",
+          "title-id": "layout_press_review"
+        },
+        "filter": {
+          "primary": [
+            "bbc.mobile.news.item"
+          ],
+          "secondary": [
+            "bbc.mobile.news.group.the-papers"
+          ],
+          "offset": 0,
+          "limit": -1
+        },
+        "presenter": "1-story-per-row"
+      },
+      {
+        "id": "also-in-the-news",
+        "config": {
+          "script-below": "press-review",
+          "title": "Also in the News",
+          "title-id": "layout_also_in_the_news",
+          "showIncompleteRows": true
+        },
+        "filter": {
+          "primary": [
+            "bbc.mobile.news.item"
+          ],
+          "secondary": [
+            "bbc.mobile.news.group.also-in-the-news"
+          ],
+          "offset": 0,
+          "limit": 2
+        },
+        "presenter": "2-stories-per-row"
+      },
+      {
+        "id": "journal",
+        "config": {
+          "script-below": "also-in-the-news",
+          "title": "Journal",
+          "title-id": "layout_journal",
+          "showIncompleteRows": true
+        },
+        "filter": {
+          "primary": [
+            "bbc.mobile.news.item"
+          ],
+          "secondary": [
+            "bbc.mobile.news.group.verticals"
+          ],
+          "offset": 0,
+          "limit": -1
+        },
+        "presenter": "1-story-per-row"
+      },
+      {
+        "id": "blogs",
+        "config": {
+          "script-below": "journal",
+          "title": "Blogs",
+          "title-id": "layout_blogs",
+          "showIncompleteRows": true
+        },
+        "filter": {
+          "primary": [
+            "bbc.mobile.news.item"
+          ],
+          "secondary": [
+            "bbc.mobile.news.group.blogs"
+          ],
+          "offset": 0,
+          "limit": 3
+        },
+        "presenter": "2-stories-per-row"
+      },
+      {
+        "id": "features-and-analysis-2",
+        "config": {
+          "script-below": "blogs",
+          "title": "Features & Analysis",
+          "title-id": "layout_features_analysis",
+          "style": "featured-large-phone",
+          "large-featured-style": "single-alternating-cutout",
+          "large-featured-rows-odd": 1,
+          "large-featured-rows-even": 1,
+          "remainder-stories-per-row": 1
+        },
+        "filter": {
+          "primary": [
+            "bbc.mobile.news.item"
+          ],
+          "secondary": [
+            "bbc.mobile.news.group.special-reports-2"
+          ],
+          "offset": 0,
+          "limit": 1
+        },
+        "presenter": "featured"
+      },
+      {
+        "id": "editor-choice",
+        "config": {
+          "script-below": "features-and-analysis-2",
+          "title": "Editor's choice",
+          "title-id": "layout_editor_choice"
+        },
+        "filter": {
+          "primary": [
+            "bbc.mobile.news.item"
+          ],
+          "secondary": [
+            "bbc.mobile.news.group.features"
+          ],
+          "offset": 0,
+          "limit": 10
+        },
+        "presenter": "2-stories-per-row"
+      },
+      {
+        "id": "in-pictures",
+        "config": {
+          "script-below": "editor-choice",
+          "style": "photo-gallery",
+          "title": "In Pictures",
+          "title-id": "layout_in_pictures"
+        },
+        "filter": {
+          "primary": [
+            "bbc.mobile.news.item"
+          ],
+          "secondary": [
+            "bbc.mobile.news.group.picture-galleries"
+          ],
+          "offset": 0,
+          "limit": 4
+        },
+        "presenter": "1-story-per-row"
+      },
+      {
+        "id": "copyright",
+        "presenter": "copyright"
+      }
+    ]
+  },
+  "tablet-landscape-top-stories": {
+    "apply-first": "cps_index_base",
+    "filter": {
+      "site": [
+        "/russian"
+      ],
+      "content": [
+        "/cps/russian/front_page"
+      ],
+      "format": [
+        "bbc.mobile.news.cps.idx"
+      ],
+      "orientation": [
+        "landscape"
+      ]
+    },
+    "modules": [
+      {
+        "id": "top-story",
+        "presenter": "top-story",
+        "filter": {
+          "primary": [
+            "bbc.mobile.news.item"
+          ],
+          "offset": 0,
+          "limit": 1,
+          "secondary": [
+            "bbc.mobile.news.group.top-story",
+            "bbc.mobile.news.group.more-top-stories",
+            "bbc.mobile.news.group.top-stories-overflow"
+          ]
+        },
+        "config": {
+          "script-top": "true"
+        }
+      },
+      {
+        "id": "stories",
+        "presenter": "4-stories-per-row",
+        "filter": {
+          "primary": [
+            "bbc.mobile.news.item"
+          ],
+          "offset": 1,
+          "limit": 4,
+          "secondary": [
+            "bbc.mobile.news.group.top-story",
+            "bbc.mobile.news.group.more-top-stories",
+            "bbc.mobile.news.group.top-stories-overflow"
+          ]
+        },
+        "config": {
+          "script-below": "top-story"
+        }
+      },
+      {
+        "id": "latest-news",
+        "config": {
+          "script-below": "stories",
+          "showIncompleteRows": true
+        },
+        "filter": {
+          "secondary": [
+            "bbc.mobile.news.group.latest-news"
+          ],
+          "offset": 0,
+          "limit": 3
+        },
+        "presenter": "3-stories-per-row"
+      },
+      {
+        "id": "stories-2",
+        "config": {
+          "script-below": "latest-news"
+        },
+        "filter": {
+          "secondary": [
+            "bbc.mobile.news.group.top-story",
+            "bbc.mobile.news.group.more-top-stories",
+            "bbc.mobile.news.group.top-stories-overflow"
+          ],
+          "offset": 5,
+          "limit": -1
+        },
+        "presenter": "4-stories-per-row"
+      },
+      {
+        "id": "av-story-carousel",
+        "presenter": "av-story-carousel",
+        "filter": {
+          "subFilters": [
+
+          ],
+          "primary": [
+            "bbc.mobile.news.item"
+          ],
+          "secondary": [
+            "bbc.mobile.news.group.watch-listen",
+            "bbc.mobile.news.group.av-stories-live"
+          ],
+          "offset": 0,
+          "limit": -1
+        },
+        "config": {
+          "script-below": "stories-2"
+        }
+      },
+      {
+        "id": "press-review",
+        "config": {
+          "script-below": "av-story-carousel",
+          "title": "Press Review",
+          "title-id": "layout_press_review"
+        },
+        "filter": {
+          "primary": [
+            "bbc.mobile.news.item"
+          ],
+          "secondary": [
+            "bbc.mobile.news.group.the-papers"
+          ],
+          "offset": 0,
+          "limit": -1
+        },
+        "presenter": "2-stories-per-row"
+      },
+      {
+        "id": "also-in-the-news",
+        "config": {
+          "script-below": "press-review",
+          "title": "Also in the News",
+          "title-id": "layout_also_in_the_news",
+          "showIncompleteRows": true
+        },
+        "filter": {
+          "primary": [
+            "bbc.mobile.news.item"
+          ],
+          "secondary": [
+            "bbc.mobile.news.group.also-in-the-news"
+          ],
+          "offset": 0,
+          "limit": 2
+        },
+        "presenter": "2-stories-per-row"
+      },
+      {
+        "id": "journal",
+        "config": {
+          "script-below": "also-in-the-news",
+          "title": "Journal",
+          "title-id": "layout_journal",
+          "showIncompleteRows": true
+        },
+        "filter": {
+          "primary": [
+            "bbc.mobile.news.item"
+          ],
+          "secondary": [
+            "bbc.mobile.news.group.verticals"
+          ],
+          "offset": 0,
+          "limit": -1
+        },
+        "presenter": "2-stories-per-row"
+      },
+      {
+        "id": "blogs",
+        "config": {
+          "script-below": "journal",
+          "title": "Blogs",
+          "title-id": "layout_blogs",
+          "showIncompleteRows": true
+        },
+        "filter": {
+          "primary": [
+            "bbc.mobile.news.item"
+          ],
+          "secondary": [
+            "bbc.mobile.news.group.blogs"
+          ],
+          "offset": 0,
+          "limit": 3
+        },
+        "presenter": "2-stories-per-row"
+      },
+      {
+        "id": "features-and-analysis-2",
+        "config": {
+          "script-below": "blogs",
+          "title": "Features & Analysis",
+          "title-id": "layout_features_analysis",
+          "style": "featured-large-phone",
+          "showIncompleteRows": true
+        },
+        "filter": {
+          "primary": [
+            "bbc.mobile.news.item"
+          ],
+          "secondary": [
+            "bbc.mobile.news.group.special-reports-2"
+          ],
+          "offset": 0,
+          "limit": 1
+        },
+        "presenter": "2-stories-per-row"
+      },
+      {
+        "id": "editor-choice",
+        "config": {
+          "script-below": "features-and-analysis-2",
+          "title": "Editor's choice",
+          "title-id": "layout_editor_choice"
+        },
+        "filter": {
+          "primary": [
+            "bbc.mobile.news.item"
+          ],
+          "secondary": [
+            "bbc.mobile.news.group.features"
+          ],
+          "offset": 0,
+          "limit": 10
+        },
+        "presenter": "2-stories-per-row"
+      },
+      {
+        "id": "in-pictures",
+        "config": {
+          "script-below": "editor-choice",
+          "style": "photo-gallery",
+          "title": "In Pictures",
+          "title-id": "layout_in_pictures"
+        },
+        "filter": {
+          "primary": [
+            "bbc.mobile.news.item"
+          ],
+          "secondary": [
+            "bbc.mobile.news.group.picture-galleries"
+          ],
+          "offset": 0,
+          "limit": 4
+        },
+        "presenter": "2-stories-per-row"
+      },
+      {
+        "id": "copyright",
+        "presenter": "copyright"
+      }
+    ]
+  },
+  "tablet-portrait-index-default-ws": {
+    "apply-first": "ldp_default_base",
+    "filter": {
+      "site": [
+        "/russian",
+        "/ldp"
+      ],
+      "format": [
+        "bbc.mobile.news.cps.idx",
+        "bbc.linkeddata.concepts"
+      ],
+      "orientation": [
+        "portrait"
+      ]
+    },
+    "modules": [
+      {
+        "id": "top-story",
+        "presenter": "top-story",
+        "filter": {
+          "primary": [
+            "bbc.mobile.news.item"
+          ],
+          "offset": 0,
+          "limit": 1,
+          "secondary": [
+            "bbc.mobile.news.group.top-story",
+            "bbc.linkeddata.about.news",
+            "bbc.mobile.news.group.news-feed",
+            "bbc.mobile.news.group.index"
+          ]
+        },
+        "config": {
+          "script-top": "true"
+        }
+      },
+      {
+        "id": "stories",
+        "presenter": "2-stories-per-row",
+        "filter": {
+          "primary": [
+            "bbc.mobile.news.item"
+          ],
+          "offset": 1,
+          "limit": -1,
+          "secondary": [
+            "bbc.mobile.news.group.top-story",
+            "bbc.linkeddata.about.news",
+            "bbc.mobile.news.group.news-feed",
+            "bbc.mobile.news.group.index",
+            "bbc.linkeddata.about.feature"
+          ]
+        },
+        "config": {
+          "script-below": "top-story",
+          "style": "secondary-top-story"
+        }
+      },
+      {
+        "id": "stories-2",
+        "presenter": "2-stories-per-row"
+      },
+      {
+        "id": "copyright",
+        "presenter": "copyright"
+      }
+    ]
+  },
+  "tablet-landscape-index-default-ws": {
+    "apply-first": "ldp_default_base",
+    "filter": {
+      "site": [
+        "/russian",
+        "/ldp"
+      ],
+      "format": [
+        "bbc.mobile.news.cps.idx",
+        "bbc.linkeddata.concepts"
+      ],
+      "orientation": [
+        "landscape"
+      ]
+    },
+    "modules": [
+      {
+        "id": "top-story",
+        "presenter": "top-story",
+        "filter": {
+          "primary": [
+            "bbc.mobile.news.item"
+          ],
+          "offset": 0,
+          "limit": 1,
+          "secondary": [
+            "bbc.mobile.news.group.top-story",
+            "bbc.linkeddata.about.news",
+            "bbc.mobile.news.group.news-feed",
+            "bbc.mobile.news.group.index"
+          ]
+        },
+        "config": {
+          "script-top": "true"
+        }
+      },
+      {
+        "id": "stories",
+        "presenter": "2-stories-per-row",
+        "filter": {
+          "primary": [
+            "bbc.mobile.news.item"
+          ],
+          "offset": 1,
+          "limit": -1,
+          "secondary": [
+            "bbc.mobile.news.group.top-story",
+            "bbc.linkeddata.about.news",
+            "bbc.mobile.news.group.news-feed",
+            "bbc.mobile.news.group.index",
+            "bbc.linkeddata.about.feature"
+          ]
+        },
+        "config": {
+          "script-below": "top-story",
+          "style": "secondary-top-story"
+        }
+      },
+      {
+        "id": "copyright",
+        "presenter": "copyright"
+      }
+    ]
+  }
+}

@@ -1,0 +1,811 @@
+{
+  "phone-portrait-top-stories": {
+    "apply-first": "cps_index_base",
+    "filter": {
+      "site": [
+        "/hindi"
+      ],
+      "content": [
+        "/cps/hindi/front_page"
+      ],
+      "format": [
+        "bbc.mobile.news.cps.idx"
+      ],
+      "orientation": [
+        "portrait"
+      ]
+    },
+    "modules": [
+      {
+        "id": "top-story",
+        "presenter": "top-story",
+        "filter": {
+          "primary": [
+            "bbc.mobile.news.item"
+          ],
+          "offset": 0,
+          "limit": 1,
+          "secondary": [
+            "bbc.mobile.news.group.top-story",
+            "bbc.mobile.news.group.more-top-stories",
+            "bbc.mobile.news.group.top-stories-overflow"
+          ]
+        },
+        "config": {
+          "script-top": "true"
+        },
+        "presenter~compact": "1-story-per-row",
+        "config~compact": {
+          "topPadding": true
+        }
+      },
+      {
+        "id": "stories",
+        "presenter": "1-story-per-row",
+        "filter": {
+          "primary": [
+            "bbc.mobile.news.item"
+          ],
+          "offset": 1,
+          "limit": 9,
+          "secondary": [
+            "bbc.mobile.news.group.top-story",
+            "bbc.mobile.news.group.more-top-stories",
+            "bbc.mobile.news.group.top-stories-overflow"
+          ]
+        },
+        "config": {
+          "script-below": "top-story"
+        }
+      },
+      {
+        "id": "features-and-analysis-1",
+        "config": {
+          "script-below": "stories",
+          "title": "बीबीसी विशेष",
+          "style": "featured-large-phone"
+        },
+        "filter": {
+          "primary": [
+            "bbc.mobile.news.item"
+          ],
+          "secondary": [
+            "bbc.mobile.news.group.special-reports-1"
+          ],
+          "offset": 0,
+          "limit": 1
+        },
+        "presenter": "1-story-per-row",
+        "config~compact": {
+          "summaryOnly": true
+        }
+      },
+      {
+        "id": "in-pictures",
+        "config": {
+          "script-below": "features-and-analysis-1",
+          "style": "photo-gallery",
+          "title": "तस्वीरों में",
+          "title-id": "layout_in_pictures"
+        },
+        "filter": {
+          "primary": [
+            "bbc.mobile.news.item"
+          ],
+          "secondary": [
+            "bbc.mobile.news.group.picture-galleries"
+          ],
+          "offset": 0,
+          "limit": 2
+        },
+        "presenter": "1-story-per-row"
+      },
+      {
+        "id": "stories-2",
+        "config": {
+          "script-below": "in-pictures",
+          "title": "अन्य बड़ी ख़बरें"
+        },
+        "filter": {
+          "primary": [
+            "bbc.mobile.news.item"
+          ],
+          "secondary": [
+            "bbc.mobile.news.group.other-top-stories"
+          ],
+          "offset": 0,
+          "limit": 3
+        },
+        "presenter": "1-story-per-row"
+      },
+      {
+        "id": "av-story-carousel",
+        "presenter": "av-story-carousel",
+        "filter": {
+          "subFilters": [
+
+          ],
+          "primary": [
+            "bbc.mobile.news.item"
+          ],
+          "secondary": [
+            "bbc.mobile.news.group.watch-listen",
+            "bbc.mobile.news.group.av-stories-live"
+          ],
+          "offset": 0,
+          "limit": 7
+        },
+        "config": {
+          "script-below": "stories-2"
+        }
+      },
+      {
+        "id": "features-and-analysis-2",
+        "filter": {
+          "primary": [
+            "bbc.mobile.news.item"
+          ],
+          "secondary": [
+            "bbc.mobile.news.group.special-reports-2"
+          ],
+          "offset": 0,
+          "limit": 1
+        },
+        "config": {
+          "script-below": "av-story-carousel",
+          "title": "बीबीसी विशेष",
+          "style": "featured-large-phone"
+        },
+        "presenter": "1-story-per-row",
+        "config~compact": {
+          "title-id": "layout_features_analysis",
+          "summaryOnly": true
+        }
+      },
+      {
+        "id": "digest-verticals",
+        "config": {
+          "script-below": "features-and-analysis-2",
+          "title": "मैगज़ीन",
+          "style": "featured-large-phone"
+        },
+        "filter": {
+          "primary": [
+            "bbc.mobile.news.item"
+          ],
+          "secondary": [
+            "bbc.mobile.news.group.verticals"
+          ],
+          "offset": 0,
+          "limit": 2
+        },
+        "presenter": "1-story-per-row"
+      },
+      {
+        "id": "digest-india",
+        "config": {
+          "content": "/cps/hindi/india",
+          "script-below": "digest-verticals",
+          "title": "भारत",
+          "style": "digest"
+        },
+        "filter": {
+          "primary": [
+            "bbc.mobile.news.item"
+          ],
+          "secondary": [
+            "bbc.mobile.news.group.showcase-1"
+          ],
+          "offset": 0,
+          "limit": 1
+        },
+        "presenter": "1-story-per-row"
+      },
+      {
+        "id": "digest-international",
+        "config": {
+          "content": "/cps/hindi/international",
+          "script-below": "digest-india",
+          "title": "विदेश",
+          "style": "digest"
+        },
+        "filter": {
+          "primary": [
+            "bbc.mobile.news.item"
+          ],
+          "secondary": [
+            "bbc.mobile.news.group.showcase-2"
+          ],
+          "offset": 0,
+          "limit": 1
+        },
+        "presenter": "1-story-per-row"
+      },
+      {
+        "id": "digest-entertainment",
+        "config": {
+          "content": "/cps/hindi/entertainment",
+          "script-below": "digest-international",
+          "title": "मनोरंजन",
+          "style": "digest"
+        },
+        "filter": {
+          "primary": [
+            "bbc.mobile.news.item"
+          ],
+          "secondary": [
+            "bbc.mobile.news.group.showcase-3"
+          ],
+          "offset": 0,
+          "limit": 1
+        },
+        "presenter": "1-story-per-row"
+      },
+      {
+        "id": "digest-sport",
+        "config": {
+          "content": "/cps/hindi/sport",
+          "script-below": "digest-entertainment",
+          "title": "खेल",
+          "style": "digest"
+        },
+        "filter": {
+          "primary": [
+            "bbc.mobile.news.item"
+          ],
+          "secondary": [
+            "bbc.mobile.news.group.showcase-4"
+          ],
+          "offset": 0,
+          "limit": 1
+        },
+        "presenter": "1-story-per-row"
+      },
+      {
+        "id": "digest-science",
+        "config": {
+          "content": "/cps/hindi/science",
+          "script-below": "digest-sport",
+          "title": "विज्ञान-टेक्नॉलॉजी",
+          "style": "digest"
+        },
+        "filter": {
+          "primary": [
+            "bbc.mobile.news.item"
+          ],
+          "secondary": [
+            "bbc.mobile.news.group.showcase-5"
+          ],
+          "offset": 0,
+          "limit": 1
+        },
+        "presenter": "1-story-per-row"
+      },
+      {
+        "id": "digest-faces",
+        "config": {
+          "script-below": "digest-science",
+          "title": "चर्चित चेहरा",
+          "style": "digest"
+        },
+        "filter": {
+          "primary": [
+            "bbc.mobile.news.item"
+          ],
+          "secondary": [
+            "bbc.mobile.news.group.showcase-6"
+          ],
+          "offset": 0,
+          "limit": 1
+        },
+        "presenter": "1-story-per-row"
+      },
+      {
+        "id": "features-and-analysis-3",
+        "config": {
+          "script-below": "digest-faces",
+          "title": "बीबीसी विशेष",
+          "style": "featured-large-phone"
+        },
+        "filter": {
+          "primary": [
+            "bbc.mobile.news.item"
+          ],
+          "secondary": [
+            "bbc.mobile.news.group.section-1"
+          ],
+          "offset": 0,
+          "limit": 1
+        },
+        "presenter": "1-story-per-row"
+      },
+      {
+        "id": "features-and-analysis-main",
+        "config": {
+          "script-below": "features-and-analysis-3",
+          "title": "ज़रूर पढ़ें",
+          "style": "featured-large-phone"
+        },
+        "filter": {
+          "primary": [
+            "bbc.mobile.news.item"
+          ],
+          "secondary": [
+            "bbc.mobile.news.group.features"
+          ],
+          "offset": 0,
+          "limit": 6
+        },
+        "presenter": "1-story-per-row"
+      },
+      {
+        "id": "copyright",
+        "presenter": "copyright"
+      }
+    ]
+  },
+  "phone-landscape-top-stories": {
+    "apply-first": "cps_index_base",
+    "filter": {
+      "site": [
+        "/hindi"
+      ],
+      "content": [
+        "/cps/hindi/front_page"
+      ],
+      "format": [
+        "bbc.mobile.news.cps.idx"
+      ],
+      "orientation": [
+        "landscape"
+      ]
+    },
+    "modules": [
+      {
+        "id": "top-story",
+        "presenter": "top-story",
+        "filter": {
+          "primary": [
+            "bbc.mobile.news.item"
+          ],
+          "offset": 0,
+          "limit": 1,
+          "secondary": [
+            "bbc.mobile.news.group.top-story",
+            "bbc.mobile.news.group.more-top-stories",
+            "bbc.mobile.news.group.top-stories-overflow"
+          ]
+        },
+        "config": {
+          "script-top": "true"
+        }
+      },
+      {
+        "id": "stories",
+        "presenter": "2-stories-per-row",
+        "filter": {
+          "primary": [
+            "bbc.mobile.news.item"
+          ],
+          "offset": 1,
+          "limit": 9,
+          "secondary": [
+            "bbc.mobile.news.group.top-story",
+            "bbc.mobile.news.group.more-top-stories",
+            "bbc.mobile.news.group.top-stories-overflow"
+          ]
+        },
+        "config": {
+          "script-below": "top-story"
+        }
+      },
+      {
+        "id": "features-and-analysis-1",
+        "config": {
+          "script-below": "stories",
+          "title": "बीबीसी विशेष",
+          "style": "featured-large-phone"
+        },
+        "filter": {
+          "primary": [
+            "bbc.mobile.news.item"
+          ],
+          "secondary": [
+            "bbc.mobile.news.group.special-reports-1"
+          ],
+          "offset": 0,
+          "limit": 1
+        },
+        "presenter": "1-story-per-row"
+      },
+      {
+        "id": "in-pictures",
+        "config": {
+          "script-below": "features-and-analysis-1",
+          "style": "photo-gallery",
+          "title": "तस्वीरों में",
+          "title-id": "layout_in_pictures"
+        },
+        "filter": {
+          "primary": [
+            "bbc.mobile.news.item"
+          ],
+          "secondary": [
+            "bbc.mobile.news.group.picture-galleries"
+          ],
+          "offset": 0,
+          "limit": 2
+        },
+        "presenter": "1-story-per-row"
+      },
+      {
+        "id": "stories-2",
+        "config": {
+          "script-below": "in-pictures",
+          "title": "अन्य बड़ी ख़बरें"
+        },
+        "filter": {
+          "primary": [
+            "bbc.mobile.news.item"
+          ],
+          "secondary": [
+            "bbc.mobile.news.group.other-top-stories"
+          ],
+          "offset": 0,
+          "limit": 3
+        },
+        "presenter": "2-stories-per-row"
+      },
+      {
+        "id": "av-story-carousel",
+        "presenter": "av-story-carousel",
+        "filter": {
+          "subFilters": [
+
+          ],
+          "primary": [
+            "bbc.mobile.news.item"
+          ],
+          "secondary": [
+            "bbc.mobile.news.group.watch-listen",
+            "bbc.mobile.news.group.av-stories-live"
+          ],
+          "offset": 0,
+          "limit": 7
+        },
+        "config": {
+          "script-below": "stories-2"
+        }
+      },
+      {
+        "id": "features-and-analysis-2",
+        "filter": {
+          "primary": [
+            "bbc.mobile.news.item"
+          ],
+          "secondary": [
+            "bbc.mobile.news.group.special-reports-2"
+          ],
+          "offset": 0,
+          "limit": 1
+        },
+        "config": {
+          "script-below": "av-story-carousel",
+          "title": "बीबीसी विशेष",
+          "style": "featured-large-right-premier"
+        },
+        "presenter": "1-story-per-row"
+      },
+      {
+        "id": "digest-verticals",
+        "config": {
+          "script-below": "features-and-analysis-2",
+          "title": "मैगज़ीन",
+          "style": "featured-large-phone"
+        },
+        "filter": {
+          "primary": [
+            "bbc.mobile.news.item"
+          ],
+          "secondary": [
+            "bbc.mobile.news.group.verticals"
+          ],
+          "offset": 0,
+          "limit": 2
+        },
+        "presenter": "2-stories-per-row"
+      },
+      {
+        "id": "digest-india",
+        "config": {
+          "content": "/cps/hindi/india",
+          "script-below": "digest-verticals",
+          "title": "भारत",
+          "style": "digest"
+        },
+        "filter": {
+          "primary": [
+            "bbc.mobile.news.item"
+          ],
+          "secondary": [
+            "bbc.mobile.news.group.showcase-1"
+          ],
+          "offset": 0,
+          "limit": 1
+        },
+        "presenter": "1-story-per-row"
+      },
+      {
+        "id": "digest-international",
+        "config": {
+          "content": "/cps/hindi/international",
+          "script-below": "digest-india",
+          "title": "विदेश",
+          "style": "digest"
+        },
+        "filter": {
+          "primary": [
+            "bbc.mobile.news.item"
+          ],
+          "secondary": [
+            "bbc.mobile.news.group.showcase-2"
+          ],
+          "offset": 0,
+          "limit": 1
+        },
+        "presenter": "1-story-per-row"
+      },
+      {
+        "id": "digest-entertainment",
+        "config": {
+          "content": "/cps/hindi/entertainment",
+          "script-below": "digest-international",
+          "title": "मनोरंजन",
+          "style": "digest"
+        },
+        "filter": {
+          "primary": [
+            "bbc.mobile.news.item"
+          ],
+          "secondary": [
+            "bbc.mobile.news.group.showcase-3"
+          ],
+          "offset": 0,
+          "limit": 1
+        },
+        "presenter": "1-story-per-row"
+      },
+      {
+        "id": "digest-sport",
+        "config": {
+          "content": "/cps/hindi/sport",
+          "script-below": "digest-entertainment",
+          "title": "खेल",
+          "style": "digest"
+        },
+        "filter": {
+          "primary": [
+            "bbc.mobile.news.item"
+          ],
+          "secondary": [
+            "bbc.mobile.news.group.showcase-4"
+          ],
+          "offset": 0,
+          "limit": 1
+        },
+        "presenter": "1-story-per-row"
+      },
+      {
+        "id": "digest-science",
+        "config": {
+          "content": "/cps/hindi/science",
+          "script-below": "digest-sport",
+          "title": "विज्ञान-टेक्नॉलॉजी",
+          "style": "digest"
+        },
+        "filter": {
+          "primary": [
+            "bbc.mobile.news.item"
+          ],
+          "secondary": [
+            "bbc.mobile.news.group.showcase-5"
+          ],
+          "offset": 0,
+          "limit": 1
+        },
+        "presenter": "1-story-per-row"
+      },
+      {
+        "id": "digest-faces",
+        "config": {
+          "script-below": "digest-science",
+          "title": "चर्चित चेहरा",
+          "style": "digest"
+        },
+        "filter": {
+          "primary": [
+            "bbc.mobile.news.item"
+          ],
+          "secondary": [
+            "bbc.mobile.news.group.showcase-6"
+          ],
+          "offset": 0,
+          "limit": 1
+        },
+        "presenter": "1-story-per-row"
+      },
+      {
+        "id": "features-and-analysis-3",
+        "config": {
+          "script-below": "digest-faces",
+          "title": "बीबीसी विशेष",
+          "style": "featured-large-phone"
+        },
+        "filter": {
+          "primary": [
+            "bbc.mobile.news.item"
+          ],
+          "secondary": [
+            "bbc.mobile.news.group.section-1"
+          ],
+          "offset": 0,
+          "limit": 1
+        },
+        "presenter": "1-story-per-row"
+      },
+      {
+        "id": "features-and-analysis-main",
+        "config": {
+          "script-below": "features-and-analysis-3",
+          "title": "ज़रूर पढ़ें",
+          "style": "featured-large-phone"
+        },
+        "filter": {
+          "primary": [
+            "bbc.mobile.news.item"
+          ],
+          "secondary": [
+            "bbc.mobile.news.group.features"
+          ],
+          "offset": 0,
+          "limit": 6
+        },
+        "presenter": "1-story-per-row"
+      },
+      {
+        "id": "copyright",
+        "presenter": "copyright"
+      }
+    ]
+  },
+  "phone-portrait-index-default-ws": {
+    "apply-first": "ldp_default_base",
+    "filter": {
+      "site": [
+        "/hindi",
+        "/ldp"
+      ],
+      "format": [
+        "bbc.mobile.news.cps.idx",
+        "bbc.linkeddata.concepts"
+      ],
+      "orientation": [
+        "portrait"
+      ]
+    },
+    "modules": [
+      {
+        "id": "top-story",
+        "presenter": "top-story",
+        "filter": {
+          "primary": [
+            "bbc.mobile.news.item"
+          ],
+          "offset": 0,
+          "limit": 1,
+          "secondary": [
+            "bbc.mobile.news.group.top-story",
+            "bbc.linkeddata.about.news",
+            "bbc.mobile.news.group.news-feed",
+            "bbc.mobile.news.group.index"
+          ]
+        },
+        "config": {
+          "script-top": "true"
+        },
+        "presenter~compact": "1-story-per-row",
+        "config~compact": {
+          "topPadding": true
+        }
+      },
+      {
+        "id": "stories",
+        "presenter": "1-story-per-row",
+        "filter": {
+          "primary": [
+            "bbc.mobile.news.item"
+          ],
+          "offset": 1,
+          "limit": -1,
+          "secondary": [
+            "bbc.mobile.news.group.top-story",
+            "bbc.linkeddata.about.news",
+            "bbc.mobile.news.group.news-feed",
+            "bbc.mobile.news.group.index",
+            "bbc.linkeddata.about.feature"
+          ]
+        },
+        "config": {
+          "script-below": "banner-ad"
+        }
+      },
+      {
+        "id": "copyright",
+        "presenter": "copyright"
+      }
+    ]
+  },
+  "phone-landscape-index-default-ws": {
+    "apply-first": "ldp_default_base",
+    "filter": {
+      "site": [
+        "/hindi",
+        "/ldp"
+      ],
+      "format": [
+        "bbc.mobile.news.cps.idx",
+        "bbc.linkeddata.concepts"
+      ],
+      "orientation": [
+        "landscape"
+      ]
+    },
+    "modules": [
+      {
+        "id": "top-story",
+        "presenter": "top-story",
+        "filter": {
+          "primary": [
+            "bbc.mobile.news.item"
+          ],
+          "offset": 0,
+          "limit": 1,
+          "secondary": [
+            "bbc.mobile.news.group.top-story",
+            "bbc.linkeddata.about.news",
+            "bbc.mobile.news.group.news-feed",
+            "bbc.mobile.news.group.index"
+          ]
+        },
+        "config": {
+          "script-top": "true"
+        }
+      },
+      {
+        "id": "stories",
+        "presenter": "2-stories-per-row",
+        "filter": {
+          "primary": [
+            "bbc.mobile.news.item"
+          ],
+          "offset": 1,
+          "limit": -1,
+          "secondary": [
+            "bbc.mobile.news.group.top-story",
+            "bbc.linkeddata.about.news",
+            "bbc.mobile.news.group.news-feed",
+            "bbc.mobile.news.group.index",
+            "bbc.linkeddata.about.feature"
+          ]
+        },
+        "config": {
+          "script-below": "banner-ad"
+        }
+      },
+      {
+        "id": "copyright",
+        "presenter": "copyright"
+      }
+    ]
+  }
+}

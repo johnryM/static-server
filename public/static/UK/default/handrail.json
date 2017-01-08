@@ -1,0 +1,178 @@
+{
+	"id" :  "/handrail",
+	"type" :  "bbc.mobile.news.collection",
+	"lastUpdated" :  1412938628001,
+	"name" :  "More Topics",
+	"relations" : [
+				   {
+				   "primaryType" :  "bbc.mobile.news.collection",
+				   "secondaryType" :  "bbc.mobile.news.handrail",
+				   "content" : {
+					   "id" :  "/cps/news/uk",
+					   "type" :  "bbc.mobile.news.collection",
+					   "lastUpdated" :  1412938628001,
+					   "name" :  "UK"
+					   }
+				   },
+				   {
+				   "primaryType" :  "bbc.mobile.news.collection",
+				   "secondaryType" :  "bbc.mobile.news.handrail",
+				   "content" : {
+					   "id" :  "/cps/news/england",
+					   "type" :  "bbc.mobile.news.collection",
+					   "lastUpdated" :  1412938628001,
+					   "name" :  "England"
+					   }
+				   },
+				   {
+				   "primaryType" :  "bbc.mobile.news.collection",
+				   "secondaryType" :  "bbc.mobile.news.handrail",
+				   "content" : {
+					   "id" :  "/cps/news/northern_ireland",
+					   "type" :  "bbc.mobile.news.collection",
+					   "lastUpdated" :  1412938628001,
+					   "name" :  "Northern Ireland"
+					   }
+				   },
+				   {
+				   "primaryType" :  "bbc.mobile.news.collection",
+				   "secondaryType" :  "bbc.mobile.news.handrail",
+				   "content" : {
+					   "id" :  "/cps/news/scotland",
+					   "type" :  "bbc.mobile.news.collection",
+					   "lastUpdated" :  1412938628001,
+					   "name" :  "Scotland"
+					   }
+				   },
+				   {
+				   "primaryType" :  "bbc.mobile.news.collection",
+				   "secondaryType" :  "bbc.mobile.news.handrail",
+				   "content" : {
+					   "id" :  "/cps/news/wales",
+					   "type" :  "bbc.mobile.news.collection",
+					   "lastUpdated" :  1412938628001,
+					   "name" :  "Wales"
+					   }
+				   },
+				   {
+				   "primaryType" :  "bbc.mobile.news.collection",
+				   "secondaryType" :  "bbc.mobile.news.handrail",
+				   "content" : {
+					   "id" :  "/cps/newyddion/hafan",
+					   "type" :  "bbc.mobile.news.collection",
+					   "lastUpdated" :  1412938628001,
+					   "name" :  "Cymru"
+					   }
+				   },
+				   {
+				   "primaryType" :  "bbc.mobile.news.collection",
+				   "secondaryType" :  "bbc.mobile.news.handrail",
+				   "content" : {
+					   "id" :  "/cps/news/world",
+					   "type" :  "bbc.mobile.news.collection",
+					   "lastUpdated" :  1412938628001,
+					   "name" :  "World"
+					   }
+				   },
+				   {
+				   "primaryType" :  "bbc.mobile.news.collection",
+				   "secondaryType" :  "bbc.mobile.news.handrail",
+				   "content" : {
+					   "id" :  "/cps/news/business",
+					   "type" :  "bbc.mobile.news.collection",
+					   "lastUpdated" :  1412938628001,
+					   "name" :  "Business"
+					   }
+				   },
+				   {
+				   "primaryType" :  "bbc.mobile.news.collection",
+				   "secondaryType" :  "bbc.mobile.news.handrail",
+				   "content" : {
+					   "id" :  "/cps/news/politics",
+					   "type" :  "bbc.mobile.news.collection",
+					   "lastUpdated" :  1412938628001,
+					   "name" :  "Politics"
+					   }
+				   },
+				   {
+				   "primaryType" :  "bbc.mobile.news.collection",
+				   "secondaryType" :  "bbc.mobile.news.handrail",
+				   "content" : {
+					   "id" :  "/cps/news/technology",
+					   "type" :  "bbc.mobile.news.collection",
+					   "lastUpdated" :  1412938628001,
+					   "name" :  "Technology"
+					   }
+				   },
+				   {
+				   "primaryType" :  "bbc.mobile.news.collection",
+				   "secondaryType" :  "bbc.mobile.news.handrail",
+				   "content" : {
+					   "id" :  "/cps/news/science_and_environment",
+					   "type" :  "bbc.mobile.news.collection",
+					   "lastUpdated" :  1412938628001,
+					   "name" :  "Science & Environment"
+					   }
+				   },
+				   {
+				   "primaryType" :  "bbc.mobile.news.collection",
+				   "secondaryType" :  "bbc.mobile.news.handrail",
+				   "content" : {
+					   "id" :  "/cps/news/health",
+					   "type" :  "bbc.mobile.news.collection",
+					   "lastUpdated" :  1412938628001,
+					   "name" :  "Health"
+					   }
+				   },
+				   {
+				   "primaryType" :  "bbc.mobile.news.collection",
+				   "secondaryType" :  "bbc.mobile.news.handrail",
+				   "content" : {
+					   "id" :  "/cps/news/education",
+					   "type" :  "bbc.mobile.news.collection",
+					   "lastUpdated" :  1412938628001,
+					   "name" :  "Education & Family"
+					   }
+				   },
+				   {
+				   "primaryType" :  "bbc.mobile.news.collection",
+				   "secondaryType" :  "bbc.mobile.news.handrail",
+				   "content" : {
+					   "id" :  "/cps/news/entertainment_and_arts",
+					   "type" :  "bbc.mobile.news.collection",
+					   "lastUpdated" :  1412938628001,
+					   "name" :  "Entertainment & Arts"
+					   }
+				   },
+				   {
+				   "primaryType" :  "bbc.mobile.news.collection",
+				   "secondaryType" :  "bbc.mobile.news.handrail",
+				   "content" : {
+					   "id" :  "/cps/news/magazine",
+					   "type" :  "bbc.mobile.news.collection",
+					   "lastUpdated" :  1412938628001,
+					   "name" :  "Magazine"
+					   }
+				   },
+				   {
+				   "primaryType" :  "bbc.mobile.news.collection",
+				   "secondaryType" :  "bbc.mobile.news.handrail",
+				   "content" : {
+					   "id" :  "/cps/news/also_in_the_news",
+					   "type" :  "bbc.mobile.news.collection",
+					   "lastUpdated" :  1412938628001,
+					   "name" :  "Also in the News"
+					   }
+				   },
+				   {
+				   "primaryType" :  "bbc.mobile.news.collection",
+				   "secondaryType" :  "bbc.mobile.news.handrail",
+				   "content" : {
+					   "id" :  "/cps/sport/front-page",
+					   "type" :  "bbc.mobile.news.collection",
+					   "lastUpdated" :  1412938628001,
+					   "name" :  "Sport"
+					   }
+				   }
+				   ]
+}

@@ -1,0 +1,109 @@
+{
+  "sections": [
+    {
+      "name": "More Topics",
+      "items": [
+        {
+          "contentId": "/cps/news/world",
+          "name": "World"
+        },
+        {
+          "contentId": "/cps/news/world/africa",
+          "name": "Africa"
+        },
+        {
+          "contentId": "/cps/news/world/asia",
+          "name": "Asia"
+        },
+        {
+          "contentId": "/cps/news/world/australia",
+          "name": "Australia"
+        },
+        {
+          "contentId": "/cps/news/world/europe",
+          "name": "Europe"
+        },
+        {
+          "contentId": "/cps/news/world/middle_east",
+          "name": "Middle East"
+        },
+        {
+          "contentId": "/cps/news/world/latin_america",
+          "name": "Latin America"
+        },
+        {
+          "contentId": "/cps/news/uk",
+          "name": "UK"
+        },
+        {
+          "contentId": "/cps/news/world/us_and_canada",
+          "name": "US & Canada"
+        },
+        {
+          "contentId": "/cps/news/business",
+          "name": "Business"
+        },
+        {
+          "contentId": "/cps/news/technology",
+          "name": "Tech"
+        },
+        {
+          "contentId": "/cps/news/science_and_environment",
+          "name": "Science"
+        },
+        {
+          "contentId": "/cps/news/health",
+          "name": "Health"
+        },
+        {
+          "contentId": "/cps/news/entertainment_and_arts",
+          "name": "Entertainment"
+        },
+        {
+          "contentId": "/cps/news/magazine",
+          "name": "Magazine"
+        },
+        {
+          "contentId": "/cps/news/also_in_the_news",
+          "name": "Also in the News"
+        },
+        {
+          "contentId": "/cps/sport/front-page",
+          "name": "Sport"
+        },
+        {
+          "contentId": "/cps/sport/football",
+          "name": "Football"
+        },
+        {
+          "contentId": "/cps/sport/formula1",
+          "name": "Formula 1"
+        },
+        {
+          "contentId": "/cps/sport/cricket",
+          "name": "Cricket"
+        },
+        {
+          "contentId": "/cps/sport/rugby-union",
+          "name": "Rugby Union"
+        },
+        {
+          "contentId": "/cps/sport/tennis",
+          "name": "Tennis"
+        },
+        {
+          "contentId": "/cps/sport/golf",
+          "name": "Golf"
+        },
+        {
+          "contentId": "/cps/sport/athletics",
+          "name": "Athletics"
+        },
+        {
+          "contentId": "/cps/sport/cycling",
+          "name": "Cycling"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,326 @@
+[
+  {
+    "id": "/cps/news/front_page",
+    "adunit": "news_topstories"
+  },
+  {
+    "id": "/newsapps/mynews",
+    "adunit": "news_mynews"
+  },
+  {
+    "id": "/most_popular/news/read",
+    "adunit": "news_mostpopular"
+  },
+  {
+    "id": "/most_popular/news/watched",
+    "adunit": "news_mostpopular"
+  },
+  {
+    "id": "/most_popular/news",
+    "adunit": "news_mostpopular"
+  },
+  {
+    "id": "/newsapps/news/most_read",
+    "adunit": "news_mostpopular"
+  },
+  {
+    "id": "/newsapps/news/most_watched",
+    "adunit": "news_mostpopular"
+  },
+  {
+    "id": "/ww/capital/module/homepage",
+    "adunit": "news_capital_content"
+  },
+  {
+    "id": "/ww/autos/module/homepage",
+    "adunit": "news_autos_content"
+  },
+  {
+    "id": "/ww/culture/module/homepage",
+    "adunit": "news_culture_content"
+  },
+  {
+    "id": "/ww/earth/module/homepage",
+    "adunit": "news_earth_content"
+  },
+  {
+    "id": "/ww/travel/module/homepage",
+    "adunit": "news_travel_content"
+  },
+  {
+    "id": "/ww/future/module/homepage",
+    "adunit": "news_future_content"
+  },
+  {
+    "id": "/ldp/af2b6e77-d66f-43a5-a4e8-d8ff294ced16",
+    "adunit": "sport_tennis_content"
+  },
+  {
+    "id": "/cps/sport/tennis",
+    "adunit": "sport_tennis_content"
+  },
+  {
+    "id": "/cps/sport/golf",
+    "adunit": "sport_golf_content"
+  },
+  {
+    "id": "/cps/sport/formula1",
+    "adunit": "sport_formulaone_content"
+  },
+  {
+    "id": "/cps/news/business",
+    "adunit": "news_business_content"
+  },
+  {
+    "id": "/ldp/91173495-d90c-4451-be72-23a1a823c8d2",
+    "adunit": "news_business_content"
+  },
+  {
+    "id": "/ldp/6f694397-5780-47da-aaa9-fe9515e29eaf",
+    "adunit": "news_business_content"
+  },
+  {
+    "id": "/ldp/41b5bb04-b97c-4705-bb42-fb7438aba2cb",
+    "adunit": "news_business_content"
+  },
+  {
+    "id": "/ldp/78db47e1-4958-4f8b-8a75-a2453ce9aa47",
+    "adunit": "news_business_content"
+  },
+  {
+    "id": "/ldp/9f52c5bc-73a7-47c8-a6b5-e70eafbf6716",
+    "adunit": "news_business_content"
+  },
+  {
+    "id": "/ldp/e90e8e1d-ab7d-43ec-aa5c-b8de17ead6e2",
+    "adunit": "news_business_content"
+  },
+  {
+    "id": "/cps/news/technology",
+    "adunit": "news_technology_content"
+  },
+  {
+    "id": "/ldp/8e9cb106-68f6-4793-9347-e7ac9ca99d6c",
+    "adunit": "news_technology_content"
+  },
+  {
+    "id": "/ldp/986d714c-6f18-43ff-9f37-e4b0267aeaf9",
+    "adunit": "news_technology_content"
+  },
+  {
+    "id": "/ldp/8bce6aad-0f9a-4c0c-bb5e-e2583a27785b",
+    "adunit": "news_technology_content"
+  },
+  {
+    "id": "/ldp/cfa009b2-6e8a-4da4-9ac0-9237b41a309b",
+    "adunit": "news_technology_content"
+  },
+  {
+    "id": "/ldp/91a4bb7f-d73d-4609-b900-c6a2a415b358",
+    "adunit": "news_technology_content"
+  },
+  {
+    "id": "/ldp/62d838bb-2471-432c-b4db-f134f98157c2",
+    "adunit": "news_technology_content"
+  },
+  {
+    "id": "/cps/news/entertainment_and_arts",
+    "adunit": "news_entertainmentarts_content"
+  },
+  {
+    "id": "/ldp/de648736-7268-454c-a7b1-dbff416f2865",
+    "adunit": "news_entertainmentarts_content"
+  },
+  {
+    "id": "/ldp/2611f753-ece7-47ea-9782-f912bc1e4088",
+    "adunit": "news_entertainmentarts_content"
+  },
+  {
+    "id": "/ldp/523deec9-02f8-4d6b-a577-37af3c5194ef",
+    "adunit": "news_entertainmentarts_content"
+  },
+  {
+    "id": "/ldp/37dcc888-51a7-4470-82d8-8ef2b811d482",
+    "adunit": "news_entertainmentarts_content"
+  },
+  {
+    "id": "/ldp/caf0f9d5-682a-4343-b538-c5d795534e85",
+    "adunit": "news_entertainmentarts_content"
+  },
+  {
+    "id": "/ldp/d96ef232-015b-4863-ac0d-5096f78d706b",
+    "adunit": "news_entertainmentarts_content"
+  },
+  {
+    "id": "/ldp/aa49c6bb-400f-4355-8e58-3c6e98b42178",
+    "adunit": "news_entertainmentarts_content"
+  },
+  {
+    "id": "/ldp/89548490-9a9f-41e8-b98c-0f7474be2148",
+    "adunit": "news_entertainmentarts_content"
+  },
+  {
+    "id": "/cps/news/science_and_environment",
+    "adunit": "news_scienceenvironment_content"
+  },
+  {
+    "id": "/ldp/84915d8d-467d-4c5e-88f7-bbb1bb5cf0dc",
+    "adunit": "news_scienceenvironment_content"
+  },
+  {
+    "id": "/ldp/b6313976-a311-480f-a813-08caddad7a2f",
+    "adunit": "news_scienceenvironment_content"
+  },
+  {
+    "id": "/ldp/14745d1f-885d-4b9f-b28a-24540e7beb15",
+    "adunit": "news_scienceenvironment_content"
+  },
+  {
+    "id": "/ldp/e6369e45-f838-49cc-b5ac-857ed182e549",
+    "adunit": "news_scienceenvironment_content"
+  },
+  {
+    "id": "/ldp/d3be5d26-cb2b-4dcb-9402-149e7b48db76",
+    "adunit": "news_scienceenvironment_content"
+  },
+  {
+    "id": "/ldp/33cf3be9-6e9b-403a-989c-3c8d25e05724",
+    "adunit": "news_scienceenvironment_content"
+  },
+  {
+    "id": "/cps/sport/front-page",
+    "adunit": "sport_homepage_int"
+  },
+  {
+    "id": "/cps/news/world/africa",
+    "adunit": "news_africa_content"
+  },
+  {
+    "id": "/cps/news/world/asia/china",
+    "adunit": "news_asia_content"
+  },
+  {
+    "id": "/cps/news/world/asia/india",
+    "adunit": "news_asia_content"
+  },
+  {
+    "id": "/cps/news/world/asia",
+    "adunit": "news_asia_content"
+  },
+  {
+    "id": "/cps/news/world/australia",
+    "adunit": "news_australia_content"
+  },
+  {
+    "id": "/cps/news/world/europe",
+    "adunit": "news_europe_content"
+  },
+  {
+    "id": "/cps/news/world/middle_east",
+    "adunit": "news_middleeast_content"
+  },
+  {
+    "id": "/cps/news/world/latin_america",
+    "adunit": "news_latinamerica_content"
+  },
+  {
+    "id": "/cps/news/uk",
+    "adunit": "news_uk_content"
+  },
+  {
+    "id": "/cps/news/world/us_and_canada",
+    "adunit": "news_uscanada_content"
+  },
+  {
+    "id": "/cps/news/world",
+    "adunit": "news_world_content"
+  },
+  {
+    "id": "/cps/news/health",
+    "adunit": "news_health_content"
+  },
+  {
+    "id": "/ldp/583f320b-e25a-433c-ad39-b637a4f27866",
+    "adunit": "news_health_content"
+  },
+  {
+    "id": "/ldp/afb55a6e-921b-45ac-9108-7f11b4a0ea2d",
+    "adunit": "news_health_content"
+  },
+  {
+    "id": "/ldp/b5a68823-bb0c-4229-b142-d6d5e09e113f",
+    "adunit": "news_health_content"
+  },
+  {
+    "id": "/ldp/cf3a8a8a-8ba5-4a87-8fdf-80e4f5af6956",
+    "adunit": "news_health_content"
+  },
+  {
+    "id": "/ldp/992e096e-28e6-412d-b6a1-652f78be63c7",
+    "adunit": "news_health_content"
+  },
+  {
+    "id": "/ldp/814465c5-404b-4c88-889f-45907ba1f402",
+    "adunit": "news_health_content"
+  },
+  {
+    "id": "/ldp/9a18805c-fb88-40ba-9763-bcc121d5d55c",
+    "adunit": "news_politics_content"
+  },
+  {
+    "id": "/ldp/5e519ba4-2594-4118-a641-cdf75cd8ce46",
+    "adunit": "news_politics_content"
+  },
+  {
+    "id": "/ldp/530d1350-d83c-405b-b6c3-809473e23c58",
+    "adunit": "news_politics_content"
+  },
+  {
+    "id": "/ldp/c7d0042b-a7c6-48d6-92e1-7a470b9cc83a",
+    "adunit": "news_politics_content"
+  },
+  {
+    "id": "/ldp/6dce73ea-1e09-4cfc-b9d8-028d00d0ebac",
+    "adunit": "news_politics_content"
+  },
+  {
+    "id": "/ldp/103fc7e4-3a8d-491c-9a75-3c37c299d48f",
+    "adunit": "news_politics_content"
+  },
+  {
+    "id": "/ldp/7fd6ee44-38a3-4fe3-a40f-7b4f8f72c67f",
+    "adunit": "news_politics_content"
+  },
+  {
+    "id": "/cps/sport/cricket",
+    "adunit": "sport_cricket_content"
+  },
+  {
+    "id": "/cps/sport/rugby-union",
+    "adunit": "sport_rugby_content"
+  },
+  {
+    "id": "/cps/sport/football/premier-league",
+    "adunit": "sport_football_content"
+  },
+  {
+    "id": "/cps/sport/football",
+    "adunit": "sport_football_content"
+  },
+  {
+    "id": "/ldp/2acacd19-6609-1840-9c2b-b0820c50d281",
+    "adunit": "sport_football_content"
+  },
+  {
+    "id": "/ldp/4bdbf21d-d1ad-7147-ab08-612cd0dc20b4",
+    "adunit": "sport_football_content"
+  },
+  {
+    "id": "/ldp/c4285a9a-9865-2343-af3a-8653f7b70734",
+    "adunit": "sport_football_content"
+  },
+  {
+    "id": "/ldp/90d9a818-850b-b64f-9474-79e15a0355b8",
+    "adunit": "sport_football_content"
+  }
+]

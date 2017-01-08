@@ -1,0 +1,138 @@
+{
+	"id" : "/handrail",
+	"type" : "bbc.mobile.news.collection",
+	"lastUpdated" : 1412938628000,
+	"name" : "More Topics",
+	"relations" : [
+		{
+			"primaryType" : "bbc.mobile.news.collection",
+			"secondaryType" : "bbc.mobile.news.handrail",
+			"content" : {
+				"id" : "/cps/russian/front_page",
+				"type" : "bbc.mobile.news.collection",
+				"lastUpdated" : 1412938628000,
+				"name" : "Главная"
+	   		}
+	   },
+	   {
+			"primaryType" : "bbc.mobile.news.collection",
+			"secondaryType" : "bbc.mobile.news.handrail",
+			"content" : {
+				"id" : "/cps/russian/news",
+				"type" : "bbc.mobile.news.collection",
+				"lastUpdated" : 1412938628000,
+				"name" : "Новости"
+			}
+		},
+		{
+			"primaryType" : "bbc.mobile.news.collection",
+			"secondaryType" : "bbc.mobile.news.handrail",
+			"content" : {
+				"id" : "/ldp/39267b85-1784-4f4b-80ed-f8cb4a35f337",
+				"type" : "bbc.mobile.news.collection",
+				"lastUpdated" : 1412938628000,
+				"name" : "Россия"
+			}
+		},
+		{
+			"primaryType" : "bbc.mobile.news.collection",
+			"secondaryType" : "bbc.mobile.news.handrail",
+			"content" : {
+				"id" : "/cps/russian/video",
+				"type" : "bbc.mobile.news.collection",
+				"lastUpdated" : 1412938628000,
+				"name" : "видео"
+			}
+		},
+		{
+	   "primaryType" : "bbc.mobile.news.collection",
+	   "secondaryType" : "bbc.mobile.news.handrail",
+	   "content" : {
+		   "id" : "/ldp/2e91364c-5c77-4660-b76e-d76202785e64",
+		   "type" : "bbc.mobile.news.collection",
+		   "lastUpdated" : 1412938628000,
+		   "name" : "Британия"
+		}
+		},
+		{
+			"primaryType" : "bbc.mobile.news.collection",
+			"secondaryType" : "bbc.mobile.news.handrail",
+			"content" : {
+				"id" : "/ldp/2f2db234-3c2d-40a4-b4ac-eea661faadd0",
+				"type" : "bbc.mobile.news.collection",
+				"lastUpdated" : 1412938628000,
+				"name" : "Экономика"
+			}
+		},
+		{
+			"primaryType" : "bbc.mobile.news.collection",
+			"secondaryType" : "bbc.mobile.news.handrail",
+			"content" : {
+				"id" : "/ldp/37dcc888-51a7-4470-82d8-8ef2b811d482",
+				"type" : "bbc.mobile.news.collection",
+				"lastUpdated" : 1412938628000,
+				"name" : "Искусство"
+			}
+		},
+		{
+			"primaryType" : "bbc.mobile.news.collection",
+			"secondaryType" : "bbc.mobile.news.handrail",
+			"content" : {
+				"id" : "/ldp/4063f80f-cccc-44c8-9449-5ca44e4c8592",
+				"type" : "bbc.mobile.news.collection",
+				"lastUpdated" : 1412938628000,
+				"name" : "Спорт"
+			}
+		},
+		{
+			"primaryType" : "bbc.mobile.news.collection",
+			"secondaryType" : "bbc.mobile.news.handrail",
+			"content" : {
+				"id" : "/ldp/0f469e6a-d4a6-46f2-b727-2bd039cb6b53",
+				"type" : "bbc.mobile.news.collection",
+				"lastUpdated" : 1412938628000,
+				"name" : "Наука"
+			}
+		},
+		{
+			"primaryType" : "bbc.mobile.news.collection",
+			"secondaryType" : "bbc.mobile.news.handrail",
+			"content" : {
+				"id" : "/cps/russian/features",
+				"type" : "bbc.mobile.news.collection",
+				"lastUpdated" : 1412938628000,
+				"name" : "Подробности"
+			}
+		},
+		{
+			"primaryType" : "bbc.mobile.news.collection",
+			"secondaryType" : "bbc.mobile.news.handrail",
+			"content" : {
+				"id" : "/cps/russian/photogalleries",
+				"type" : "bbc.mobile.news.collection",
+				"lastUpdated" : 1412938628000,
+				"name" : "фото"
+			}
+		},
+		{
+			"primaryType" : "bbc.mobile.news.collection",
+			"secondaryType" : "bbc.mobile.news.handrail",
+			"content" : {
+				"id" : "/cps/russian/other_news",
+				"type" : "bbc.mobile.news.collection",
+				"lastUpdated" : 1412938628000,
+				"name" : "А также"
+			}
+		},
+		{
+			"primaryType" : "bbc.mobile.news.collection",
+			"secondaryType" : "bbc.mobile.news.handrail",
+			"content" : {
+				"id" : "/cps/russian/learning_english",
+				"type" : "bbc.mobile.news.collection",
+				"lastUpdated" : 1412938628000,
+				"name" : "Leaning English"
+			}
+		}
+	]
+}

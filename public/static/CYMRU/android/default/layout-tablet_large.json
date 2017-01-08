@@ -1,0 +1,1087 @@
+{
+  "tablet-portrait-cylchgrawn-index": {
+    "apply-first": "welsh_index_base",
+    "filter": {
+      "site": [
+        "/newyddion",
+        "/cymrufyw"
+      ],
+      "content": [
+        "/cps/newyddion/cylchgrawn"
+      ],
+      "format": [
+        "bbc.mobile.news.cps.idx"
+      ],
+      "orientation": [
+        "portrait"
+      ]
+    },
+    "modules": [
+      {
+        "id": "top-story",
+        "presenter": "top-story",
+        "filter": {
+          "primary": [
+            "bbc.mobile.news.item"
+          ],
+          "offset": 0,
+          "limit": 1,
+          "secondary": [
+            "bbc.mobile.news.group.top-story",
+            "bbc.mobile.news.group.splash-top-story",
+            "bbc.mobile.news.group.secondary-top-story",
+            "bbc.mobile.news.group.second-top-story",
+            "bbc.mobile.news.group.third-top-story",
+            "bbc.mobile.news.group.fourth-top-story",
+            "bbc.mobile.news.group.second-story",
+            "bbc.mobile.news.group.third-story",
+            "bbc.mobile.news.group.fourth-story",
+            "bbc.mobile.news.group.more-stories",
+            "bbc.mobile.news.group.other-top-stories",
+            "bbc.mobile.news.group.guides-content",
+            "bbc.mobile.news.group.guide-content",
+            "bbc.mobile.news.group.section-digest",
+            "bbc.mobile.news.group.mwy-o-newyddion-more-from-newyddion"
+          ]
+        },
+        "config": {
+          "script-top": "true"
+        }
+      },
+      {
+        "id": "stories",
+        "presenter": "2-stories-per-row",
+        "filter": {
+          "primary": [
+            "bbc.mobile.news.item"
+          ],
+          "offset": 1,
+          "limit": 2,
+          "secondary": [
+            "bbc.mobile.news.group.top-story",
+            "bbc.mobile.news.group.splash-top-story",
+            "bbc.mobile.news.group.secondary-top-story",
+            "bbc.mobile.news.group.second-top-story",
+            "bbc.mobile.news.group.third-top-story",
+            "bbc.mobile.news.group.fourth-top-story",
+            "bbc.mobile.news.group.second-story",
+            "bbc.mobile.news.group.third-story",
+            "bbc.mobile.news.group.fourth-story",
+            "bbc.mobile.news.group.more-stories",
+            "bbc.mobile.news.group.other-top-stories",
+            "bbc.mobile.news.group.guides-content",
+            "bbc.mobile.news.group.guide-content",
+            "bbc.mobile.news.group.section-digest",
+            "bbc.mobile.news.group.mwy-o-newyddion-more-from-newyddion"
+          ]
+        },
+        "config": {
+          "script-below": "top-story",
+          "style": "secondary-top-story"
+        }
+      },
+      {
+        "id": "av-story-carousel",
+        "presenter": "av-story-carousel",
+        "filter": {
+          "subFilters": [
+
+          ],
+          "primary": [
+            "bbc.mobile.news.item"
+          ],
+          "secondary": [
+            "bbc.mobile.news.group.av-stories-best",
+            "bbc.mobile.news.group.av-stories-now",
+            "bbc.mobile.news.group.sain-a-fideo-watch-listen",
+            "bbc.mobile.news.group.watch-listen"
+          ],
+          "offset": 0,
+          "limit": -1
+        },
+        "config": {
+          "script-below": "stories"
+        }
+      },
+      {
+        "id": "stories-2",
+        "presenter": "3-stories-per-row",
+        "filter": {
+          "primary": [
+            "bbc.mobile.news.item"
+          ],
+          "offset": 3,
+          "limit": -1,
+          "secondary": [
+            "bbc.mobile.news.group.top-story",
+            "bbc.mobile.news.group.splash-top-story",
+            "bbc.mobile.news.group.secondary-top-story",
+            "bbc.mobile.news.group.second-top-story",
+            "bbc.mobile.news.group.third-top-story",
+            "bbc.mobile.news.group.fourth-top-story",
+            "bbc.mobile.news.group.second-story",
+            "bbc.mobile.news.group.third-story",
+            "bbc.mobile.news.group.fourth-story",
+            "bbc.mobile.news.group.more-stories",
+            "bbc.mobile.news.group.other-top-stories",
+            "bbc.mobile.news.group.guides-content",
+            "bbc.mobile.news.group.guide-content",
+            "bbc.mobile.news.group.section-digest",
+            "bbc.mobile.news.group.mwy-o-newyddion-more-from-newyddion"
+          ]
+        },
+        "config": {
+          "script-below": "av-story-carousel",
+          "showIncompleteRows": true
+        }
+      },
+      {
+        "id": "features-and-analysis",
+        "presenter": "featured",
+        "filter": {
+          "primary": [
+            "bbc.mobile.news.item"
+          ],
+          "secondary": [
+            "bbc.mobile.news.group.feature-breakout",
+            "bbc.mobile.news.group.feature-main",
+            "bbc.mobile.news.group.feature-other",
+            "bbc.mobile.news.group.features"
+          ],
+          "offset": 0,
+          "limit": 12
+        },
+        "config": {
+          "style": "featured-large-phone",
+          "title": "Colofnau",
+          "title-id": "layout_colofnau",
+          "script-below": "stories-2",
+          "large-featured-style": "single-alternating-premier",
+          "large-featured-rows-odd": 3,
+          "large-featured-rows-even": 2,
+          "remainder-stories-per-row": 2
+        }
+      },
+      {
+        "id": "copyright",
+        "presenter": "copyright"
+      }
+    ]
+  },
+  "tablet-landscape-cylchgrawn-index": {
+    "apply-first": "welsh_index_base",
+    "filter": {
+      "site": [
+        "/newyddion",
+        "/cymrufyw"
+      ],
+      "content": [
+        "/cps/newyddion/cylchgrawn"
+      ],
+      "format": [
+        "bbc.mobile.news.cps.idx"
+      ],
+      "orientation": [
+        "landscape"
+      ]
+    },
+    "modules": [
+      {
+        "id": "top-story",
+        "presenter": "top-story",
+        "filter": {
+          "primary": [
+            "bbc.mobile.news.item"
+          ],
+          "offset": 0,
+          "limit": 1,
+          "secondary": [
+            "bbc.mobile.news.group.top-story",
+            "bbc.mobile.news.group.splash-top-story",
+            "bbc.mobile.news.group.secondary-top-story",
+            "bbc.mobile.news.group.second-top-story",
+            "bbc.mobile.news.group.third-top-story",
+            "bbc.mobile.news.group.fourth-top-story",
+            "bbc.mobile.news.group.second-story",
+            "bbc.mobile.news.group.third-story",
+            "bbc.mobile.news.group.fourth-story",
+            "bbc.mobile.news.group.more-stories",
+            "bbc.mobile.news.group.other-top-stories",
+            "bbc.mobile.news.group.guides-content",
+            "bbc.mobile.news.group.guide-content",
+            "bbc.mobile.news.group.section-digest",
+            "bbc.mobile.news.group.mwy-o-newyddion-more-from-newyddion"
+          ]
+        },
+        "config": {
+          "script-top": "true"
+        }
+      },
+      {
+        "id": "stories",
+        "presenter": "2-stories-per-row",
+        "filter": {
+          "primary": [
+            "bbc.mobile.news.item"
+          ],
+          "offset": 1,
+          "limit": 2,
+          "secondary": [
+            "bbc.mobile.news.group.top-story",
+            "bbc.mobile.news.group.splash-top-story",
+            "bbc.mobile.news.group.secondary-top-story",
+            "bbc.mobile.news.group.second-top-story",
+            "bbc.mobile.news.group.third-top-story",
+            "bbc.mobile.news.group.fourth-top-story",
+            "bbc.mobile.news.group.second-story",
+            "bbc.mobile.news.group.third-story",
+            "bbc.mobile.news.group.fourth-story",
+            "bbc.mobile.news.group.more-stories",
+            "bbc.mobile.news.group.other-top-stories",
+            "bbc.mobile.news.group.guides-content",
+            "bbc.mobile.news.group.guide-content",
+            "bbc.mobile.news.group.section-digest",
+            "bbc.mobile.news.group.mwy-o-newyddion-more-from-newyddion"
+          ]
+        },
+        "config": {
+          "script-below": "top-story",
+          "style": "secondary-top-story"
+        }
+      },
+      {
+        "id": "av-story-carousel",
+        "presenter": "av-story-carousel",
+        "filter": {
+          "subFilters": [
+
+          ],
+          "primary": [
+            "bbc.mobile.news.item"
+          ],
+          "secondary": [
+            "bbc.mobile.news.group.av-stories-best",
+            "bbc.mobile.news.group.av-stories-now",
+            "bbc.mobile.news.group.sain-a-fideo-watch-listen",
+            "bbc.mobile.news.group.watch-listen"
+          ],
+          "offset": 0,
+          "limit": -1
+        },
+        "config": {
+          "script-below": "stories"
+        }
+      },
+      {
+        "id": "stories-2",
+        "presenter": "4-stories-per-row",
+        "filter": {
+          "primary": [
+            "bbc.mobile.news.item"
+          ],
+          "offset": 3,
+          "limit": -1,
+          "secondary": [
+            "bbc.mobile.news.group.top-story",
+            "bbc.mobile.news.group.splash-top-story",
+            "bbc.mobile.news.group.secondary-top-story",
+            "bbc.mobile.news.group.second-top-story",
+            "bbc.mobile.news.group.third-top-story",
+            "bbc.mobile.news.group.fourth-top-story",
+            "bbc.mobile.news.group.second-story",
+            "bbc.mobile.news.group.third-story",
+            "bbc.mobile.news.group.fourth-story",
+            "bbc.mobile.news.group.more-stories",
+            "bbc.mobile.news.group.other-top-stories",
+            "bbc.mobile.news.group.guides-content",
+            "bbc.mobile.news.group.guide-content",
+            "bbc.mobile.news.group.section-digest",
+            "bbc.mobile.news.group.mwy-o-newyddion-more-from-newyddion"
+          ]
+        },
+        "config": {
+          "script-below": "av-story-carousel",
+          "showIncompleteRows": true
+        }
+      },
+      {
+        "id": "features-and-analysis",
+        "presenter": "featured",
+        "filter": {
+          "primary": [
+            "bbc.mobile.news.item"
+          ],
+          "secondary": [
+            "bbc.mobile.news.group.feature-breakout",
+            "bbc.mobile.news.group.feature-main",
+            "bbc.mobile.news.group.feature-other",
+            "bbc.mobile.news.group.features"
+          ],
+          "offset": 0,
+          "limit": 12
+        },
+        "config": {
+          "style": "featured-large-phone",
+          "title": "Colofnau",
+          "title-id": "layout_colofnau",
+          "script-below": "stories-2",
+          "large-featured-style": "triple-alternating-cutout",
+          "max-large-featured-rows": 3,
+          "remainder-stories-per-row": 3
+        }
+      },
+      {
+        "id": "copyright",
+        "presenter": "copyright"
+      }
+    ]
+  },
+  "tablet-portrait-welsh-index-default": {
+    "apply-first": "welsh_index_base",
+    "filter": {
+      "site": [
+        "/newyddion",
+        "/cymrufyw"
+      ],
+      "format": [
+        "bbc.mobile.news.cps.idx"
+      ],
+      "orientation": [
+        "portrait"
+      ]
+    },
+    "modules": [
+      {
+        "id": "top-story",
+        "presenter": "top-story",
+        "filter": {
+          "primary": [
+            "bbc.mobile.news.item"
+          ],
+          "offset": 0,
+          "limit": 1,
+          "secondary": [
+            "bbc.mobile.news.group.top-story",
+            "bbc.mobile.news.group.splash-top-story",
+            "bbc.mobile.news.group.secondary-top-story",
+            "bbc.mobile.news.group.second-top-story",
+            "bbc.mobile.news.group.third-top-story",
+            "bbc.mobile.news.group.fourth-top-story",
+            "bbc.mobile.news.group.second-story",
+            "bbc.mobile.news.group.third-story",
+            "bbc.mobile.news.group.fourth-story",
+            "bbc.mobile.news.group.more-stories",
+            "bbc.mobile.news.group.other-top-stories",
+            "bbc.mobile.news.group.guides-content",
+            "bbc.mobile.news.group.guide-content",
+            "bbc.mobile.news.group.section-digest",
+            "bbc.mobile.news.group.mwy-o-newyddion-more-from-newyddion"
+          ]
+        },
+        "config": {
+          "script-top": "true"
+        }
+      },
+      {
+        "id": "stories",
+        "presenter": "2-stories-per-row",
+        "filter": {
+          "primary": [
+            "bbc.mobile.news.item"
+          ],
+          "offset": 1,
+          "limit": 2,
+          "secondary": [
+            "bbc.mobile.news.group.top-story",
+            "bbc.mobile.news.group.splash-top-story",
+            "bbc.mobile.news.group.secondary-top-story",
+            "bbc.mobile.news.group.second-top-story",
+            "bbc.mobile.news.group.third-top-story",
+            "bbc.mobile.news.group.fourth-top-story",
+            "bbc.mobile.news.group.second-story",
+            "bbc.mobile.news.group.third-story",
+            "bbc.mobile.news.group.fourth-story",
+            "bbc.mobile.news.group.more-stories",
+            "bbc.mobile.news.group.other-top-stories",
+            "bbc.mobile.news.group.guides-content",
+            "bbc.mobile.news.group.guide-content",
+            "bbc.mobile.news.group.section-digest",
+            "bbc.mobile.news.group.mwy-o-newyddion-more-from-newyddion"
+          ]
+        },
+        "config": {
+          "script-below": "top-story",
+          "style": "secondary-top-story"
+        }
+      },
+      {
+        "id": "av-story-carousel",
+        "presenter": "av-story-carousel",
+        "filter": {
+          "subFilters": [
+
+          ],
+          "primary": [
+            "bbc.mobile.news.item"
+          ],
+          "secondary": [
+            "bbc.mobile.news.group.av-stories-best",
+            "bbc.mobile.news.group.av-stories-now",
+            "bbc.mobile.news.group.sain-a-fideo-watch-listen",
+            "bbc.mobile.news.group.watch-listen"
+          ],
+          "offset": 0,
+          "limit": -1
+        },
+        "config": {
+          "script-below": "stories"
+        }
+      },
+      {
+        "id": "stories-2",
+        "presenter": "3-stories-per-row",
+        "filter": {
+          "primary": [
+            "bbc.mobile.news.item"
+          ],
+          "offset": 3,
+          "limit": -1,
+          "secondary": [
+            "bbc.mobile.news.group.top-story",
+            "bbc.mobile.news.group.splash-top-story",
+            "bbc.mobile.news.group.secondary-top-story",
+            "bbc.mobile.news.group.second-top-story",
+            "bbc.mobile.news.group.third-top-story",
+            "bbc.mobile.news.group.fourth-top-story",
+            "bbc.mobile.news.group.second-story",
+            "bbc.mobile.news.group.third-story",
+            "bbc.mobile.news.group.fourth-story",
+            "bbc.mobile.news.group.more-stories",
+            "bbc.mobile.news.group.other-top-stories",
+            "bbc.mobile.news.group.guides-content",
+            "bbc.mobile.news.group.guide-content",
+            "bbc.mobile.news.group.section-digest",
+            "bbc.mobile.news.group.mwy-o-newyddion-more-from-newyddion"
+          ]
+        },
+        "config": {
+          "script-below": "av-story-carousel",
+          "showIncompleteRows": true
+        }
+      },
+      {
+        "id": "features-and-analysis",
+        "presenter": "featured",
+        "filter": {
+          "primary": [
+            "bbc.mobile.news.item"
+          ],
+          "secondary": [
+            "bbc.mobile.news.group.feature-breakout",
+            "bbc.mobile.news.group.feature-main",
+            "bbc.mobile.news.group.feature-other",
+            "bbc.mobile.news.group.features"
+          ],
+          "offset": 0,
+          "limit": 12
+        },
+        "config": {
+          "style": "featured-large-phone",
+          "title": "Pigion",
+          "title-id": "layout_pigion",
+          "script-below": "stories-2",
+          "large-featured-style": "single-alternating-premier",
+          "large-featured-rows-odd": 3,
+          "large-featured-rows-even": 2,
+          "remainder-stories-per-row": 2
+        }
+      },
+      {
+        "id": "copyright",
+        "presenter": "copyright"
+      }
+    ]
+  },
+  "tablet-landscape-welsh-index-default": {
+    "apply-first": "welsh_index_base",
+    "filter": {
+      "site": [
+        "/newyddion",
+        "/cymrufyw"
+      ],
+      "format": [
+        "bbc.mobile.news.cps.idx"
+      ],
+      "orientation": [
+        "landscape"
+      ]
+    },
+    "modules": [
+      {
+        "id": "top-story",
+        "presenter": "top-story",
+        "filter": {
+          "primary": [
+            "bbc.mobile.news.item"
+          ],
+          "offset": 0,
+          "limit": 1,
+          "secondary": [
+            "bbc.mobile.news.group.top-story",
+            "bbc.mobile.news.group.splash-top-story",
+            "bbc.mobile.news.group.secondary-top-story",
+            "bbc.mobile.news.group.second-top-story",
+            "bbc.mobile.news.group.third-top-story",
+            "bbc.mobile.news.group.fourth-top-story",
+            "bbc.mobile.news.group.second-story",
+            "bbc.mobile.news.group.third-story",
+            "bbc.mobile.news.group.fourth-story",
+            "bbc.mobile.news.group.more-stories",
+            "bbc.mobile.news.group.other-top-stories",
+            "bbc.mobile.news.group.guides-content",
+            "bbc.mobile.news.group.guide-content",
+            "bbc.mobile.news.group.section-digest",
+            "bbc.mobile.news.group.mwy-o-newyddion-more-from-newyddion"
+          ]
+        },
+        "config": {
+          "script-top": "true"
+        }
+      },
+      {
+        "id": "stories",
+        "presenter": "2-stories-per-row",
+        "filter": {
+          "primary": [
+            "bbc.mobile.news.item"
+          ],
+          "offset": 1,
+          "limit": 2,
+          "secondary": [
+            "bbc.mobile.news.group.top-story",
+            "bbc.mobile.news.group.splash-top-story",
+            "bbc.mobile.news.group.secondary-top-story",
+            "bbc.mobile.news.group.second-top-story",
+            "bbc.mobile.news.group.third-top-story",
+            "bbc.mobile.news.group.fourth-top-story",
+            "bbc.mobile.news.group.second-story",
+            "bbc.mobile.news.group.third-story",
+            "bbc.mobile.news.group.fourth-story",
+            "bbc.mobile.news.group.more-stories",
+            "bbc.mobile.news.group.other-top-stories",
+            "bbc.mobile.news.group.guides-content",
+            "bbc.mobile.news.group.guide-content",
+            "bbc.mobile.news.group.section-digest",
+            "bbc.mobile.news.group.mwy-o-newyddion-more-from-newyddion"
+          ]
+        },
+        "config": {
+          "script-below": "top-story",
+          "style": "secondary-top-story"
+        }
+      },
+      {
+        "id": "av-story-carousel",
+        "presenter": "av-story-carousel",
+        "filter": {
+          "subFilters": [
+
+          ],
+          "primary": [
+            "bbc.mobile.news.item"
+          ],
+          "secondary": [
+            "bbc.mobile.news.group.av-stories-best",
+            "bbc.mobile.news.group.av-stories-now",
+            "bbc.mobile.news.group.sain-a-fideo-watch-listen",
+            "bbc.mobile.news.group.watch-listen"
+          ],
+          "offset": 0,
+          "limit": -1
+        },
+        "config": {
+          "script-below": "stories"
+        }
+      },
+      {
+        "id": "stories-2",
+        "presenter": "4-stories-per-row",
+        "filter": {
+          "primary": [
+            "bbc.mobile.news.item"
+          ],
+          "offset": 3,
+          "limit": -1,
+          "secondary": [
+            "bbc.mobile.news.group.top-story",
+            "bbc.mobile.news.group.splash-top-story",
+            "bbc.mobile.news.group.secondary-top-story",
+            "bbc.mobile.news.group.second-top-story",
+            "bbc.mobile.news.group.third-top-story",
+            "bbc.mobile.news.group.fourth-top-story",
+            "bbc.mobile.news.group.second-story",
+            "bbc.mobile.news.group.third-story",
+            "bbc.mobile.news.group.fourth-story",
+            "bbc.mobile.news.group.more-stories",
+            "bbc.mobile.news.group.other-top-stories",
+            "bbc.mobile.news.group.guides-content",
+            "bbc.mobile.news.group.guide-content",
+            "bbc.mobile.news.group.section-digest",
+            "bbc.mobile.news.group.mwy-o-newyddion-more-from-newyddion"
+          ]
+        },
+        "config": {
+          "script-below": "av-story-carousel",
+          "showIncompleteRows": true
+        }
+      },
+      {
+        "id": "features-and-analysis",
+        "presenter": "featured",
+        "filter": {
+          "primary": [
+            "bbc.mobile.news.item"
+          ],
+          "secondary": [
+            "bbc.mobile.news.group.feature-breakout",
+            "bbc.mobile.news.group.feature-main",
+            "bbc.mobile.news.group.feature-other",
+            "bbc.mobile.news.group.features"
+          ],
+          "offset": 0,
+          "limit": 12
+        },
+        "config": {
+          "style": "featured-large-phone",
+          "title": "Pigion",
+          "title-id": "layout_pigion",
+          "script-below": "stories-2",
+          "large-featured-style": "triple-alternating-cutout",
+          "max-large-featured-rows": 3,
+          "remainder-stories-per-row": 3
+        }
+      },
+      {
+        "id": "copyright",
+        "presenter": "copyright"
+      }
+    ]
+  },
+  "tablet-portrait-welsh-top-stories": {
+    "apply-first": "welsh_index_base",
+    "filter": {
+      "site": [
+        "/newyddion",
+        "/cymrufyw"
+      ],
+      "content": [
+        "/cps/newyddion/hafan"
+      ],
+      "format": [
+        "bbc.mobile.news.cps.idx"
+      ],
+      "orientation": [
+        "portrait"
+      ]
+    },
+    "modules": [
+      {
+        "id": "top-story",
+        "presenter": "top-story",
+        "filter": {
+          "primary": [
+            "bbc.mobile.news.item"
+          ],
+          "offset": 0,
+          "limit": 1,
+          "secondary": [
+            "bbc.mobile.news.group.top-story",
+            "bbc.mobile.news.group.splash-top-story",
+            "bbc.mobile.news.group.secondary-top-story",
+            "bbc.mobile.news.group.second-top-story",
+            "bbc.mobile.news.group.third-top-story",
+            "bbc.mobile.news.group.fourth-top-story",
+            "bbc.mobile.news.group.second-story",
+            "bbc.mobile.news.group.third-story",
+            "bbc.mobile.news.group.fourth-story",
+            "bbc.mobile.news.group.more-stories",
+            "bbc.mobile.news.group.other-top-stories",
+            "bbc.mobile.news.group.guides-content",
+            "bbc.mobile.news.group.guide-content",
+            "bbc.mobile.news.group.section-digest",
+            "bbc.mobile.news.group.mwy-o-newyddion-more-from-newyddion"
+          ]
+        },
+        "config": {
+          "script-top": "true"
+        }
+      },
+      {
+        "id": "stories",
+        "presenter": "2-stories-per-row",
+        "filter": {
+          "primary": [
+            "bbc.mobile.news.item"
+          ],
+          "offset": 1,
+          "limit": 2,
+          "secondary": [
+            "bbc.mobile.news.group.top-story",
+            "bbc.mobile.news.group.splash-top-story",
+            "bbc.mobile.news.group.secondary-top-story",
+            "bbc.mobile.news.group.second-top-story",
+            "bbc.mobile.news.group.third-top-story",
+            "bbc.mobile.news.group.fourth-top-story",
+            "bbc.mobile.news.group.second-story",
+            "bbc.mobile.news.group.third-story",
+            "bbc.mobile.news.group.fourth-story",
+            "bbc.mobile.news.group.more-stories",
+            "bbc.mobile.news.group.other-top-stories",
+            "bbc.mobile.news.group.guides-content",
+            "bbc.mobile.news.group.guide-content",
+            "bbc.mobile.news.group.section-digest",
+            "bbc.mobile.news.group.mwy-o-newyddion-more-from-newyddion"
+          ]
+        },
+        "config": {
+          "script-below": "top-story",
+          "style": "secondary-top-story"
+        }
+      },
+      {
+        "id": "av-story-carousel",
+        "presenter": "av-story-carousel",
+        "filter": {
+          "subFilters": [
+
+          ],
+          "primary": [
+            "bbc.mobile.news.item"
+          ],
+          "secondary": [
+            "bbc.mobile.news.group.av-stories-best",
+            "bbc.mobile.news.group.av-stories-now",
+            "bbc.mobile.news.group.sain-a-fideo-watch-listen",
+            "bbc.mobile.news.group.watch-listen"
+          ],
+          "offset": 0,
+          "limit": -1
+        },
+        "config": {
+          "script-below": "stories"
+        }
+      },
+      {
+        "id": "stories-2",
+        "presenter": "4-stories-per-row",
+        "filter": {
+          "primary": [
+            "bbc.mobile.news.item"
+          ],
+          "offset": 3,
+          "limit": -1,
+          "secondary": [
+            "bbc.mobile.news.group.top-story",
+            "bbc.mobile.news.group.splash-top-story",
+            "bbc.mobile.news.group.secondary-top-story",
+            "bbc.mobile.news.group.second-top-story",
+            "bbc.mobile.news.group.third-top-story",
+            "bbc.mobile.news.group.fourth-top-story",
+            "bbc.mobile.news.group.second-story",
+            "bbc.mobile.news.group.third-story",
+            "bbc.mobile.news.group.fourth-story",
+            "bbc.mobile.news.group.more-stories",
+            "bbc.mobile.news.group.other-top-stories",
+            "bbc.mobile.news.group.guides-content",
+            "bbc.mobile.news.group.guide-content",
+            "bbc.mobile.news.group.section-digest",
+            "bbc.mobile.news.group.mwy-o-newyddion-more-from-newyddion"
+          ]
+        },
+        "config": {
+          "script-below": "av-story-carousel",
+          "showIncompleteRows": true
+        }
+      },
+      {
+        "id": "features-and-analysis",
+        "presenter": "featured",
+        "filter": {
+          "primary": [
+            "bbc.mobile.news.item"
+          ],
+          "secondary": [
+            "bbc.mobile.news.group.feature-breakout",
+            "bbc.mobile.news.group.feature-main",
+            "bbc.mobile.news.group.feature-other",
+            "bbc.mobile.news.group.features"
+          ],
+          "offset": 0,
+          "limit": 12
+        },
+        "config": {
+          "style": "featured-large-phone",
+          "title": "Cylchgrawn",
+          "title-id": "layout_cylchgrawn",
+          "script-below": "stories-2",
+          "content": "/cps/newyddion/cylchgrawn",
+          "large-featured-style": "single-alternating-premier",
+          "large-featured-rows-odd": 2,
+          "large-featured-rows-even": 2,
+          "remainder-stories-per-row": 2
+        }
+      },
+      {
+        "id": "politics",
+        "presenter": "3-stories-per-row",
+        "filter": {
+          "primary": [
+            "bbc.mobile.news.item"
+          ],
+          "secondary": [
+            "bbc.mobile.news.group.gwleidyddiaeth"
+          ],
+          "offset": 0,
+          "limit": -1
+        },
+        "config": {
+          "script-below": "features-and-analysis",
+          "title": "Gwleidyddiaeth",
+          "title-id": "layout_gwleidyddiaeth"
+        }
+      },
+      {
+        "id": "welsh-sport",
+        "presenter": "2-stories-per-row",
+        "filter": {
+          "primary": [
+            "bbc.mobile.news.item"
+          ],
+          "secondary": [
+            "bbc.mobile.news.group.featured-site-top-stories-1"
+          ],
+          "offset": 0,
+          "limit": 2
+        },
+        "config": {
+          "script-below": "politics",
+          "title": "Chwaraeon",
+          "title-id": "layout_chwaraeon",
+          "style": "featured-large-phone"
+        }
+      },
+      {
+        "id": "copyright",
+        "presenter": "copyright"
+      }
+    ]
+  },
+  "tablet-landscape-welsh-top-stories": {
+    "apply-first": "welsh_index_base",
+    "filter": {
+      "site": [
+        "/newyddion",
+        "/cymrufyw"
+      ],
+      "content": [
+        "/cps/newyddion/hafan"
+      ],
+      "format": [
+        "bbc.mobile.news.cps.idx"
+      ],
+      "orientation": [
+        "landscape"
+      ]
+    },
+    "modules": [
+      {
+        "id": "top-story",
+        "presenter": "top-story",
+        "filter": {
+          "primary": [
+            "bbc.mobile.news.item"
+          ],
+          "offset": 0,
+          "limit": 1,
+          "secondary": [
+            "bbc.mobile.news.group.top-story",
+            "bbc.mobile.news.group.splash-top-story",
+            "bbc.mobile.news.group.secondary-top-story",
+            "bbc.mobile.news.group.second-top-story",
+            "bbc.mobile.news.group.third-top-story",
+            "bbc.mobile.news.group.fourth-top-story",
+            "bbc.mobile.news.group.second-story",
+            "bbc.mobile.news.group.third-story",
+            "bbc.mobile.news.group.fourth-story",
+            "bbc.mobile.news.group.more-stories",
+            "bbc.mobile.news.group.other-top-stories",
+            "bbc.mobile.news.group.guides-content",
+            "bbc.mobile.news.group.guide-content",
+            "bbc.mobile.news.group.section-digest",
+            "bbc.mobile.news.group.mwy-o-newyddion-more-from-newyddion"
+          ]
+        },
+        "config": {
+          "script-top": "true"
+        }
+      },
+      {
+        "id": "stories",
+        "presenter": "2-stories-per-row",
+        "filter": {
+          "primary": [
+            "bbc.mobile.news.item"
+          ],
+          "offset": 1,
+          "limit": 2,
+          "secondary": [
+            "bbc.mobile.news.group.top-story",
+            "bbc.mobile.news.group.splash-top-story",
+            "bbc.mobile.news.group.secondary-top-story",
+            "bbc.mobile.news.group.second-top-story",
+            "bbc.mobile.news.group.third-top-story",
+            "bbc.mobile.news.group.fourth-top-story",
+            "bbc.mobile.news.group.second-story",
+            "bbc.mobile.news.group.third-story",
+            "bbc.mobile.news.group.fourth-story",
+            "bbc.mobile.news.group.more-stories",
+            "bbc.mobile.news.group.other-top-stories",
+            "bbc.mobile.news.group.guides-content",
+            "bbc.mobile.news.group.guide-content",
+            "bbc.mobile.news.group.section-digest",
+            "bbc.mobile.news.group.mwy-o-newyddion-more-from-newyddion"
+          ]
+        },
+        "config": {
+          "script-below": "top-story",
+          "style": "secondary-top-story"
+        }
+      },
+      {
+        "id": "av-story-carousel",
+        "presenter": "av-story-carousel",
+        "filter": {
+          "subFilters": [
+
+          ],
+          "primary": [
+            "bbc.mobile.news.item"
+          ],
+          "secondary": [
+            "bbc.mobile.news.group.av-stories-best",
+            "bbc.mobile.news.group.av-stories-now",
+            "bbc.mobile.news.group.sain-a-fideo-watch-listen",
+            "bbc.mobile.news.group.watch-listen"
+          ],
+          "offset": 0,
+          "limit": -1
+        },
+        "config": {
+          "script-below": "stories"
+        }
+      },
+      {
+        "id": "stories-2",
+        "presenter": "4-stories-per-row",
+        "filter": {
+          "primary": [
+            "bbc.mobile.news.item"
+          ],
+          "offset": 3,
+          "limit": -1,
+          "secondary": [
+            "bbc.mobile.news.group.top-story",
+            "bbc.mobile.news.group.splash-top-story",
+            "bbc.mobile.news.group.secondary-top-story",
+            "bbc.mobile.news.group.second-top-story",
+            "bbc.mobile.news.group.third-top-story",
+            "bbc.mobile.news.group.fourth-top-story",
+            "bbc.mobile.news.group.second-story",
+            "bbc.mobile.news.group.third-story",
+            "bbc.mobile.news.group.fourth-story",
+            "bbc.mobile.news.group.more-stories",
+            "bbc.mobile.news.group.other-top-stories",
+            "bbc.mobile.news.group.guides-content",
+            "bbc.mobile.news.group.guide-content",
+            "bbc.mobile.news.group.section-digest",
+            "bbc.mobile.news.group.mwy-o-newyddion-more-from-newyddion"
+          ]
+        },
+        "config": {
+          "script-below": "av-story-carousel",
+          "showIncompleteRows": true
+        }
+      },
+      {
+        "id": "features-and-analysis",
+        "presenter": "featured",
+        "filter": {
+          "primary": [
+            "bbc.mobile.news.item"
+          ],
+          "secondary": [
+            "bbc.mobile.news.group.feature-breakout",
+            "bbc.mobile.news.group.feature-main",
+            "bbc.mobile.news.group.feature-other",
+            "bbc.mobile.news.group.features"
+          ],
+          "offset": 0,
+          "limit": 12
+        },
+        "config": {
+          "style": "featured-large-phone",
+          "title": "Cylchgrawn",
+          "title-id": "layout_cylchgrawn",
+          "script-below": "stories-2",
+          "content": "/cps/newyddion/cylchgrawn",
+          "large-featured-style": "triple-alternating-cutout",
+          "max-large-featured-rows": 2,
+          "remainder-stories-per-row": 3
+        }
+      },
+      {
+        "id": "politics",
+        "presenter": "4-stories-per-row",
+        "filter": {
+          "primary": [
+            "bbc.mobile.news.item"
+          ],
+          "secondary": [
+            "bbc.mobile.news.group.gwleidyddiaeth"
+          ],
+          "offset": 0,
+          "limit": -1
+        },
+        "config": {
+          "script-below": "features-and-analysis",
+          "title": "Gwleidyddiaeth",
+          "title-id": "layout_gwleidyddiaeth"
+        }
+      },
+      {
+        "id": "welsh-sport",
+        "presenter": "2-stories-per-row",
+        "filter": {
+          "primary": [
+            "bbc.mobile.news.item"
+          ],
+          "secondary": [
+            "bbc.mobile.news.group.featured-site-top-stories-1"
+          ],
+          "offset": 0,
+          "limit": 2
+        },
+        "config": {
+          "script-below": "politics",
+          "title": "Chwaraeon",
+          "title-id": "layout_chwaraeon",
+          "style": "featured-large-phone"
+        }
+      },
+      {
+        "id": "copyright",
+        "presenter": "copyright"
+      }
+    ]
+  }
+}

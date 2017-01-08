@@ -1,0 +1,149 @@
+{
+	"version"       : 1.2,
+	"flavour"       : "arabic",
+	"killSwitch"    : false,
+	"minAppVersion"	: "3.4.1.0",
+	"endpoints" : {
+		"policy"   : {
+			"href" : "http://philippa-producer-cdn.api.bbci.co.uk/static/{app_flavour}/ios/{public_version_no}/policy.json",
+			"flag" : "green",
+			"ttl"  : 3600
+		},
+		"layout"   : {
+			"href" : "http://philippa-producer-cdn.api.bbci.co.uk/static/{app_flavour}/ios/{public_version_no}/layouts.zip",
+			"flag" : "green",
+			"ttl"  : 3600
+		},
+		"handrail"   : {
+			"href" : "http://philippa-producer-cdn.api.bbci.co.uk/static/{app_flavour}/ios/{public_version_no}/handrail_list.json",
+			"flag" : "green",
+			"ttl"  : 600
+		},
+		"search_topics"   : {
+			"href" : "http://philippa-producer-cdn.api.bbci.co.uk/static/{app_flavour}/ios/{public_version_no}/searchtopics.json",
+			"flag" : "green",
+			"ttl"  : 600
+		},
+		"follow_topics"   : {
+			"href" : "http://philippa-producer-cdn.api.bbci.co.uk/static/{app_flavour}/ios/{public_version_no}/followtopics.json",
+			"flag" : "green",
+			"ttl"  : 600
+		},
+		"content"  : {
+			"href" : "http://philippa-producer-cdn.api.bbci.co.uk/content/{id_without_slash_prefix}?createdBy=arabic&language=ar",
+			"flag" : "green",
+			"ttl"  : 600
+		},
+		"resolver" : {
+			"href" : "http://philippa-resolver-cdn.api.bbci.co.uk/resolve?uri=%@",
+			"flag" : "green",
+			"ttl"  : 0
+		},
+		"ichef" : {
+			"href" : "http://ichef.bbci.co.uk/moira/img/ios/v3/{width}{model_id}",
+			"flag" : "green",
+			"ttl"  : 0
+		},
+		"mediaselector"  : {
+			"href" : "http://open.live.bbc.co.uk/mediaselector/5/select/",
+			"flag" : "green",
+			"ttl"  : 0
+		},
+		"visual_journalism" : {
+			"href" : "http://www.bbc.co.uk/",
+			"flag" : "green",
+			"ttl"  : 0
+		}
+	},
+	"defaultContent" : {
+		"ipad" : [
+					{
+					"id"				: "/cps/arabic/front_page",
+					"name"				: "الموضوعات الرئيسية",
+					"shortName"			: "الرئيسية",
+					"type"				: "bbc.mobile.news.collection",
+					"icon"				: "homeIcon",
+					"interfaceStyle"	: ["classic", "tabBar"]
+					},
+					{
+					"id"				: "/world-service-radio",
+					"name"				: "راديو وتلفزيون",
+					"shortName"			: "راديو وتلفزيون",
+					"type"				: "bbc.mobile.news.livemedia",
+					"icon"				: "mediaIcon",
+					"interfaceStyle"	: ["tabBar"]
+					}
+				],
+		"iphone" : [
+					{
+					"id"				: "/cps/arabic/front_page",
+					"name"				: "الموضوعات الرئيسية",
+					"shortName"			: "الرئيسية",
+					"type"				: "bbc.mobile.news.collection",
+					"icon"				: "homeIcon",
+					"interfaceStyle"	: ["classic", "tabBar"],
+					"shortcutEnabled"	: true
+					},
+					{
+					"id"				: "/world-service-radio",
+					"name"				: "راديو وتلفزيون",
+					"shortName"			: "راديو وتلفزيون",
+					"type"				: "bbc.mobile.news.livemedia",
+					"icon"				: "mediaIcon",
+					"interfaceStyle"	: ["tabBar"],
+					"shortcutEnabled"	: true
+					}
+				],
+		"watch" : [
+					{
+					"id"	: "/cps/arabic/front_page",
+					"name"	: "الموضوعات الرئيسية",
+					"type"	: "bbc.mobile.news.collection"
+					}
+				]
+	},
+	"mediaContent"    : [
+					{
+						"type"		: "video",
+						"header"	: "التلفزيون",
+						"summary"	: "شاهد قناتنا التلفزيونية المتميزة",
+						"image"		: "ws_arabic_tv",
+						"url"		: "http://bbcwshdlive01-lh.akamaihd.net/i/atv_1@61433/master.m3u8"
+					},
+					{
+						 "type"		: "audio",
+						 "header"	: "الإذاعة",
+						 "summary"	: "استمع لمحطتنا الإذاعية الشهيرة",
+						 "image"	: "ws_arabic_radio",
+						 "artwork"  : "ws_arabic_radio_promo",
+						 "vpid"		: "bbc_arabic_radio"
+					}
+	],
+	"imageChefRecipes": [80, 100, 128, 160, 200, 240, 288, 320, 360, 400, 432, 480, 512, 576, 640, 720, 768, 800, 854, 960, 1024, 1080,
+						 1136, 1152, 1200, 1280, 1440, 1536, 1600, 1920, 2048, 2560],
+	"trendingTopicsId": "/trending/events",
+	"mostPopularId"   : "/most_popular/news",
+	"startingContent" : "/cps/arabic/front_page",
+	"helpUrl"         : "/cps/arabic/institutional-37848008",
+	"contactEmail"    : "bbcarabic_shakwa@bbc.co.uk",
+	"termsAndConditionsUrl" : "http://www.bbc.com/arabic/institutional-37731351",
+	"privacyPolicyUrl" : "http://www.bbc.com/arabic/institutional-37731353",
+	"appStoreUrl"     : "https://itunes.apple.com/app/id558497376",
+	"storeUrl"        : "https://itunes.apple.com/gb/artist/media-applications-technologies/id377382258",
+	"sportAppITunesUrl":"https://itunes.apple.com/gb/app/bbc-sport/id377388936",
+	"maxOfflineMBPerDayWifi": 30,
+	"maxOfflineMBPerDay3G": 2,
+	"betaModeAutoEnabledPercent": 1,
+	"betaModeFeedbackUrl": "https://www.surveymonkey.com/s/HQ3N8VZ",
+	"layoutModes":[],
+	"locationServiceEnabled" : false,
+	"visualJournalism": {
+		"loadingTimeout": 15
+	},
+	"contentViewForegroundRefresh" : {
+		"enabled"								: true,
+		"modelIDsForRefreshOnForeground"		: ["/cps/arabic/front_page"],
+		"refreshOnForegroundIntervalInSeconds"	: 600
+	},
+	"interfaceStyle": "tabBar"
+}

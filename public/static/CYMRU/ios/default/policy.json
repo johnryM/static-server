@@ -1,0 +1,192 @@
+{
+	"version"       : 1.2,
+	"flavour"       : "cymru",
+	"killSwitch"    : false,
+	"minAppVersion"	: "3.4.1.0",
+	"endpoints" : {
+		"policy"   : {
+			"href" : "http://trevor-producer-cdn.api.bbci.co.uk/static/{app_flavour}/ios/{public_version_no}/policy.json",
+			"flag" : "green",
+			"ttl"  : 3600
+		},
+		"layout"   : {
+			"href" : "http://trevor-producer-cdn.api.bbci.co.uk/static/{app_flavour}/ios/{public_version_no}/layouts.zip",
+			"flag" : "green",
+			"ttl"  : 3600
+		},
+		"handrail"   : {
+			"href" : "http://trevor-producer-cdn.api.bbci.co.uk/static/{app_flavour}/ios/{public_version_no}/handrail.json",
+			"flag" : "green",
+			"ttl"  : 600
+		},
+		"search_topics"   : {
+			"href" : "http://trevor-producer-cdn.api.bbci.co.uk/static/{app_flavour}/ios/{public_version_no}/searchtopics.json",
+			"flag" : "green",
+			"ttl"  : 600
+		},
+		"follow_topics"   : {
+			"href" : "http://trevor-producer-cdn.api.bbci.co.uk/static/{app_flavour}/ios/{public_version_no}/followtopics.json",
+			"flag" : "green",
+			"ttl"  : 600
+		},
+		"content"  : {
+			"href" : "http://trevor-producer-cdn.api.bbci.co.uk/content",
+			"flag" : "green",
+			"ttl"  : 600
+		},
+		"resolver" : {
+			"href" : "http://trevor-resolver-cdn.api.bbci.co.uk/resolve?uri=%@",
+			"flag" : "green",
+			"ttl"  : 0
+		},
+		"locator"  : {
+			"href" : "http://open.live.bbc.co.uk/locator/locations?la=%+.3f&lo=%+.3f&format=json",
+			"flag" : "green",
+			"ttl"  : 0
+		},
+		"locator_newsregion"  : {
+			"href" : "http://open.live.bbc.co.uk/locator/locations/%@/details/news-organisation?op=intersect&format=json",
+			"flag" : "green",
+			"ttl"  : 0
+		},
+		"ichef" : {
+			"href" : "http://ichef.bbci.co.uk/moira/img/ios/v3/%@%@",
+			"flag" : "green",
+			"ttl"  : 0
+		},
+		"mediaselector"  : {
+			"href" : "http://open.live.bbc.co.uk/mediaselector/5/select/",
+			"flag" : "green",
+			"ttl"  : 0
+		},
+		"visual_journalism" : {
+			"href" : "http://www.bbc.co.uk/",
+			"flag" : "green",
+			"ttl"  : 0
+		}
+	},
+	"defaultContent" : {
+		"ipad" : [
+				  {
+					  "id"   : "/cps/newyddion/hafan",
+					  "name" : "Prif Straeon",
+					  "type" : "bbc.mobile.news.collection"
+				  },
+				  {
+					  "id"   : "/cps/newyddion/cylchgrawn",
+					  "name" : "Cylchgrawn",
+					  "type" : "bbc.mobile.news.collection"
+				  },
+				  {
+					  "id"   : "/cps/newyddion/gwleidyddiaeth",
+					  "name" : "Gwleidyddiaeth",
+					  "type" : "bbc.mobile.news.collection"
+				  },
+				  {
+					  "id"   : "/cps/newyddion/gogledd-orllewin",
+					  "name" : "Gogledd-Orllewin",
+					  "type" : "bbc.mobile.news.collection"
+				  },
+				  {
+					  "id"   : "/cps/newyddion/gogledd-ddwyrain",
+					  "name" : "Gogledd-Ddwyrain",
+					  "type" : "bbc.mobile.news.collection"
+				  },
+				  {
+					  "id"   : "/cps/newyddion/canolbarth",
+					  "name" : "Canolbarth",
+					  "type" : "bbc.mobile.news.collection"
+				  },
+				  {
+					  "id"   : "/cps/newyddion/de-orllewin",
+					  "name" : "De-Orllewin",
+					  "type" : "bbc.mobile.news.collection"
+				  },
+				  {
+					  "id"   : "/cps/newyddion/de-ddwyrain",
+					  "name" : "De-Ddwyrain",
+					  "type" : "bbc.mobile.news.collection"
+				  },
+				  {
+						"id"   : "/world-service-radio",
+						"name" : "Radio",
+						"type" : "bbc.mobile.news.item"
+				  }
+				  ],
+		"iphone" : [
+					{
+						"id"   : "/cps/newyddion/hafan",
+						"name" : "Prif Straeon",
+						"type" : "bbc.mobile.news.collection"
+					},
+					{
+						"id"   : "/cps/newyddion/cylchgrawn",
+						"name" : "Cylchgrawn",
+						"type" : "bbc.mobile.news.collection"
+					},
+					{
+						"id"   : "/cps/newyddion/gwleidyddiaeth",
+						"name" : "Gwleidyddiaeth",
+						"type" : "bbc.mobile.news.collection"
+					},
+					{
+						"id"   : "/cps/newyddion/gogledd-orllewin",
+						"name" : "Gogledd-Orllewin",
+						"type" : "bbc.mobile.news.collection"
+					},
+					{
+						"id"   : "/cps/newyddion/gogledd-ddwyrain",
+						"name" : "Gogledd-Ddwyrain",
+						"type" : "bbc.mobile.news.collection"
+					},
+					{
+						"id"   : "/cps/newyddion/canolbarth",
+						"name" : "Canolbarth",
+						"type" : "bbc.mobile.news.collection"
+					},
+					{
+						"id"   : "/cps/newyddion/de-orllewin",
+						"name" : "De-Orllewin",
+						"type" : "bbc.mobile.news.collection"
+					},
+					{
+						"id"   : "/cps/newyddion/de-ddwyrain",
+						"name" : "De-Ddwyrain",
+						"type" : "bbc.mobile.news.collection"
+					},
+					{
+						"id"   : "/world-service-radio",
+						"name" : "Radio",
+						"type" : "bbc.mobile.news.item"
+					}
+					],
+		"watch" : [
+					{
+						"id"   : "/cps/newyddion/hafan",
+						"name" : "Prif Straeon",
+						"type" : "bbc.mobile.news.collection"
+                   }
+				]
+	},
+	"imageChefRecipes": [80, 100, 128, 160, 200, 240, 288, 320, 360, 400, 432, 480, 512, 576, 640, 720, 768, 800, 854, 960, 1024, 1080,
+						 1136, 1152, 1200, 1280, 1440, 1536, 1600, 1920, 2048, 2560],
+	"trendingTopicsId": "/trending/events",
+	"mostPopularId"   : "/most_popular/news",
+	"startingContent" : "/cps/newyddion/hafan",
+	"helpUrl"         : "/cps/newyddion/35607009",
+	"contactEmail"    : "cymrufyw@bbc.co.uk",
+	"termsAndConditionsUrl" : "http://www.bbc.co.uk/terms/cymru.shtml",
+	"privacyPolicyUrl" : "http://www.bbc.co.uk/privacy/?lang=cy",
+	"appStoreUrl": "https://itunes.apple.com/cy/app/bbc-cymru-fyw/id900010506",
+	"storeUrl"        : "https://itunes.apple.com/gb/artist/media-applications-technologies/id377382258",
+	"sportAppITunesUrl":"https://itunes.apple.com/gb/app/bbc-sport/id377388936",
+	"maxOfflineMBPerDayWifi": 30,
+	"maxOfflineMBPerDay3G": 2,
+	"betaModeAutoEnabledPercent": 1,
+	"betaModeFeedbackUrl": "https://www.surveymonkey.com/s/HQ3N8VZ",
+	"layoutModes":[],
+	"locationServiceEnabled" : false,
+	"visualJournalism": {
+		"loadingTimeout": 15
+	}
+}

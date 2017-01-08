@@ -1,0 +1,77 @@
+{
+  "sections": [
+    {
+      "name": "More Topics",
+      "items": [
+        {
+          "contentId": "/cps/news/uk",
+          "name": "UK"
+        },
+        {
+          "contentId": "/cps/news/england",
+          "name": "England"
+        },
+        {
+          "contentId": "/cps/news/northern_ireland",
+          "name": "Northern Ireland"
+        },
+        {
+          "contentId": "/cps/news/scotland",
+          "name": "Scotland"
+        },
+        {
+          "contentId": "/cps/news/wales",
+          "name": "Wales"
+        },
+        {
+          "contentId": "/cps/newyddion/front_page",
+          "name": "Cymru"
+        },
+        {
+          "contentId": "/cps/news/world",
+          "name": "World"
+        },
+        {
+          "contentId": "/cps/news/business",
+          "name": "Business"
+        },
+        {
+          "contentId": "/cps/news/politics",
+          "name": "Politics"
+        },
+        {
+          "contentId": "/cps/news/technology",
+          "name": "Tech"
+        },
+        {
+          "contentId": "/cps/news/science_and_environment",
+          "name": "Science"
+        },
+        {
+          "contentId": "/cps/news/health",
+          "name": "Health"
+        },
+        {
+          "contentId": "/cps/news/education",
+          "name": "Education & Family"
+        },
+        {
+          "contentId": "/cps/news/entertainment_and_arts",
+          "name": "Entertainment & Arts"
+        },
+        {
+          "contentId": "/cps/news/magazine",
+          "name": "Magazine"
+        },
+        {
+          "contentId": "/cps/news/also_in_the_news",
+          "name": "Also in the News"
+        },
+        {
+          "contentId": "/cps/sport/front-page",
+          "name": "Sport"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+    "$":"index",
+    "content": ["/cps/newyddion/hafan"],
+    "modules": [
+            
+
+                {"$":"primaryItem",    "$secondary":"$st_top_stories_welsh"},
+                {"$":"secondaryItems", "$secondary":"$st_top_stories_welsh"},
+                {"$":"otherItems",     "$secondary":"$st_top_stories_welsh", "modes":["compact"]},
+                {"$":"avCarousel",     "$secondary":"$st_av_carousel_welsh"},
+                {"$":"otherItems",     "$secondary":"$st_top_stories_welsh", "modes":["!compact"]},
+
+                {"$":"title", "title": "layoutfiletitle.magazine", "contentLink": "/cps/newyddion/cylchgrawn?title=Cylchgrawn"},
+                {"$":"featureGroup",     "modes":["!tablet"], "$secondary":"$st_features", "limit": 2},
+                {"$":"featureGroup_2col","modes":["!tablet"], "$secondary":"$st_features", "limit": 10, "offset": 2},
+                {"$":"featuresSection",  "modes":["tablet"],  "$secondary":"$st_features"},
+                
+                {"$":"title", "title":   "layoutfiletitle.politics"},
+                {"$":"otherItems",       "$secondary":"$st_welsh_gwleidyddiaeth", "allowIncompleteRows":true},
+                
+                {"$":"digestTitle", "title": "layoutfiletitle.sport" },
+                {"$":"digestGroup", "$secondary": "$st_local_sport", "mode==tablet":{"limit":4, "cellsPerRow":2, "cellMargins":"{2,8,2,8}"}},
+                
+                {"$":"copyright"}
+    ]
+}
