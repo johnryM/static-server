@@ -1,3 +1,4 @@
+//just a check
 var static = require('node-static');
 var file = new static.Server('./public');
 require('http').createServer(function(request, response) {
